@@ -1,9 +1,12 @@
 <h1 align="center">Hi 👋, I'm Jared Feldman</h1>
 <h3 align="center">As a data scientist and seasoned IT leader, I bring a wealth of experience in driving data-driven initiatives. My passion lies in merging the power of data and analytics with strong leadership and communication skills to bring about positive changes for our planet. I am dedicated to leveraging data for meaningful transformation and innovation.</h3>
 
+
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=jaredfeldman&label=Profile%20views&color=0e75b6&style=flat" alt="jaredfeldman" /> </p>
 
 - 📫 How to reach me **jared.alex.feldman@gmail.com**
+
+- 📄 Know about my experiences [https://github.com/jaredfeldman/jaredfeldman/blob/main/Resume-JaredFeldman.pdf](https://github.com/jaredfeldman/jaredfeldman/blob/main/Resume-JaredFeldman.pdf)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
