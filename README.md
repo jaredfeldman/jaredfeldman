@@ -6,7 +6,7 @@
 
 - 📫 How to reach me **jared.alex.feldman@gmail.com**
 
-- 📄 Know about my experiences [https://github.com/jaredfeldman/jaredfeldman/blob/main/Resume-JaredFeldman.pdf]
+- 📄 Know about my experiences [My resume](https://github.com/jaredfeldman/jaredfeldman/blob/main/Resume-JaredFeldman.pdf)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
