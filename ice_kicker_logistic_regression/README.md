@@ -1,6 +1,7 @@
-### lab_2_team_aaj
+# Evaluating the practice of “icing” kickers in the NFL using play-by-play data from 2001 to 2022 - Technology Used
+R (tidyverse, caret, MatchIt, zoo, plotfunctions, writexl, ggthemes, stargazer, lmtest, nflverse), RStudio, .Rmd, Git, GitHub
 
-# Evaluating the practice of “icing” kickers in the NFL using play-by-play data from 2001 to 2022
+# Evaluating the practice of “icing” kickers in the NFL using play-by-play data from 2001 to 2022 - Overview
 
 ### Introduction
 *Icing the kicker is a football strategy whereby the defense team calls a timeout prior to a field goal kick with the aim of forcing a mistake. Icing the kicker is an extended practice and is also a highly-debated topic among coaches, fans, and commentators. The strategy is often deployed in high-pressure situations at the end of games, where a field goal can lead to victory or defeat.*
@@ -33,7 +34,6 @@ This is based on [cookiecutter data science](https://drivendata.github.io/cookie
     │   ├── processed             <- This contains our final dataset (70% of total) used for our 3 models
     │   └── homework              <- This contains our dataset for HW12
     ├── notebooks                 <- .Rmd notebooks
-    ├── references                <- This contains a table describing our feature-engineered variables. All other information about nflverse can be found [here](https://www.nflfastr.com/)
     ├── reports                   <- This contains our final report in .Rmd and .pdf formats
     └── src                       <- Source code for use in this project.
        ├── data                   <- This contains the scripts used to generate initial dataframe and create FG dataframe
