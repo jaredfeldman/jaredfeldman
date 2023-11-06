@@ -6,9 +6,9 @@ changes for our planet. Dedicated to leveraging data for meaningful transformati
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=jaredfeldman&label=Profile%20views&color=0e75b6&style=flat" alt="jaredfeldman" /> </p>
 
-- 📫 How to reach me **jared.alex.feldman@gmail.com**
+- 📫 How to reach me jared.alex.feldman@gmail.com
 
-- 📄 Know about my experiences [My resume](https://github.com/jaredfeldman/jaredfeldman/blob/main/Resume-JaredFeldman.pdf)
+- 📄 Know about my experiences [My resume](https://github.com/jaredfeldman/jaredfeldman/blob/main/resume_jaredfeldman.pdf)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
