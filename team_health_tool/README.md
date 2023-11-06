@@ -1,3 +1,6 @@
+# Team Health Tool - Technology Used
+Python (Pandas, Itertools), Jupyter, Git, GitHub, Anaconda, PowerBI, Microsoft Excel, Microsoft Forms
+
 # Team Health Tool - Overview
 
 This tool is used by teams to better understand subjective opinions on where they fall in [Westrum's Organizational Typology](https://cloud.google.com/architecture/devops/devops-culture-westrum-organizational-culture).
