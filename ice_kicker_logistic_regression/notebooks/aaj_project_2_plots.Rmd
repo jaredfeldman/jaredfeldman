@@ -1,0 +1,123 @@
+---
+title: "DATA 203 - Project 2 - Team AAJ - Plots"
+output: pdf_document
+---
+
+# Libraries
+```{r, message=FALSE}
+library(nflverse)
+library(tidyverse)
+library(ggplot2)
+library(caret)
+library(MatchIt)
+library(optmatch)
+library(zoo)
+library(plotfunctions)
+library(writexl)
+library(patchwork)
+```
+
+
+
+# Get data and create dataframes
+```{r get data, echo = FALSE, warning = FALSE, message = FALSE}
+# load data from nflverse and create raw
+source("../src/data/import_raw.R")
+
+# create iced variable
+source("../src/feature_engineering/FE_identify_iced.R")
+
+# create all_fg working dataframe
+source("../src/data/all_fg.R")
+```
+
+```{r feature engineering, echo = FALSE, warning = FALSE, message = FALSE}
+# run remaining feature engineering scripts
+source("../src/feature_engineering/FE_run_all.R")
+```
+
+
+
+# Plots to include in report
+```{r}
+iced_vs_not_iced_make_plot <- ggplot(all_fg) +
+  aes(x = factor(iced, labels = c("Not Iced", "Iced")), fill = factor(fg_outcome)) +
+  geom_bar(position = 'fill') +
+  xlab('Iced') +
+  ylab('Proportion of Field Goals') +
+  ggtitle('Figure 1: Result of FGs (2001-2022)') +
+  scale_fill_discrete(name="Field Goal Result", labels=c("Miss", "Make")) +
+  theme(legend.position = "bottom")
+
+
+iced_vs_not_iced_make_plot
+```
+
+```{r, warning = FALSE}
+distance_percentage_chart <- all_fg %>%
+  group_by(kick_distance, iced) %>%
+  summarize(mean_fg=mean(fg_outcome)) %>%
+  ggplot() +
+  aes(y=mean_fg, x=kick_distance, color=factor(iced)) +
+  ylim(c(0,1)) +
+  xlim(c(15,75)) +
+  xlab("Kick Distance (Yards)") +
+  ylab("Field Goal Percentage (%)") +
+  ggtitle('Figure 2: Kick Distance vs. FG % (2001 - 2022)') +
+  geom_jitter() +
+  stat_smooth() +
+  scale_color_manual(values = c("navy blue", "maroon"), labels = c("Not Iced", "Iced")) +
+  labs(color = "Iced/Not Iced") +
+  theme(legend.position = "bottom")
+
+
+distance_percentage_plot
+```
+
+
+# Exploratory plots, not included in report
+```{r}
+
+ggplot(all_fg) + aes(x = factor(pro_kicker), fill = factor(fg_outcome)) + geom_bar(position = 'fill') + xlab('Pro Bowler') + ylab('Proportion of Kicks') +ggtitle('Result of Pro Bowler Kicks (2001-2022)') + scale_fill_discrete(name="Field Goal Result",
+                         labels=c("Miss", "Make"))
+
+```
+
+```{r}
+
+ggplot(all_fg) + aes(x = factor(pro_kicker), fill = factor(iced)) + geom_bar(position = 'fill') + xlab('Pro Bowler') + ylab('Proportion of Kicks') +ggtitle('Icing of Pro Bowler Kicks (2001-2022)') + scale_fill_discrete(name="Iced",
+                         labels=c("Not Iced", "Iced"))
+
+```
+
+
+```{r}
+
+ggplot(all_fg, aes(x=kick_distance, y=fg_outcome))+geom_point(alpha=0.4, position='jitter')+
+  stat_smooth(method="loess", size=1.5)+
+  xlab("Kick Distance (Yards)")+
+  ylab("Probability of Made Field Goal") + 
+  ggtitle('Kick Distance vs. Field Goal Percentage (NFL, 2001 - 2022)') 
+```
+
+
+
+```{r}
+ggplot(all_fg, aes(x=wind, y=fg_outcome, group = factor(iced), color = factor(iced)))+geom_point(alpha=0.4)+
+  stat_smooth(method="loess", size=1)
+```
+
+```{r}
+ggplot(all_fg, aes(x=temp, y=fg_outcome, group = factor(iced), color = factor(iced)))+geom_point(alpha=0.4)+
+  stat_smooth(method="loess", size=1)
+```
+
+```{r}
+ggplot(all_fg, aes(x=kick_distance, y=fg_outcome, group = factor(iced), color = factor(iced)))+geom_point(alpha=0.4)+
+  stat_smooth(method="loess", size=1)
+```
+
+```{r}
+ggplot(all_fg, aes(x=accuracy_5, y=fg_outcome, group = factor(iced), color = factor(iced)))+geom_point(alpha=0.4)+
+  stat_smooth(method="loess", size=1)
+```

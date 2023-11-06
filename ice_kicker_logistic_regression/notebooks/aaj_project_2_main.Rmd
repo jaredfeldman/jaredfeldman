@@ -1,0 +1,273 @@
+---
+title: "DATA 203 - Project 2 - Team AAJ - Main/EDA"
+output: pdf_document
+---
+
+# Libraries
+```{r, message=FALSE}
+library(nflverse)
+library(tidyverse)
+library(ggplot2)
+library(caret)
+library(MatchIt)
+library(zoo)
+library(plotfunctions)
+library(writexl)
+library(ggthemes)
+```
+
+# Get data 
+```{r import data}
+# import all play-by-play data and store in 'raw'
+raw <- nflreadr::load_pbp(2001:2022)
+# create unique identifier column
+raw$ID_raw <- 1:nrow(raw)
+```
+
+```{r}
+table(raw$play_type)
+```
+
+
+# Feature engineering 
+```{r feature engineering - identify iced kicks}
+# Identify iced kicks
+raw <- raw %>%
+  mutate(iced = case_when(
+    
+    # timeout called by defensive team prior to a field goal
+    field_goal_attempt == 1 & lag(timeout) == 1 & lag(play_type) == "no_play" &
+    posteam != lag(timeout_team) ~ 1, 
+    
+    # else zero
+    TRUE ~ 0
+  ))
+sum(raw$iced, na.rm = TRUE)
+```
+
+```{r create all_fg}
+# select only field goal rows now that we have added `iced`
+all_fg <- raw %>%
+  select(game_id, desc, play_type, field_goal_attempt, iced, field_goal_result,
+         half_seconds_remaining, game_half, defteam_timeouts_remaining,
+         score_differential, kick_distance, kicker_player_name, 
+        weather, wind, temp, stadium, surface, roof, season, ID_raw) %>%
+  filter(field_goal_attempt == 1)
+```
+
+```{r field goal result}
+table(all_fg$field_goal_result)
+```
+
+```{r}
+table(all_fg$game_half)
+```
+
+
+```{r feature engineering - field goals}
+# create binary variable from field_goal_result
+all_fg <- all_fg %>%
+  mutate(fg_outcome = ifelse(field_goal_result == 'made',1, 0))
+
+# create binary variable to identify high_pressure field goals
+all_fg <- all_fg %>%
+  mutate(high_pressure = ifelse((half_seconds_remaining < 120 | game_half == "Overtime"), 1, 0))
+```
+
+```{r}
+iced_high_pressure <- all_fg |>
+  filter(high_pressure == 1 & iced == 1)
+
+nrow(iced_high_pressure)
+```
+
+```{r feature engineering - kickers accuracy last 5 kicks}
+# create zero-value cols
+all_fg$accuracy_5 <- 0
+# clean kicker's name 
+all_fg$kicker_player_name <- gsub(" ", "", all_fg$kicker_player_name)
+# sort dataframe by kicker_player_name and ID_raw
+all_fg <- all_fg[with(all_fg, order(kicker_player_name, ID_raw)), ]
+# Find unique kicker names in the dataframe
+unique_kickers <- unique(all_fg$kicker_player_name)
+# Loop over each unique kicker
+for (kicker_name in unique_kickers) {
+  
+  # Find rows where the kicker name matches
+  kicker_rows_mask <- all_fg$kicker_player_name == kicker_name
+  
+  # Extract the fg_outcome history per kicker 
+  kicker_fg_history <- all_fg$fg_outcome[kicker_rows_mask]
+  
+  # Calculate rolling mean 
+  temp_accuracy_5 <- rollapply(kicker_fg_history, width = 5, FUN = mean, fill = NA, 
+                             align = "right")
+  
+  # Assign rolling mean to df column
+  all_fg$accuracy_5[kicker_rows_mask] <- move_n_point(temp_accuracy_5, n = 1, na_value = NA)
+}
+# Sort dataframe to original order 
+all_fg <- all_fg[with(all_fg, order(ID_raw)), ]
+```
+
+```{r feature engineering - Pro bowl & PFF all pro}
+# identify field goals done by pro bowl/all pro kickers (seasons before kick takes place)
+# create a dataframe with pro bowl data
+pro <- data.frame(
+  season = c(2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011,
+           2010, 2009, 2008, 2007, 2006, 2005, 2004, 2003, 2002, 2001, 2000, 1999, 1998),
+  players = c("J.Tucker M.Gay D.Carlson", "J.Tucker M.Gay J.Elliott", 
+              "J.Sanders J.Tucker", "J.Tucker W.Lutz J.Lambo",
+              "A.Rosas J.Myers W.Lutz", "G.Zuerlein G.Gano C.Boswell M.Prater R.Gould",
+              "J.Tucker M.Bryant M.Prater", "S.Gostkowski D.Bailey J.Brown",
+              "A.Vinatieri S.Gostkowski C.Parkey M.Bryant", "J.Tucker M.Prater S.Gostkowski",
+              "B.Walsh P.Dawson", "D.Akers S.Janikowski", 
+              "B.Cundiff D.Akers R.Bironas", "N.Kaeding D.Akers D.Carpenter S.Janikowski R.Bironas",
+              "S.Gostkowski J.Carney", "R.Bironas N.Folk K.Brown",
+              "R.Gould N.Kaeding M.Stover", "N.Rackers S.Graham",
+              "A.Vinatieri D.Akers", "M.Vanderjagt J.Wilkins",
+              "A.Vinatieri D.Akers", "D.Akers J.Elam",
+              "M.Stover M.Gramatica", "O.Mare J.Hanson M.Vanderjagt",
+              "G.Anderson J.Elam")
+)
+# Create new binary variable equals if kicker pro bowl/all pro in the years before kick
+all_fg$pro_kicker <- 0
+pro <- pro %>%
+  separate_rows(players, sep = " ")
+for (i in 1999:2023) {
+  year_df <- all_fg[all_fg$season == i, ]
+  
+  unique_year_kickers <- unique(year_df$kicker_player_name)
+  
+  for (j in unique_year_kickers) {
+  
+    temp_pro <- pro[pro$season <= i-1, ]
+    
+    all_fg[all_fg$season == i & all_fg$kicker_player_name == j, ]$pro_kicker <- ifelse(
+      j %in% temp_pro$players, 1, 0)
+    
+    }
+}
+table(all_fg$pro_kicker)
+```
+
+```{r look for temp nas}
+table(is.na(all_fg$temp))
+```
+
+
+```{r feature engineering - temperature, warning=FALSE}
+# extract temperature from weather column
+all_fg$temp_extracted <- gsub("^.*Temp: *(-?\\d{1,3}).*$", "\\1", all_fg$weather)
+all_fg$temp_extracted <- as.integer(all_fg$temp_extracted)
+# check cases were given temp is different than temp_extracted (348 cases)
+#all_fg[!is.na(all_fg$temp) & !is.na(all_fg$temp_extracted) & all_fg$temp != all_fg$temp_extracted, ]
+# fill temp NAs with extracted temp
+all_fg <- all_fg %>% 
+  mutate(temp = ifelse(is.na(temp) & !is.na(temp_extracted), temp_extracted, temp))
+# create binary variable when temperature is below 32 F
+all_fg <- all_fg %>% 
+  mutate(cold_temp = ifelse(temp < 32, 1, 0))
+```
+
+```{r look for temp nas}
+table(is.na(all_fg$temp))
+```
+
+```{r look for wind nas}
+table(is.na(all_fg$wind))
+```
+
+```{r feature engineering - wind}
+# extract wind from weather column
+all_fg$wind_extracted <- str_extract(all_fg$weather, 
+                                     "\\d{1,2}(?=\\s*(mph|MPH mph|mph mph))")
+all_fg$wind_extracted <- as.integer(all_fg$wind_extracted)
+# fill temp NAs with extracted wind
+all_fg <- all_fg %>% 
+  mutate(wind = ifelse(is.na(wind) & !is.na(wind_extracted), wind_extracted, wind))
+all_fg$wind <- as.integer(all_fg$wind)
+# create binary variable when wind above 10 mph
+all_fg <- all_fg %>% 
+  mutate(high_wind = ifelse(wind > 10, 1, 0))
+```
+
+```{r look for wind nas}
+table(is.na(all_fg$wind))
+```
+
+```{r surface types}
+table(all_fg$surface)
+```
+
+
+```{r feature engineering - surface}
+# Plot surface distribution 
+all_fg %>%
+  ggplot() + aes(x=surface) + geom_bar()
+# Map existing surface categories into new set of values
+all_fg <- all_fg %>%
+  mutate(surface_2 = case_when(
+    surface %in% c("a_turf", "astroturf", "matrixturf", 
+                   "sportturf", "fieldturf", "astroplay") ~ "synthetic",
+    surface %in% c("dessograss", "grass") ~ "natural",
+    TRUE ~ NA_character_
+  ))
+all_fg %>%
+  ggplot() + aes(x=surface_2) + geom_bar()
+```
+
+```{r roof types}
+table(all_fg$roof)
+```
+
+```{r feature engineering - roof}
+# Map existing roof categories into new set of values
+all_fg <- all_fg %>%
+  mutate(roof_2 = case_when(
+    roof %in% c("closed", "dome") ~ "dome",
+    roof %in% c("open", "outdoors") ~ "outdoors",
+    TRUE ~ NA_character_
+  ))
+all_fg %>%
+  ggplot() + aes(x=roof_2) + geom_bar()
+```
+
+# Data Cleaning - NAs
+```{r Data cleaning - NAs in wind column}
+# Missing data points by col
+colSums(is.na(all_fg))
+100 * colMeans(is.na(all_fg))
+# Input values in wind column with NAs in domes using the average
+table(all_fg$roof, is.na(all_fg$wind))
+avg_dome_wind = mean(all_fg[all_fg$roof == 'dome', ]$wind, na.rm = TRUE)
+all_fg$wind <- ifelse(all_fg$roof == "dome" & is.na(all_fg$wind), avg_dome_wind, all_fg$wind)
+# Input values in wind column with NAs in closed stadiums using the average 
+avg_closed_wind = mean(all_fg[all_fg$roof == 'closed', ]$wind, na.rm = TRUE)
+all_fg$wind <- ifelse(all_fg$roof == "closed" & is.na(all_fg$wind), avg_closed_wind, all_fg$wind)
+# Cleaning 0 values in wind column in outdoor stadiums
+all_fg %>%
+  filter(wind != "") %>%
+  ggplot() + aes(x=wind) + geom_histogram(binwidth = 1)
+all_fg$wind <- ifelse(all_fg$roof == "outdoors" & all_fg$wind == 0 & is.na(all_fg$weather), 
+                      NA_character_, all_fg$wind)
+all_fg$wind <- as.integer(all_fg$wind)
+#table(all_fg[all_fg$wind == 0, ]$roof)
+#table(all_fg$roof, is.na(all_fg$wind))
+#table(all_fg[all_fg$roof == 'outdoors' & all_fg$wind == 0 ,]$iced)
+```
+
+```{r Data cleaning - NAs in temp column }
+# Cleaning temp col
+table(all_fg$roof, is.na(all_fg$temp))
+all_fg %>%
+  filter(temp != "") %>%
+  ggplot() + aes(x=temp) + geom_histogram(binwidth = 1)
+# Input temp of dome/closed stadiums to average 
+avg_dome_temp = mean(all_fg[all_fg$roof == 'dome', ]$temp, na.rm = TRUE)
+all_fg$temp <- ifelse(all_fg$roof == "dome" & is.na(all_fg$temp), avg_dome_temp, all_fg$temp)
+avg_closed_temp = mean(all_fg[all_fg$roof == 'closed', ]$temp, na.rm = TRUE)
+all_fg$temp <- ifelse(all_fg$roof == "closed" & is.na(all_fg$temp), avg_closed_temp, all_fg$temp)
+table(all_fg$roof, all_fg$iced)
+```
+

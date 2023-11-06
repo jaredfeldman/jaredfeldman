@@ -1,0 +1,260 @@
+---
+title: "DATA 203 - Project 2 - Team AAJ - Models"
+output: pdf_document
+---
+
+# Libraries
+```{r, message=FALSE}
+library(nflverse)
+library(tidyverse)
+library(ggplot2)
+library(caret)
+library(MatchIt)
+library(optmatch)
+library(zoo)
+library(plotfunctions)
+library(writexl)
+library(patchwork)
+```
+
+
+
+# Get data and create dataframes
+```{r get data, echo = FALSE, warning = FALSE, message = FALSE}
+# load data from nflverse and create raw
+source("../src/data/import_raw.R")
+
+# create iced variable
+source("../src/feature_engineering/FE_identify_iced.R")
+
+# create all_fg working dataframe
+source("../src/data/all_fg.R")
+```
+
+```{r feature engineering, echo = FALSE, warning = FALSE, message = FALSE}
+# run remaining feature engineering scripts
+source("../src/feature_engineering/FE_run_all.R")
+```
+
+# Divide dataset into exploratory and confirmatory sets
+```{r dividing datasets, warning=FALSE}
+
+set.seed(100)
+
+# Extract 30% of rows where ice equals 1
+ice_1_df <- all_fg %>% filter(iced == 1) %>% sample_frac(0.3)
+
+# Extract 30% of rows where ice equals 0
+ice_0_df <- all_fg %>% filter(iced == 0) %>% sample_frac(0.3)
+
+# Combine both dataframes
+exploratory_df <- rbind(ice_1_df, ice_0_df)
+
+# Combine the remaining rows into a confirmation set
+confirmation_df <- all_fg %>% anti_join(ice_1_df) %>% anti_join(ice_0_df)
+
+```
+
+# Model 1 - initial set of variables
+```{r model 1 exploratory}
+# initial model 
+
+# Exploratory df
+model1 <- lm(data = exploratory_df, fg_outcome ~ iced + kick_distance + I(kick_distance^2) + 
+              wind + temp + is_covered + wind*is_covered + temp*is_covered)
+
+summary(model1)
+```
+
+
+# Model 2 - additional variables
+```{r model 2 exploratory}
+# model 2
+
+# Exploratory df
+model2 <- lm(data = exploratory_df, fg_outcome ~ iced + 
+               kick_distance + I(kick_distance^2) + 
+               score_differential + high_pressure +
+               temp + wind + 
+               is_covered + wind*is_covered + temp*is_covered + surface_2 +
+               accuracy_5 + pro_kicker)
+
+summary(model2)
+```
+
+# Model 3 - PSM with same variables as model 2
+```{r}
+
+# Need to clean up NAs to avoid dropping observations
+exploratory_clean <- exploratory_df[!is.na(exploratory_df$temp) ,]
+exploratory_clean <- exploratory_clean[!is.na(exploratory_clean$wind) ,]
+exploratory_clean <- exploratory_clean[!is.na(exploratory_clean$surface_2) ,]
+exploratory_clean <- exploratory_clean[!is.na(exploratory_clean$accuracy_5) ,]
+```
+
+```{r model 3 1:1}
+# create a matched dataset using 1:1 ratio
+matched_fg_ratio1 <- matchit(data = exploratory_clean, iced ~ 
+                        kick_distance + I(kick_distance^2) +
+                        score_differential + high_pressure + defteam_timeouts_remaining +
+                        temp + wind + surface_2 +
+                        accuracy_5 + pro_kicker, 
+                      method = "nearest", distance = 'glm', ratio = 2, replace = FALSE)
+
+
+summary(matched_fg_ratio1)
+```
+
+```{r diagnostic plots}
+plot(matched_fg_ratio1, type = 'density', interactive = FALSE,
+     which.xs = ~kick_distance + defteam_timeouts_remaining +
+                        high_pressure +
+                        temp + wind + surface_2 +
+                        accuracy_5 + pro_kicker)
+
+```
+
+```{r model3 with 1:1 ratio}     
+matched_data_ratio1 <- match.data(matched_fg_ratio1)
+
+model3_ratio1 <- lm(data = matched_data_ratio1, fg_outcome ~ iced + 
+               kick_distance + I(kick_distance^2) + 
+               score_differential + high_pressure +
+               temp + wind + 
+               is_covered + wind*is_covered + temp*is_covered + surface_2 +
+               accuracy_5 + pro_kicker)
+               
+
+summary(model3_ratio1)
+```
+
+
+```{r model 3 2:1}
+# create a matched dataset using 2:1 ratio
+matched_fg_ratio2 <- matchit(data = exploratory_clean, iced ~ 
+                        kick_distance + I(kick_distance^2) +
+                        score_differential + high_pressure + defteam_timeouts_remaining +
+                        temp + wind + surface_2 +
+                        accuracy_5 + pro_kicker, 
+                      method = "nearest", distance = 'glm', ratio = 2, replace = FALSE)
+
+
+summary(matched_fg_ratio2)
+```
+
+```{r diagnostic plots}
+plot(matched_fg_ratio2, type = 'density', interactive = FALSE,
+     which.xs = ~kick_distance + defteam_timeouts_remaining +
+                        high_pressure +
+                        temp + wind + surface_2 +
+                        accuracy_5 + pro_kicker)
+
+```
+
+```{r model3 with 2:1 ratio}     
+matched_data_ratio2 <- match.data(matched_fg_ratio2)
+
+model3_ratio2 <- lm(data = matched_data_ratio2, fg_outcome ~ iced + 
+               kick_distance + I(kick_distance^2) + 
+               score_differential + high_pressure +
+               temp + wind + 
+               is_covered + wind*is_covered + temp*is_covered + surface_2 +
+               accuracy_5 + pro_kicker)
+               
+
+summary(model3_ratio2)
+```
+
+
+
+```{r model 3 3:1}
+# create a matched dataset using 3:1 ratio
+matched_fg_ratio3 <- matchit(data = exploratory_clean, iced ~ 
+                        kick_distance + I(kick_distance^2) +
+                        score_differential + high_pressure + defteam_timeouts_remaining +
+                        temp + wind + surface_2 +
+                        accuracy_5 + pro_kicker, 
+                      method = "nearest", distance = 'glm', ratio = 2, replace = FALSE)
+
+
+summary(matched_fg_ratio3)
+```
+
+```{r diagnostic plots}
+plot(matched_fg_ratio3, type = 'density', interactive = FALSE,
+     which.xs = ~kick_distance + defteam_timeouts_remaining +
+                        high_pressure +
+                        temp + wind + surface_2 +
+                        accuracy_5 + pro_kicker)
+
+```
+
+```{r model3 with 3:1 ratio}     
+matched_data_ratio3 <- match.data(matched_fg_ratio3)
+
+model3_ratio3 <- lm(data = matched_data_ratio3, fg_outcome ~ iced + 
+               kick_distance + I(kick_distance^2) + 
+               score_differential + high_pressure +
+               temp + wind + 
+               is_covered + wind*is_covered + temp*is_covered + surface_2 +
+               accuracy_5 + pro_kicker)
+               
+
+summary(model3_ratio3)
+```
+
+
+# Run confirmatory models with confirmation dataframes
+```{r model 1 confirmatory}
+# Confirmatory df
+
+model1_confirmatory <- lm(data = confirmation_df, fg_outcome ~ iced + kick_distance + I(kick_distance^2) + 
+              wind + temp + is_covered + wind*is_covered + temp*is_covered)
+
+summary(model1_confirmatory)
+
+```
+
+```{r model 2 confirmatory}
+# Confirmatory df
+
+model2_confirmatory <- lm(data = confirmation_df, fg_outcome ~ iced + 
+               kick_distance + I(kick_distance^2) + 
+               score_differential + high_pressure +
+               temp + wind + 
+               is_covered + wind*is_covered + temp*is_covered + surface_2 +
+               accuracy_5 + pro_kicker)
+
+summary(model2_confirmatory)
+
+```
+
+```{r model 3 confirmatory}
+# Confirmatory df
+
+confirmation_clean <- confirmation_df[!is.na(confirmation_df$temp) ,]
+confirmation_clean <- confirmation_clean[!is.na(confirmation_clean$wind) ,]
+confirmation_clean <- confirmation_clean[!is.na(confirmation_clean$surface_2) ,]
+confirmation_clean <- confirmation_clean[!is.na(confirmation_clean$accuracy_5) ,]
+
+matched_fg_confirmatory <- matchit(data = confirmation_clean, iced ~ 
+                        kick_distance + I(kick_distance^2) +
+                        score_differential + high_pressure + defteam_timeouts_remaining +
+                        temp + wind + surface_2 +
+                        accuracy_5 + pro_kicker, 
+                      method = "nearest", distance = 'glm', ratio = 2, replace = FALSE)
+
+# Run model
+matched_data_confirmatory <- match.data(matched_fg_confirmatory)
+
+model3_confirmatory <- lm(data = matched_data_confirmatory , fg_outcome ~ iced + 
+               kick_distance + I(kick_distance^2) + 
+               score_differential + high_pressure +
+               temp + wind + 
+               is_covered + wind*is_covered + temp*is_covered + surface_2 +
+               accuracy_5 + pro_kicker)
+               
+
+summary(model3_confirmatory)
+
+```
