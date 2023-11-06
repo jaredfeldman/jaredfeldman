@@ -13,12 +13,12 @@ R (tidyverse, caret, MatchIt, zoo, plotfunctions, writexl, ggthemes, stargazer, 
 
 # Report Reproduction Steps
 1. Clone the repository
-2. Open the `lab-2-lab-2-aaj.Rproj` file
-3. Open the `/reports/lab_2_report_aaj.Rmd` file
+2. Open the `project.Rproj` file
+3. Open the `/reports/final_report.Rmd` file
 4. Knit the report (the initial `get data` chunk may take several minutes to run)
-  - Further detail around models can be found in `/notebooks/aaj_project2_models`
-  - Further detail around charts can be found in `/notebooks/aaj_project2_charts`
-  - Further detail around EDA and feature engineering can be found in `notebooks/aaj_project2_EDA`
+  - Further detail around models can be found in `/notebooks/models.Rmd`
+  - Further detail around charts can be found in `/notebooks/charts.Rmd`
+  - Further detail around EDA and feature engineering can be found in `notebooks/EDA.rmd`
 
 # Project Organization
 
@@ -32,10 +32,9 @@ This is based on [cookiecutter data science](https://drivendata.github.io/cookie
     │   ├── raw                   <- This will contain the raw dataset from nflverse
     │   ├── interim               <- This contains all FG plays and associated variables, as well as our exploratory dataset (30% of total)
     │   ├── processed             <- This contains our final dataset (70% of total) used for our 3 models
-    │   └── homework              <- This contains our dataset for HW12
     ├── notebooks                 <- .Rmd notebooks
     ├── reports                   <- This contains our final report in .Rmd and .pdf formats
-    └── src                       <- Source code for use in this project.
+    └── src                       <- Source code for use in this project
        ├── data                   <- This contains the scripts used to generate initial dataframe and create FG dataframe
        ├── models                 <- This contains the scripts to run each of our 3 models and build the stargazer table
        ├── feature_engineering    <- This contains a script for each of the features we engineered
