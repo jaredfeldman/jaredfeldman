@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Jared Feldman</h1>
+<h1 align="center">Hello! 👋 I'm Jared Feldman</h1>
 <h3 align="center">Data scientist and seasoned IT leader with a wealth of experience in driving data-driven initiatives. Passionate about
 merging the power of data and analytics with strong leadership and communication skills to bring about positive
 changes for our planet. Dedicated to leveraging data for meaningful transformation and innovation.</h3>
