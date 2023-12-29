@@ -1,2 +1,0 @@
-gfpgan
-insightface_func
