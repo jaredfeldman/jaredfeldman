@@ -6,3 +6,4 @@ Python (PyTorch, Tensorflow, Keras, Scikit-learn, Numpy, Matplotlib, Pandas, sci
 In this project, we implemented Discrete Cosine Transform and differential privacy to enhance facial recognition privacy, reproducing results from Ji et al. ([2022](https://www.sciencedirect.com/science/article/abs/pii/S1568494620306001)) and explored the balance between privacy preservation and utility.
 
 ## Example Outcomes of Implementation
+![screenshot](src/differential_privacy_sample.png)
