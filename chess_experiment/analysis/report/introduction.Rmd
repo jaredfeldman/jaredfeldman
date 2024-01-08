@@ -1,0 +1,24 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+# Introduction
+
+## Theory
+Psychological pressure can have an impact on sporting excellence\footnote{Johnson and Taylor (2018) - More than Bullshit: Trash Talk and Other Psychological Tests of Sporting Excellence. Sports, Ethics and Philosophy, 14(1).}. One key mechanism through which individuals experience psychological pressure is by engaging in banter with their opponent. Banter, which is characterized as playful teasing and competitive remarks, has the potential to have both positive and negative influences on performance\footnote{Murphy and White (1995) - In the Zone: Transcendent Experience in Sports.}.  On the one hand, banter can distract individuals from performing their best by diverting focus away from the game.  On the contrary, banter could lead to increased engagement and motivation, potentially resulting in one being in a heightened state which is commonly referred to as being “in the zone”\footnote{Murphy and White (1995) - In the Zone: Transcendent Experience in Sports.}. 
+
+In fact, according to a study by McDermott and Lachlan\footnote{McDermott and Lachlan (2021) - Emotional Manipulation and Task Distraction as Strategy: The Effects of Insulting Trash Talk on Motivation and Performance in a Competitive Setting
+}, the targets of trash talk were motivated to outperform their opponents and frequently did outperform them.
+
+## Concept Under Investigation
+Research on the influence of conversation, banter, trash-talking, and bullying on an opponent's in-game performance is currently limited. Notably, trash-talking exhibits gender and sport-type variations, being more prevalent among men and in contact sports compared to non-contact sports, as evidenced by Kniffin and Palacio (2018)\footnote{Kniffin and Palacio (2018) - Trash-Talking and Trolling. Human Nature, 1–17.}. However, the impact of athlete anonymity, whether masked or not, remains inconclusive in existing studies. In the context of online gaming, where the online uninhibited behavior effect is commonly experienced, we aim to delve deeper into the effects in non-contact sports (in our case chess) and anonymity.
+
+Recent studies highlight the normalization of online trash-talking\footnote{Beres et al., 2021 - Don’t You Know That You’re Toxic: Normalization of Toxicity in Online Gaming. CHI ’21: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems, 1–15.}, despite its potential negative repercussions for the recipient. Our investigation seeks to contribute valuable insights into banter's perceived impact on gameplay, with the ultimate goal of fostering a less toxic online gaming environment. By exploring the dynamics of online interactions, our research aspires to provide a nuanced understanding of how conversational elements may shape the gaming experience and influence player behaviors, contributing to a more positive and inclusive gaming community.
+
+
+## Hypothesis
+Our null hypothesis is defined as follows: Engaging in online chess chat is unlikely to influence the playing accuracy of opponents.
+
+We posit that encountering a text designed to provoke a challenge from an opponent may create a sense of perceived rivalry, ultimately enhancing their gameplay accuracy and performance.
+

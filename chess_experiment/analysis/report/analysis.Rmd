@@ -1,0 +1,313 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r , warning=FALSE, message=FALSE, echo=FALSE}
+library(data.table)
+
+library(sandwich)
+library(lmtest)
+
+library(ggplot2)
+library(patchwork)
+
+library(foreign)
+
+library(knitr)
+library(tidyverse)
+library(kableExtra)
+library(stargazer)
+inline_reference <- "r inline_reference"
+```
+
+# Analysis
+
+## Intent to Treat (ITT) Effect
+
+Our first step in evaluating the outcomes of our experiments is to estimate the Intent to Treat ($ITT$). The $ITT$ measures the outcomes of our experiment based on treatment assignment, without considering compliance rate. The $ITT$ is defined as:
+
+```{=tex}
+\begin{quote}
+  \textit{$ITT$ = $E[Y_i(z = 1)] - E[Y_i(z = 0)]$}
+\end{quote}
+```
+where z signifies the assignment of the subject. 
+
+Our main outcome variable of interest was Accuracy, as described in Section 3.1. Figure 3 shows the distribution of Accuracy ITT across treatment groups for each experiment, while Tables 1 and 2 show the ITT for Accuracy and five other outcomes of interest. The tables containing all ten outcomes can be found in Appendix C.
+
+As seen in Table and Table 2, we found no statistical significance at the .05 level in either experiment.
+
+
+```{r, include=FALSE}
+exp_data      <- fread('../data/exp_data.csv')
+exp_data_main <- fread('../data/exp_data_gpt.csv')
+exp_data_main <- exp_data_main[maia_name %in% c('chess4gerry', 'ucb_123', 'sandman353', 'bcu_555')]
+
+```
+
+```{r feature engineer, include=FALSE}
+# one-hot encode maia win
+exp_data[ , maia_win := ifelse(winner == 'maia', 1, 0)]
+exp_data_main[ , maia_win := ifelse(winner == 'maia', 1, 0)]
+
+# one-hot encode maia checkmate
+exp_data[ , maia_checkmate := ifelse(winner == 'maia' & status == 'mate', 1, 0)]
+exp_data_main[ , maia_checkmate := ifelse(winner == 'maia' & status == 'mate', 1, 0)]
+
+# one-hot encode opp checkmate
+exp_data[ , opp_checkmate := ifelse(winner == 'opp' & status == 'mate', 1, 0)]
+exp_data_main[ , opp_checkmate := ifelse(winner == 'opp' & status == 'mate', 1, 0)]
+
+# one-hot encode opp resign
+exp_data[ , opp_resign := ifelse(winner == 'maia' & status == 'resign', 1, 0)]
+exp_data_main[ , opp_resign := ifelse(winner == 'maia' & status == 'resign', 1, 0)]
+
+# one-hot encode draw
+exp_data[ , draw := ifelse(status == 'draw', 1, 0)]
+exp_data_main[ , draw := ifelse(status == 'draw', 1, 0)]
+
+# one-hot encode treatment
+exp_data[ , treat := ifelse(chat_type == 'Chatty', 1, 0)]
+exp_data_main[ , treat := ifelse(chat_type == 'ChatGPT', 1, 0)]
+
+```
+
+```{r define measures, include=FALSE}
+# define the outcome metrics for stargazers
+measures <- c("Maia Win",
+              #"Maia Checkmate",
+              #"Opp Checkmate",
+              "Opp Resigns",
+              #"Draw",
+              "Opp Acc",
+              "Opp Blunders",
+              "Opp Mistakes",
+              #"Opp ACPL",
+              "Opp Avg Mv Time")
+```
+
+```{r ITT calc exp1 TvC, echo=FALSE,include=FALSE}
+exp_data_c_t <- exp_data[chat_type %in% c("Chatty", "Control") , ]
+# only include rows where respond != NA
+exp_data_c_t <- exp_data_c_t[complete.cases(exp_data_c_t$respond), ]
+
+
+get_stargazer <- function(d, table_name) {
+  
+  
+  maia_win           <- d[ , lm(maia_win ~ treat)]
+  #maia_mate     <- d[ , lm(maia_checkmate ~ treat)]
+  #opp_mate      <- d[ , lm(opp_checkmate ~ treat)]
+  opp_resign    <- d[ , lm(opp_resign ~ treat)]
+  #draw          <- d[ , lm(draw ~ treat)]
+  opp_acc       <- d[ , lm(opp_acc ~ treat)]
+  blunders  <- d[ , lm(opp_blunders ~ treat)]
+  mistakes  <- d[ , lm(opp_mistakes ~ treat)]
+  #opp_acpl      <- d[ , lm(opp_acpl ~ treat)]
+  move_time <- d[ , lm(opp_avg_move_time ~ treat)]
+  
+  
+  stargazer(maia_win, 
+          opp_resign,
+          opp_acc,
+          blunders,
+          mistakes,
+          move_time,
+          title=table_name,
+          dep.var.labels.include = FALSE,
+          #dep.var.labels = 'Outcome Variables',
+          column.labels = measures,
+          covariate.labels = c('Treatment'),
+          type = 'latex',
+          header = FALSE,
+          omit.stat = c('f','rsq','ser')
+          )
+  
+  
+}
+
+```
+
+```{r, echo=FALSE,include=FALSE}
+exp_data_main[chat_type %in% c("ChatGPT", "Control GPT") , ]
+
+# only include rows where respond != NA
+exp_data_main <- exp_data_main[complete.cases(exp_data_main$respond), ]
+
+```
+
+```{r}
+prelim_acc_plt <- ggplot(exp_data_c_t, aes(x = opp_acc, color = factor(chat_type))) +
+  geom_density(alpha = 0.5) +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5), text = element_text(size = 7)) +
+  labs(title = "Prelim Experiment Opponent Accuracy", x = "Opponent Accuracy", y = "Density") +
+  scale_color_manual(values = c("red", "blue", "forestgreen"),
+                     labels = c("Treatment", "Control", "Placebo"),
+                     name = "") +
+    theme(legend.key.height= unit(3, 'mm'), legend.key.width= unit(3, 'mm'), legend.position = 'bottom')
+
+main_expt_plt <- ggplot(exp_data_gpt, aes(x = opp_acc, color = factor(chat_type))) +
+  geom_density(alpha = 0.5) +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5), text = element_text(size = 7)) +
+  labs(title = "Main Experiment Opponent Accuracy", x = "Opponent Accuracy", y = "Density") +
+  scale_color_manual(values = c("red", "blue"),
+                     labels = c("Treatment", "Control"),
+                     name = "") +
+    theme(legend.key.height= unit(3, 'mm'), legend.key.width= unit(3, 'mm'), legend.position = 'bottom')
+```
+
+```{r plot 3, include = TRUE, echo=FALSE,fig.height=3.5,fig.cap="\\label{fig:figs}Opponent Accuracy Across Treatment Groups"}
+prelim_acc_plt | main_expt_plt
+```
+
+```{r, results='asis', echo=FALSE, warning=FALSE, message=FALSE, include=TRUE, font.size = "small"}
+get_stargazer(exp_data_c_t, "Preliminary Experiment: ITT")
+```
+
+```{r, results='asis', echo=FALSE, warning=FALSE, message=FALSE, include=TRUE}
+get_stargazer(exp_data_main, "Main Experiment: ITT")
+```
+
+\newpage
+
+## Labeling compliers and non-compliers
+
+In this experiment we defined a complier as someone who sent a message in the chat room when we issued a dose of treatment. This allowed us to confirm that the opponent received the treatment. We then defined a non-complier as an opponent who did not send a message. We theorize that there may be multiple reasons why an opponent would not engage in chat with us.
+
+1.  Opponent has manually 'muted' chat and they do not see our messages.
+2.  Opponent does not speak english (our language used in treatment).
+3.  Opponent does not see the chat due to screen resolution or device used.
+4.  Opponent does not want to engage in chat.
+
+An issue with our complier labeling is that opponents can mute at anytime during the game. For example they may see our initial message, then greet us in the beginning, and mute chat immediately after. This would mean they only received 1 out of the 6 messages that were planned but are counted as a complier. This is a limitation of our analysis, because the website does not allow us to see when an opponent mutes.
+
+## Complier Average Causal Effect (CACE)
+
+While the $ITT$ allows us to get a glimpse into potential treatment effects, it does not consider compliers and non-compliers. In Figure 4, we can see not everyone received their targeted dose of treatment, which we now take into account in calculating the Complier Average Causal Effect ($CACE$).
+
+```{r, include = FALSE}
+DT1 = data.table(
+  response_rate = c(4.5, 35.5, 30.1),
+  treatment = c("Control", "Placebo", "Treatment")
+)
+p_exp_graph <- ggplot(DT1, aes(x= treatment, y = response_rate, label = response_rate)) +
+  geom_col(fill="royalblue3") +
+  ylab("Response rate %") +
+  xlab("") +
+  ggtitle("Preliminary Experiment") +
+  theme(plot.title = element_text(hjust = 0.5), text = element_text(size = 7)) +
+  ylim(0,40)
+DT2 = data.table(
+  response_rate = c(.45, 33.2),
+  treatment = c("Control", "ChatGPT")
+)
+m_exp_graph <- ggplot(DT2, aes(x= treatment, y = response_rate, label = response_rate)) +
+  geom_col(fill="tomato2") +
+  ylab("Response rate %") +
+  xlab("") +
+  ggtitle("Main Experiment") +
+  theme(plot.title = element_text(hjust = 0.5), text = element_text(size = 7)) +
+  ylim(0,40)
+```
+
+```{r, include=TRUE, echo=FALSE, fig.height=3.5, fig.cap= NULL, fig.pos='!b',fig.cap="\\label{fig:figs}Response Rates by Experiment"}
+p_exp_graph | m_exp_graph
+```
+
+The $CACE$ is calculated using the following formula:
+
+```{=tex}
+\begin{quote}
+  \textit{$CACE$ = $ITT$/$ITT_d$}
+\end{quote}
+```
+where $ITT_d$ is the proportion of compliers in the treatment group (the "take-up rate"). In our case, we can see in Figure 4 that the take-up rates are approximately 30% and 33% for the preliminary and main experiments, respectively.
+
+Now we will run the same regression analysis, but this time we will adjust our effects by predicting outcomes based on the CACE methods described above. In Table 3, for our preliminary experiment we see a slight effect on Opponent resignations and small uptick in Opponent Mistakes with a $p$-value < 0.1. In Table 4 for our Main Experiment, we see no statistical significance for outcomes except on Opponent Average Move Time being up more than 5.8 seconds over those in the control group. 
+
+```{r cace function, echo=FALSE, include=FALSE}
+# define function to calculate cace
+get_cace <- function(data, treat_var, compliance_var, outcome_var) {
+  # first stage regression
+  first_stage <- lm(paste(compliance_var, "~", treat_var), data = data)
+  
+  # extract predicted values of compliance from the first stage
+  predicted_compliance <- predict(first_stage)
+  
+  # create a new data frame with the predicted compliance values
+  data_with_predicted <- cbind(data, predicted_compliance)
+  
+  # Second stage regression
+  cace_model <- lm(paste(outcome_var, "~ predicted_compliance"), data = data_with_predicted)
+  
+  # Obtain summary statistics for the CACE model
+  cace_model
+}
+
+
+get_cace_stargazer <- function(d, table_name) {
+  
+  
+  maia_win    <- get_cace(d, "treat", "respond", "maia_win")
+  #cace_prelim_maia_mate         <- get_cace(exp_data_c_t, "treat", "respond", "maia_checkmate")
+  #cace_prelim_opp_mate          <- get_cace(exp_data_c_t, "treat", "respond", "opp_checkmate")
+  opp_resign  <- get_cace(d, "treat", "respond", "opp_resign")
+  #cace_prelim_draw              <- get_cace(exp_data_c_t, "treat", "respond", "draw")
+  opp_acc     <- get_cace(d, "treat", "respond", "opp_acc")
+  blunders    <- get_cace(d, "treat", "respond", "opp_blunders")
+  mistakes    <- get_cace(d, "treat", "respond", "opp_mistakes")
+  #cace_prelim_opp_acpl          <- get_cace(exp_data_c_t, "treat", "respond", "opp_acpl")
+  move_time   <- get_cace(d, "treat", "respond", "opp_avg_move_time")
+  
+  
+  stargazer(maia_win, 
+          opp_resign,
+          opp_acc,
+          blunders,
+          mistakes,
+          move_time,
+          title=table_name,
+          dep.var.labels.include = FALSE,
+          column.labels = measures,
+          covariate.labels = c('Treatment'),
+          type = 'latex',
+          header = FALSE,
+          omit.stat = c('f','rsq','ser')
+          )
+  
+}
+
+```
+
+```{r, include=TRUE, results='asis', echo=FALSE, warning=FALSE}
+get_cace_stargazer(exp_data_c_t, 'Preliminary Experiment: CACE')
+get_cace_stargazer(exp_data_main, 'Main Experiment: CACE')
+```
+\newpage
+
+## Benjamini-Hochberg (BH) Procedure
+
+While some test results in the tables above show statistical significance at the 0.1 $p$-value threshold, we need to adjust due to the number of tests that we conducted. Since we performed ten statistical tests, we have an increased chance of finding a $p$-value less than or equal to 0.1 by chance, compared to running one or two tests. The Benjamini-Hochberg (BH) procedure is one way to try to control for the false discovery rate (FDR) between all of our tests. Unlike the False Positive Rate, which is used in the Bonferroni method, the FDR is the expected proportion of false positives among *all* positives which rejected the null hypothesis.
+
+In this method, we take the $p$-values from each of our $CACE$ outcomes and compare them to their associated $BH_{critical}$ value. The $BH_{critical}$ value is defined as:
+
+```{=tex}
+\begin{quote}
+  \textit{$BH_{critical}$ = ($i$/$m$) $*$ $Q$}
+\end{quote}
+```
+where $i$ is the rank of the $p$-value (i.e., the smallest value has $i=1$, etc.), $m$ is the number of $p$-values (i.e., ten), and $Q$ is the allowable FDR (i.e., 0.05). In this test, if a $p$-value is less than its $BH_{critical}$ value, then the test is significant. Otherwise, the $p$-values that we found are likely the result of a false discovery.
+
+In both our Preliminary Experiment and Main Experiment, there were zero $p$-values less than their associated $BH_{critical}$ value, and thus we fail to reject the null hypothesis under both experiment conditions.
+
+```{r}
+move_time   <- get_cace(exp_data_main, "treat", "respond", "opp_avg_move_time")
+```
+
+## Summary of Results
+
+Given the results and analysis of our experimentation, we fail to reject the null hypothesis that online chess player's performance is directly impacted when analyzing performance measures such as move accuracy, blunders, & mistakes, as well as game outcomes in regards to wins and losses. Notably, we did, expectedly, observe an effect on players who were treated to conversations with ChatGPT where those players' average move time increased by `r round(move_time$coefficients[[2]],1)` seconds which over the course of a (average for our main experiment) `r exp_data_main[, median(num_moves)]` move game could add up. However, this effect is not statistically significant with a $p$-value of `r round(summary(move_time)$coefficients[8],3)` and given the Benjamini-Hochberg (BH) Procedure, the significance is further diluted.

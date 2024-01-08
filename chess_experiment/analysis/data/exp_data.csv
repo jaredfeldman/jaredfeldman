@@ -1,0 +1,951 @@
+game_id,rated,treat_type,chat_type,gametime_seconds,status,maia_color,maia_name,maia_avg_move_time,opp_avg_move_time,opp_avg_move_time_3+,opp_avg_move_time_3only,num_moves,opp_name_hashed,opp_name,winner,maia_rating,maia_acc,maia_blunders,maia_mistakes,maia_acpl,maia_inacc,opp_rating,opp_acc,opp_blunders,opp_mistakes,opp_acpl,opp_inacc,respond,game_chats
+0HurwUHZ,True,0,Control,697.847,mate,white,bcu_555,5.76,11.93,12.55,8.56,78,7194941269865177474,Puker_Franklin,maia,1494,80,4,1,67,4,1511,75,6,1,89,5,False,"[]
+"
+0Q0uhjhF,True,1,Placebo,407.992,draw,black,bcu_555,6.88,9.62,10.44,8.08,49,-7027732410958625711,Wuerfelix_SLT,draw,1491,74,3,2,58,2,1457,75,1,4,62,4,True,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""hey interesting statement, but yes"",""user"":""wuerfelix_slt""},{""text"":""good luck"",""user"":""wuerfelix_slt""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""}]
+"
+0W8omQeM,True,1,Chatty,463.417,mate,black,bcu_555,5.58,6.26,6.48,2.48,76,5857913645587372900,Asparuj,opp,1609,75,1,1,52,4,1590,88,2,2,30,2,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""bcu_555""},{""text"":""uh oh..."",""user"":""bcu_555""},{""text"":""nice coordination"",""user"":""bcu_555""},{""text"":""things arent looking good"",""user"":""bcu_555""}]
+"
+0Zmps65w,True,1,Placebo,153.514,mate,black,bcu_555,5.1,4.71,4.75,2.0,30,8445112753371578615,josealan2008,opp,1527,53,1,0,91,1,1508,88,1,0,28,1,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""i like swimming"",""user"":""bcu_555""}]
+"
+2SI2PSul,True,1,Chatty,74.629,mate,black,bcu_555,6.12,1.25,1.34,6.24,20,4169602947250850106,Obeys,opp,1500,23,1,0,164,1,1524,64,2,0,68,0,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""bcu_555""}]
+"
+3GPkmzOm,True,1,Placebo,780.391,draw,white,bcu_555,5.43,9.6,9.43,6.16,102,4442128155394650360,AshokAthani,draw,1552,82,4,1,48,6,1522,83,3,3,47,5,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""},{""text"":""my cat's name is alex"",""user"":""bcu_555""}]
+"
+3xKNr9Jo,True,0,Control,644.943,mate,black,bcu_555,5.76,3.73,3.77,8.56,134,-1624059341773301931,Gahryman,opp,1521,70,7,2,85,9,1550,74,11,1,73,4,False,"[]
+"
+4cYMwwHF,True,1,Chatty,631.263,mate,white,bcu_555,5.76,5.62,5.8,9.44,109,167226092475526749,GIVCHIK,opp,1511,80,4,1,61,8,1499,84,2,0,50,11,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""bcu_555""},{""text"":""uh oh..."",""user"":""bcu_555""},{""text"":""nice coordination"",""user"":""bcu_555""},{""text"":""things arent looking good"",""user"":""bcu_555""}]
+"
+4Ft3kKoo,True,0,Control,378.723,mate,white,bcu_555,4.75,4.28,4.14,3.92,79,-2513487577302481037,tron_apis,opp,1541,76,2,0,39,4,1566,93,0,2,15,3,False,"[]
+"
+4iIGhQ7w,True,0,Control,634.416,mate,black,bcu_555,5.92,2.72,2.74,6.4,144,-1104107864087428942,VovaGavr,opp,1559,85,2,2,34,4,1530,91,3,1,22,6,False,"[]
+"
+4LY9K8NX,True,1,Chatty,220.282,resign,black,bcu_555,5.24,7.66,8.59,6.0,33,3273434753751421484,Aidil_Fikri,maia,1521,95,0,0,17,1,1525,73,1,0,49,0,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""bcu_555""},{""text"":""uh oh..."",""user"":""bcu_555""}]
+"
+4VQd96Gn,True,1,Chatty,572.458,mate,black,bcu_555,5.8,12.45,13.05,6.48,62,8504404534879303616,nialldevlin,opp,1469,71,1,1,80,5,1414,85,1,1,51,5,True,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""bcu_555""},{""text"":""uh oh..."",""user"":""bcu_555""},{""text"":""nice coordination"",""user"":""bcu_555""},{""text"":""things arent looking good"",""user"":""bcu_555""},{""text"":""not looking good at all!"",""user"":""nialldevlin""}]
+"
+4WqfmUMb,True,1,Placebo,269.599,resign,white,bcu_555,5.34,11.41,9.8,4.56,32,4913375027624656948,Federico_Belvedere,maia,1491,95,0,0,22,1,1466,74,1,0,81,3,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""i like swimming"",""user"":""bcu_555""}]
+"
+51ydZUOy,True,1,Chatty,333.209,resign,white,bcu_555,5.32,7.8,8.34,1.76,51,5245419047255225410,khalidabdullah1,maia,1503,58,5,2,123,0,1459,44,5,1,165,4,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""bcu_555""},{""text"":""uh oh..."",""user"":""bcu_555""},{""text"":""nice coordination"",""user"":""bcu_555""},{""text"":""things arent looking good"",""user"":""bcu_555""}]
+"
+58vRHNfc,True,0,Control,191.356,resign,black,bcu_555,4.63,7.65,8.63,8.56,30,-5491340431104663819,the_italiaan,maia,1463,86,1,0,36,1,1459,66,2,2,76,0,False,"[]
+"
+7jNF95gO,True,1,Placebo,211.118,resign,black,bcu_555,5.09,5.34,5.84,6.32,40,6195027610693708308,us9801850450,maia,1514,99,0,0,12,0,1585,83,1,2,66,1,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""}]
+"
+8kPND4rY,True,1,Chatty,682.67,resign,black,bcu_555,5.31,10.53,10.95,9.36,86,-6948288062290533012,Shlomo183,maia,1562,80,3,4,57,5,1462,70,4,2,71,3,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""bcu_555""},{""text"":""uh oh..."",""user"":""bcu_555""},{""text"":""nice coordination"",""user"":""bcu_555""},{""text"":""things arent looking good"",""user"":""bcu_555""}]
+"
+A22N4kZS,True,0,Control,491.449,mate,white,bcu_555,5.53,4.74,4.86,2.32,93,-106671250836871798,CHALACAN-THIAGO,opp,1470,77,4,0,54,4,1433,86,2,2,34,1,False,"[]
+"
+aaV0L7JE,True,1,Chatty,941.382,mate,black,bcu_555,5.88,10.06,9.88,3.44,116,-8362388842873579409,iamjampa,opp,1560,81,5,4,75,8,1552,85,3,3,59,10,True,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""bcu_555""},{""text"":""uh oh..."",""user"":""bcu_555""},{""text"":""nice coordination"",""user"":""bcu_555""},{""text"":""things arent looking good"",""user"":""bcu_555""},{""text"":""good game"",""user"":""iamjampa""}]
+"
+b6pmI8bk,True,1,Placebo,550.474,mate,white,bcu_555,5.39,18.52,20.19,5.6,46,-7368126528330387645,visvesh_96,maia,1454,97,0,0,12,0,1409,82,2,0,54,2,True,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""po da puinda"",""user"":""visvesh_96""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""}]
+"
+BakHlzt2,True,1,Chatty,688.853,mate,black,bcu_555,5.81,6.93,7.12,6.0,106,-5231936876242704878,barhoumahsan,opp,1491,85,2,1,40,5,1451,92,2,0,21,2,True,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""good luck bro"",""user"":""barhoumahsan""},{""text"":""where are u from"",""user"":""barhoumahsan""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""bcu_555""},{""text"":""lets go"",""user"":""barhoumahsan""},{""text"":""uh oh..."",""user"":""bcu_555""},{""text"":""nice coordination"",""user"":""bcu_555""},{""text"":""thanks bro"",""user"":""barhoumahsan""},{""text"":""but u didn’t tell me where are you form"",""user"":""barhoumahsan""},{""text"":""things arent looking good"",""user"":""bcu_555""},{""text"":""oh bro"",""user"":""barhoumahsan""}]
+"
+cCTJfXvt,True,1,Placebo,339.73,resign,white,bcu_555,4.98,4.28,4.46,7.12,71,1372587355306564926,gsinghmahesh,maia,1493,52,7,3,128,2,1451,46,5,2,159,3,True,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""you too."",""user"":""gsinghmahesh""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""},{""text"":""my cat's name is alex"",""user"":""bcu_555""}]
+"
+csOLcoZ2,True,1,Chatty,292.761,resign,black,bcu_555,5.79,7.36,7.9,3.76,44,-8470518982917638992,Migran34,maia,1493,64,4,1,102,4,1538,51,6,2,149,2,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""bcu_555""},{""text"":""uh oh..."",""user"":""bcu_555""},{""text"":""nice coordination"",""user"":""bcu_555""}]
+"
+csP8Ncfn,True,0,Control,595.469,draw,black,bcu_555,4.88,4.52,4.64,1.6,123,2676378093124728489,valaxx,draw,1505,67,2,0,46,6,1392,67,2,2,47,7,False,"[]
+"
+dFsezVyr,True,1,Placebo,360.527,mate,white,bcu_555,6.63,6.79,6.99,9.2,51,5285278272348249118,gmdoubledribble23,opp,1498,64,2,1,91,1,1524,84,2,0,59,2,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""},{""text"":""my cat's name is alex"",""user"":""bcu_555""}]
+"
+E55aLCaf,True,1,Chatty,828.586,mate,white,bcu_555,5.63,13.42,13.15,7.52,85,1774443313716431710,Mahoni08,opp,1473,77,4,5,75,3,1472,83,5,1,54,2,True,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""bcu_555""},{""text"":""uh oh..."",""user"":""bcu_555""},{""text"":""nice coordination"",""user"":""bcu_555""},{""text"":""things arent looking good"",""user"":""bcu_555""},{""text"":""wtf"",""user"":""mahoni08""},{""text"":""nice game"",""user"":""mahoni08""}]
+"
+ebzzftDD,True,1,Chatty,657.333,mate,black,bcu_555,5.96,6.75,6.89,9.84,102,-9044065804258396085,Bousri,opp,1470,86,2,0,33,4,1482,95,0,1,14,4,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""bcu_555""},{""text"":""uh oh..."",""user"":""bcu_555""},{""text"":""nice coordination"",""user"":""bcu_555""},{""text"":""things arent looking good"",""user"":""bcu_555""}]
+"
+EH1oxnE6,True,1,Placebo,329.841,mate,black,bcu_555,6.23,4.14,4.22,7.04,62,8332018358520190544,mbarria,opp,1485,70,2,1,75,0,1506,89,1,1,44,0,True,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""u too"",""user"":""mbarria""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""},{""text"":""my cat's name is alex"",""user"":""bcu_555""}]
+"
+eiD593Gf,True,0,Control,616.386,mate,white,bcu_555,5.8,9.25,9.54,4.0,79,-103404883607033535,Ahmederhan,opp,1470,77,5,1,87,7,1404,84,2,3,62,2,False,"[]
+"
+eLLMWDBm,True,1,Placebo,402.585,mate,white,bcu_555,5.3,9.15,9.25,8.16,54,-1220795234560678053,arnolvt,maia,1469,92,1,0,26,0,1451,80,1,1,61,4,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""},{""text"":""my cat's name is alex"",""user"":""bcu_555""}]
+"
+eOXlMUVJ,True,0,Control,286.658,mate,white,bcu_555,5.73,6.33,6.61,4.24,47,7793274096375881527,Queenwicked,opp,1464,64,3,1,87,2,1456,78,2,1,48,0,False,"[]
+"
+evpHSYOk,True,1,Chatty,395.456,resign,black,bcu_555,5.47,11.23,12.12,2.08,48,-7409700879631109295,prepa21,maia,1480,82,1,3,42,1,1534,65,2,2,62,1,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""bcu_555""},{""text"":""uh oh..."",""user"":""bcu_555""},{""text"":""nice coordination"",""user"":""bcu_555""}]
+"
+EXUN2gd3,True,0,Control,370.072,mate,black,bcu_555,5.2,6.05,6.31,8.8,64,6636830462123171886,margin57,opp,1601,83,1,0,57,4,1589,95,1,0,27,2,False,"[]
+"
+EZqnksLR,True,0,Control,409.889,mate,black,bcu_555,5.75,9.1,9.72,5.6,54,4100152335167296880,apharpus,opp,1504,64,1,1,63,1,1484,87,1,0,27,1,False,"[]
+"
+FGRi5kAr,True,1,Chatty,503.694,mate,black,bcu_555,5.53,10.52,11.17,6.88,62,-4698312972018314169,jari53,opp,1498,76,2,2,58,3,1493,90,0,1,27,6,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""bcu_555""},{""text"":""uh oh..."",""user"":""bcu_555""},{""text"":""nice coordination"",""user"":""bcu_555""},{""text"":""things arent looking good"",""user"":""bcu_555""}]
+"
+fiwZbZZQ,True,1,Chatty,553.837,mate,black,bcu_555,5.49,14.04,14.9,5.44,56,-411917175988335679,navagraha8,opp,1630,81,1,2,57,4,1742,93,0,1,24,1,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""bcu_555""},{""text"":""uh oh..."",""user"":""bcu_555""},{""text"":""nice coordination"",""user"":""bcu_555""},{""text"":""things arent looking good"",""user"":""bcu_555""}]
+"
+fKtJaU4L,True,0,Control,703.435,mate,black,bcu_555,5.6,6.32,6.43,2.08,116,-8915277159501771072,ashwinnr,opp,1580,81,2,5,48,4,1601,91,0,5,32,7,False,"[]
+"
+FVuGo8tz,True,1,Chatty,750.308,resign,white,bcu_555,6.08,17.77,18.89,6.4,63,-988044747639589219,Drad8743,maia,1552,81,2,1,71,4,1572,75,5,3,106,4,True,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""same! thanks"",""user"":""drad8743""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""bcu_555""},{""text"":""uh oh..."",""user"":""bcu_555""},{""text"":""nice coordination"",""user"":""bcu_555""},{""text"":""things arent looking good"",""user"":""bcu_555""}]
+"
+fXCOYUPs,True,0,Control,590.806,mate,black,bcu_555,5.75,8.6,8.07,9.2,78,-6248969226934304282,ShreyaskarSingh04,opp,1521,87,1,1,38,5,1469,95,0,0,17,3,False,"[]
+"
+G8Utd4VC,True,0,Control,260.413,outoftime,white,bcu_555,5.34,42.86,49.5,6.56,29,5714591253088046933,LimbergPJ,maia,1465,53,4,0,98,0,1392,48,3,1,115,3,False,"[]
+"
+gAKkLUZl,True,1,Placebo,127.435,mate,black,bcu_555,6.83,5.72,6.71,6.0,20,9176554762200290109,grouchopatachin,opp,1493,65,1,0,108,3,1520,93,0,0,13,1,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""bananas are berries"",""user"":""bcu_555""}]
+"
+GGLifshS,True,1,Placebo,295.002,mate,black,bcu_555,6.13,8.55,9.26,6.8,38,-440654243830844804,gamph2o,opp,1577,44,1,0,129,2,1579,82,0,3,75,5,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""}]
+"
+gHKal5af,True,1,Chatty,553.156,resign,white,bcu_555,5.11,16.37,16.53,8.56,51,4952148934742255502,Piratepapa,maia,1505,83,2,2,46,3,1447,77,3,2,72,5,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""bcu_555""},{""text"":""uh oh..."",""user"":""bcu_555""},{""text"":""nice coordination"",""user"":""bcu_555""},{""text"":""things arent looking good"",""user"":""bcu_555""}]
+"
+GITRf5vv,True,1,Placebo,261.949,mate,white,bcu_555,4.95,6.41,5.65,4.32,45,-5753907483665144583,mankuss,opp,1509,46,2,1,121,0,1535,76,2,2,86,2,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""}]
+"
+Gj78qAC2,True,1,Chatty,666.703,mate,white,bcu_555,5.42,13.21,13.95,6.8,71,-7579391792997161798,EV-NguyenE,opp,1571,68,5,0,91,5,1579,78,2,2,63,6,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""bcu_555""},{""text"":""uh oh..."",""user"":""bcu_555""},{""text"":""nice coordination"",""user"":""bcu_555""},{""text"":""things arent looking good"",""user"":""bcu_555""}]
+"
+gzTIC90O,True,0,Control,632.894,resign,white,bcu_555,5.35,5.79,5.84,1.84,110,221383466048899903,Flightduck,maia,1500,80,3,1,59,3,1492,81,3,2,57,4,False,"[]
+"
+HpcdCfpO,True,1,Placebo,641.974,resign,black,bcu_555,5.16,8.9,9.25,4.08,88,-6721420624219686114,Watchtowwr,maia,1487,84,3,1,47,3,1552,75,4,4,73,1,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""},{""text"":""my cat's name is alex"",""user"":""bcu_555""}]
+"
+i3eMXXGl,True,0,Control,351.309,resign,white,bcu_555,6.34,6.41,6.72,5.6,56,1850173831126226306,jacobsawyer2001,maia,1569,82,3,1,40,0,1579,78,2,2,58,2,False,"[]
+"
+idFNKw7m,True,1,Placebo,374.317,mate,black,bcu_555,4.85,7.43,7.74,6.0,58,8423606928553311894,bigMac213,opp,1508,75,2,1,63,4,1481,83,1,0,37,3,True,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""},{""text"":""make sure to buy lots o f banana and berries"",""user"":""bigmac213""},{""text"":""my cat's name is alex"",""user"":""bcu_555""},{""text"":""my do[g name id bonsai"",""user"":""bigmac213""}]
+"
+IjTzfQFA,True,0,Control,313.995,resign,white,bcu_555,5.04,4.23,4.44,1.44,65,-4621486314827694984,bigcouch,maia,1589,89,0,3,30,4,1584,83,1,2,48,6,False,"[]
+"
+J9T6lHms,True,0,Control,476.923,resign,white,bcu_555,5.78,9.83,9.97,9.92,61,-4594076791248806921,Zambra_95,maia,1468,95,0,1,15,1,1463,88,1,1,38,1,False,"[]
+"
+JKBIzh6O,True,0,Control,68.297,mate,black,bcu_555,5.9,1.56,1.83,4.48,16,-7914417092633882407,ckelley88,opp,1484,56,2,0,144,1,1488,89,0,0,24,0,False,"[]
+"
+JKdj6s7g,True,0,Control,567.776,mate,white,bcu_555,5.49,14.96,15.58,7.92,55,5901738005386132711,Ralpho_Madalpho,opp,1475,66,4,1,93,2,1468,73,1,1,58,6,False,"[]
+"
+JRS9M5Ix,True,1,Chatty,547.524,resign,white,bcu_555,5.96,8.91,9.39,1.92,71,-7972099695675751809,knightBelieve,maia,1495,93,0,1,32,2,1483,80,1,0,61,2,False,"[{""text"":""uh oh..."",""user"":""bcu_555""},{""text"":""nice coordination"",""user"":""bcu_555""},{""text"":""things arent looking good"",""user"":""bcu_555""}]
+"
+Jues1fHi,True,1,Placebo,387.321,resign,white,bcu_555,6.58,12.25,12.35,5.6,41,-1326932649838047191,donnicles,maia,1480,73,3,1,75,0,1466,68,4,3,124,4,True,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""u too"",""user"":""donnicles""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""bears beats beets"",""user"":""donnicles""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""roller blading"",""user"":""donnicles""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""},{""text"":""you're allowed"",""user"":""donnicles""},{""text"":""gg"",""user"":""donnicles""}]
+"
+K4i0xb21,True,1,Chatty,255.228,mate,black,bcu_555,6.05,5.77,6.21,4.8,42,2213546328314084772,J0eu123,opp,1498,62,3,1,106,3,1563,73,2,1,65,2,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""bcu_555""},{""text"":""uh oh..."",""user"":""bcu_555""},{""text"":""nice coordination"",""user"":""bcu_555""}]
+"
+KCv3cBHP,True,1,Placebo,375.321,mate,white,bcu_555,5.07,3.17,3.26,8.24,87,-1271321165351981926,vegpatty229,opp,1598,80,3,2,49,3,1552,86,1,1,29,3,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""},{""text"":""my cat's name is alex"",""user"":""bcu_555""}]
+"
+KJia4FaN,True,1,Placebo,737.809,mate,black,bcu_555,5.08,6.87,6.99,7.52,120,4853323927377606707,aarushibrahma,opp,1534,85,3,5,60,5,1554,90,2,4,46,3,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""},{""text"":""my cat's name is alex"",""user"":""bcu_555""}]
+"
+kNgoo7yr,True,1,Placebo,562.356,mate,black,bcu_555,6.11,5.49,5.7,9.12,96,-7163443721071705265,stephensli,opp,1508,85,1,0,29,3,1453,95,1,0,14,1,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""},{""text"":""my cat's name is alex"",""user"":""bcu_555""}]
+"
+KQxpz1wB,True,1,Chatty,474.399,mate,white,bcu_555,5.48,4.57,4.65,3.92,91,-4258277817673391861,kukuruku1789,opp,1509,90,1,1,28,1,1520,97,0,0,8,1,True,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""bcu_555""},{""text"":""yes"",""user"":""kukuruku1789""},{""text"":""uh oh..."",""user"":""bcu_555""},{""text"":""not 4 moves"",""user"":""kukuruku1789""},{""text"":""nice coordination"",""user"":""bcu_555""},{""text"":""things arent looking good"",""user"":""bcu_555""},{""text"":""for you ig"",""user"":""kukuruku1789""},{""text"":""toxics all tim lose"",""user"":""kukuruku1789""},{""text"":""time-"",""user"":""kukuruku1789""},{""text"":""learn some manners"",""user"":""kukuruku1789""},{""text"":""loser"",""user"":""kukuruku1789""}]
+"
+kWeVnIf3,True,0,Control,634.086,mate,black,bcu_555,5.88,4.82,4.93,8.16,114,5650049562196563387,mcdarrow,opp,1645,87,3,3,40,4,1645,90,2,0,23,8,True,"[{""text"":""gg"",""user"":""mcdarrow""}]
+"
+KykgxlWB,True,1,Chatty,765.798,mate,black,bcu_555,6.13,16.08,16.77,8.56,67,-5717464766977833240,Pubudu84,maia,1489,96,1,1,18,0,1457,84,2,1,47,4,True,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""can you make draw due to can't move my pieces"",""user"":""pubudu84""},{""text"":""let's make rematch"",""user"":""pubudu84""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""bcu_555""},{""text"":""uh oh..."",""user"":""bcu_555""},{""text"":""nice coordination"",""user"":""bcu_555""},{""text"":""things arent looking good"",""user"":""bcu_555""}]
+"
+lijVa2kG,True,1,Chatty,450.15,resign,white,bcu_555,7.84,7.71,8.12,4.24,53,-3957906593935449443,winzky07,maia,1502,94,0,1,19,0,1629,77,2,0,56,1,True,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""thanks"",""user"":""winzky07""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""bcu_555""},{""text"":""lol i got it"",""user"":""winzky07""},{""text"":""uh oh..."",""user"":""bcu_555""},{""text"":""nice coordination"",""user"":""bcu_555""},{""text"":""u got me good"",""user"":""winzky07""},{""text"":""things arent looking good"",""user"":""bcu_555""},{""text"":""im lost from the start"",""user"":""winzky07""}]
+"
+LkmgtNLj,True,0,Control,652.759,mate,white,bcu_555,6.11,23.85,24.29,5.76,43,-7309909643636965560,Stucastu,opp,1465,76,2,0,71,3,1384,92,0,0,29,4,False,"[]
+"
+lLh7UUh5,True,1,Placebo,366.433,mate,white,bcu_555,5.66,6.49,6.22,9.2,58,4808617868204005333,Pizzman4,maia,1516,87,2,0,35,4,1483,79,3,2,67,1,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""},{""text"":""my cat's name is alex"",""user"":""bcu_555""}]
+"
+lOvMO11W,True,1,Placebo,504.113,resign,black,bcu_555,5.96,9.87,10.4,4.24,62,-200576498222588278,paloca123,maia,1551,98,0,0,15,0,1584,84,1,0,48,2,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""},{""text"":""my cat's name is alex"",""user"":""bcu_555""}]
+"
+LUqTIymJ,True,0,Control,503.13,mate,black,bcu_555,5.0,9.56,10.06,2.4,68,-6473272241982548382,Mahdimbn,opp,1528,84,2,0,61,5,1501,92,1,0,38,3,False,"[]
+"
+lxbZLXJR,True,1,Placebo,234.71,resign,white,bcu_555,5.52,5.13,4.86,4.72,43,7223625472515828528,Ir0nMask,maia,1467,95,0,0,16,3,1381,80,1,1,61,4,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""}]
+"
+m39aQt84,True,1,Placebo,364.139,mate,black,bcu_555,6.14,8.09,8.74,6.96,51,-5466677851975207828,nacktspieler,maia,1504,83,2,3,46,1,1452,51,2,0,85,5,False,"[{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""},{""text"":""my cat's name is alex"",""user"":""bcu_555""}]
+"
+mijpVD8e,True,1,Placebo,405.958,draw,black,bcu_555,5.4,6.43,6.74,7.84,67,8905454160204684025,andreaserich,draw,1482,71,2,0,74,4,1470,59,3,0,108,3,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""white offers draw"",""user"":""lichess""},{""text"":""black declines draw"",""user"":""lichess""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""},{""text"":""my cat's name is alex"",""user"":""bcu_555""}]
+"
+mMrI9Fxw,True,0,Control,170.244,resign,white,bcu_555,7.21,8.9,9.81,5.2,21,7609594875194494636,ROBERTOHIDALG0,maia,1501,60,2,0,59,1,1374,45,2,0,110,1,False,"[]
+"
+MRyOtCFC,True,1,Placebo,447.243,mate,white,bcu_555,5.51,7.7,8.09,5.12,67,5147399392117759425,Verflixthoch9,opp,1505,65,3,1,81,2,1452,72,1,1,53,2,True,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""thx as well"",""user"":""verflixthoch9""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""},{""text"":""my cat's name is alex"",""user"":""bcu_555""},{""text"":""you lost your queen"",""user"":""verflixthoch9""},{""text"":""gg"",""user"":""verflixthoch9""}]
+"
+MVABltfE,True,1,Placebo,767.847,resign,white,bcu_555,5.95,7.05,7.23,3.36,117,-5140517493725958751,The1Joker,maia,1452,82,2,4,27,1,1482,75,4,0,44,3,True,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""hello gl"",""user"":""the1joker""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""},{""text"":""my cat's name is alex"",""user"":""bcu_555""}]
+"
+mX6oA1S9,True,1,Chatty,156.171,resign,black,bcu_555,5.13,4.59,5.0,1.36,31,5718735237699326482,Ahmed_Dweesh,maia,1459,88,0,1,34,3,1470,61,3,0,74,0,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""bcu_555""},{""text"":""uh oh..."",""user"":""bcu_555""}]
+"
+ndLT2eV6,True,1,Chatty,648.492,draw,black,bcu_555,6.06,8.35,8.61,5.68,89,7649851579065675509,sardonico,draw,1509,83,1,5,39,2,1407,83,2,3,40,3,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""bcu_555""},{""text"":""uh oh..."",""user"":""bcu_555""},{""text"":""nice coordination"",""user"":""bcu_555""},{""text"":""things arent looking good"",""user"":""bcu_555""}]
+"
+nEalfNrP,True,1,Chatty,323.178,draw,black,bcu_555,6.04,6.9,7.33,4.16,48,7059488549346445403,Lola605,draw,1464,75,3,0,63,0,1460,71,2,0,65,1,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""bcu_555""},{""text"":""uh oh..."",""user"":""bcu_555""},{""text"":""nice coordination"",""user"":""bcu_555""}]
+"
+nEu73lh1,True,1,Chatty,582.216,draw,white,bcu_555,5.0,11.9,12.38,1.36,68,51896778567696869,Oben18,draw,1515,53,6,0,175,2,1507,54,5,6,173,2,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""bcu_555""},{""text"":""uh oh..."",""user"":""bcu_555""},{""text"":""nice coordination"",""user"":""bcu_555""},{""text"":""things arent looking good"",""user"":""bcu_555""}]
+"
+Nn1MyWwT,True,0,Control,285.657,mate,white,bcu_555,4.36,4.53,4.75,3.68,61,-8965537677634747586,nsor4222,opp,1587,61,5,1,93,2,1668,69,3,1,64,2,False,"[]
+"
+NOunnVVA,True,1,Placebo,495.141,mate,white,bcu_555,6.18,8.59,8.95,4.8,65,-1368896477337938102,abdogago,opp,1674,87,1,0,37,3,1709,98,0,0,9,0,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""},{""text"":""my cat's name is alex"",""user"":""bcu_555""}]
+"
+OT3ujsrU,True,1,Placebo,534.14,resign,black,bcu_555,5.55,12.03,12.71,7.6,60,-6117446894753918585,Ahmedalgazzar12345,maia,1576,93,0,0,33,1,1581,85,2,1,49,2,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""},{""text"":""my cat's name is alex"",""user"":""bcu_555""}]
+"
+OVUpT0xT,True,1,Placebo,499.881,mate,white,bcu_555,4.91,5.38,5.51,2.88,93,2704902745090934072,lhacku,opp,1507,54,5,1,101,5,1527,79,3,4,79,7,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""},{""text"":""my cat's name is alex"",""user"":""bcu_555""}]
+"
+p45ubWte,True,1,Placebo,600.265,draw,black,bcu_555,6.23,5.69,5.74,6.88,100,-3228773761771737693,abdi126,draw,1562,70,6,0,68,2,1585,67,5,2,70,1,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""},{""text"":""my cat's name is alex"",""user"":""bcu_555""}]
+"
+pcbOvNDh,True,0,Control,540.321,draw,white,bcu_555,5.5,4.79,4.87,1.84,102,-4790942934776581445,meanstreats,draw,1474,83,1,3,46,5,1522,77,2,2,68,8,False,"[]
+"
+PSZEoZHh,True,1,Placebo,519.375,mate,black,bcu_555,5.63,7.39,7.65,5.84,78,7964947844074927249,Lupooo5,opp,1479,81,3,0,56,3,1490,89,1,0,33,4,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""},{""text"":""my cat's name is alex"",""user"":""bcu_555""}]
+"
+Qc9v9Vyh,True,1,Placebo,770.149,outoftime,white,bcu_555,5.55,9.84,10.03,7.12,123,2183417060646058828,udayraj_123,maia,1463,85,3,0,38,2,1408,79,3,1,53,2,True,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""thanks dear..same to you"",""user"":""udayraj_123""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""},{""text"":""my cat's name is alex"",""user"":""bcu_555""}]
+"
+qJihMlqp,True,0,Control,496.937,mate,black,bcu_555,5.98,6.21,6.39,6.0,80,5577327299315079303,Zouaghi99,opp,1480,49,3,0,135,0,1451,70,5,0,110,1,False,"[]
+"
+qjz0ef3o,True,0,Control,246.561,mate,white,bcu_555,5.1,3.89,4.03,3.44,53,-7380095045942646413,MikeJ1957,opp,1516,54,5,2,108,2,1549,76,2,5,72,3,False,"[]
+"
+qqcC9Hdf,True,0,Control,728.699,mate,white,bcu_555,5.24,4.34,4.35,8.48,149,-424971113059580603,goodolchin,opp,1521,84,3,0,40,9,1550,89,2,0,28,6,False,"[]
+"
+qqGKVKvL,True,1,Placebo,618.565,resign,white,bcu_555,6.01,11.0,11.28,7.92,73,-3589228072789750971,dbossdude,maia,1498,87,2,1,36,2,1395,81,1,4,63,3,True,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""are they now?"",""user"":""dbossdude""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""do you now?"",""user"":""dbossdude""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""},{""text"":""oh, alright"",""user"":""dbossdude""},{""text"":""my cat's name is alex"",""user"":""bcu_555""},{""text"":""my house is yellow"",""user"":""dbossdude""}]
+"
+qsyomfGy,True,0,Control,258.738,draw,white,bcu_555,5.24,4.31,4.38,6.32,50,632305664102950430,mareespi16,draw,1594,79,1,1,69,2,1377,70,2,1,91,4,False,"[]
+"
+rKDvi7NE,True,0,Control,616.951,mate,white,bcu_555,6.1,10.33,10.81,3.04,73,6938674742734606176,Bwahaha,opp,1589,75,3,1,61,4,1565,89,1,1,34,7,False,"[]
+"
+RlIQrwQw,True,1,Chatty,179.775,mate,black,bcu_555,5.35,7.01,7.44,3.68,28,8948939988940666585,Mavigobek,opp,1482,56,1,2,117,3,1528,78,0,1,47,4,True,"[{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""bcu_555""},{""text"":""uh oh..."",""user"":""bcu_555""},{""text"":""nt"",""user"":""mavigobek""}]
+"
+RuxBhiF7,True,1,Chatty,85.729,resign,black,bcu_555,5.5,4.58,2.61,3.84,16,-5510736654210117784,Stipe-80_Solin,maia,1588,86,0,0,24,2,1568,53,1,0,88,2,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""}]
+"
+SkbscVPn,True,1,Chatty,577.565,mate,white,bcu_555,5.82,4.21,4.1,3.84,111,9080954601835868,Fdqw,opp,1496,79,1,1,36,7,1532,91,1,2,18,2,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""bcu_555""},{""text"":""uh oh..."",""user"":""bcu_555""},{""text"":""nice coordination"",""user"":""bcu_555""},{""text"":""things arent looking good"",""user"":""bcu_555""}]
+"
+Smgp42tN,True,0,Control,617.341,draw,black,bcu_555,5.96,4.77,4.83,9.52,113,-8598253539785981093,kosar_123,draw,1505,86,2,0,56,5,1482,80,2,0,71,9,False,"[]
+"
+T0gKGB7a,True,0,Control,133.234,resign,white,bcu_555,5.04,5.63,3.14,2.8,25,-5868367891217590906,petrson_dzen,maia,1493,94,0,0,14,0,1501,74,1,1,67,3,False,"[]
+"
+TtGvhlwO,True,1,Placebo,174.892,resign,black,bcu_555,6.53,4.4,4.84,2.32,30,4688241677547806604,abdo_reda_usf,maia,1659,82,1,0,31,1,1633,62,2,0,71,0,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""i like swimming"",""user"":""bcu_555""}]
+"
+Uai4bt7O,True,0,Control,411.654,mate,black,bcu_555,4.84,9.51,9.92,2.16,56,-1200686772346795188,Philipp_Fed,opp,1504,82,3,0,44,0,1500,96,0,0,12,0,False,"[]
+"
+uBfGgDz6,True,1,Placebo,884.8,mate,black,bcu_555,5.65,8.93,9.21,4.4,120,3195024806746049332,rjb246,opp,1495,60,9,2,91,4,1511,61,6,5,76,7,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""},{""text"":""my cat's name is alex"",""user"":""bcu_555""}]
+"
+vIHVxJV2,True,1,Placebo,1177.546,outoftime,white,bcu_555,5.26,4.89,4.95,4.8,228,-3199339907217996721,Blunderererer,opp,1553,66,8,2,65,7,1573,67,6,4,58,8,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""},{""text"":""my cat's name is alex"",""user"":""bcu_555""}]
+"
+vMa6ur6t,True,1,Placebo,182.016,mate,black,bcu_555,4.86,3.35,3.39,4.8,42,-7660454964074636047,AttackOfTheQueen,opp,1469,47,1,0,90,1,1456,82,1,1,43,0,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""}]
+"
+vOot8NG2,True,0,Control,270.048,mate,black,bcu_555,5.89,5.36,5.69,3.28,47,648377636062174413,Sultwuzhere,maia,1498,60,6,2,134,4,1377,42,6,1,170,5,False,"[]
+"
+w0qPBujo,True,1,Chatty,392.526,mate,black,bcu_555,5.38,8.24,8.73,14.24,56,4687253485296469285,GULUS_1956,opp,1504,75,2,1,62,1,1469,90,1,0,28,2,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""bcu_555""},{""text"":""uh oh..."",""user"":""bcu_555""},{""text"":""nice coordination"",""user"":""bcu_555""},{""text"":""things arent looking good"",""user"":""bcu_555""}]
+"
+wFbpTOpr,True,0,Control,309.981,mate,white,bcu_555,5.34,5.54,5.84,7.2,55,-2618813456670779166,Sergey1255,opp,1559,75,3,2,87,5,1609,83,1,1,49,4,False,"[]
+"
+wkCwkCIt,True,1,Placebo,290.952,mate,black,bcu_555,5.87,5.81,6.06,7.28,48,-6928819522679939030,Schmerztablette,opp,1459,80,1,1,58,1,1519,96,0,0,18,0,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""}]
+"
+wTxvK5PC,True,1,Placebo,599.475,resign,black,bcu_555,5.6,7.18,7.24,8.32,94,4378923600406817411,szyter,maia,1463,94,1,1,16,2,1527,87,4,0,39,3,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""},{""text"":""my cat's name is alex"",""user"":""bcu_555""}]
+"
+WU504Gk9,True,0,Control,836.227,mate,white,bcu_555,6.7,5.89,6.0,7.44,127,-7678259429981565560,Sleiman58,opp,1568,83,3,2,41,3,1541,90,1,1,25,4,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""},{""text"":""my cat's name is alex"",""user"":""bcu_555""}]
+"
+x1bfUAgh,True,0,Control,239.408,resign,black,bcu_555,5.37,3.59,3.8,6.72,52,4558429168344495829,w-w-j-b-d,maia,1459,84,2,0,41,2,1499,68,3,0,81,2,False,"[]
+"
+x2FDUaUJ,True,1,Chatty,538.411,resign,black,bcu_555,5.61,7.71,7.96,9.84,92,9221314911931236815,Rubi_Acevedo,maia,1492,77,2,0,47,1,1478,71,2,0,66,1,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""bcu_555""},{""text"":""uh oh..."",""user"":""bcu_555""},{""text"":""nice coordination"",""user"":""bcu_555""},{""text"":""things arent looking good"",""user"":""bcu_555""}]
+"
+xi4oG77i,True,1,Placebo,537.169,mate,black,bcu_555,6.09,13.13,13.97,3.76,54,6362446910516280706,Genaromillas,opp,1547,81,2,1,50,1,1596,95,0,1,18,0,True,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""cara de banana"",""user"":""genaromillas""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""},{""text"":""my cat's name is alex"",""user"":""bcu_555""},{""text"":""alex"",""user"":""genaromillas""},{""text"":""yo genaro"",""user"":""genaromillas""},{""text"":""solo hablo español"",""user"":""genaromillas""}]
+"
+y2kryO6h,True,0,Control,215.355,mate,white,bcu_555,6.01,5.49,5.86,4.72,34,-3506041341359210766,mathewosos,maia,1474,78,2,0,44,2,1474,53,2,0,103,3,False,"[]
+"
+y2sMwThn,True,1,Chatty,916.844,mate,white,bcu_555,6.04,9.7,9.85,4.88,115,-4642315645095032664,D88888888,opp,1477,86,1,0,24,9,1395,97,0,2,7,3,True,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""hi    you to"",""user"":""d88888888""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""bcu_555""},{""text"":""good luck"",""user"":""d88888888""},{""text"":""uh oh..."",""user"":""bcu_555""},{""text"":""nice coordination"",""user"":""bcu_555""},{""text"":""things arent looking good"",""user"":""bcu_555""},{""text"":""thank you"",""user"":""d88888888""},{""text"":""you are a good player"",""user"":""d88888888""},{""text"":""good game"",""user"":""d88888888""}]
+"
+yC89ZBQq,True,0,Control,115.793,mate,black,bcu_555,6.86,6.73,8.7,4.32,16,6816787076119587072,mamoste123,opp,1606,56,2,0,147,1,1622,88,0,0,26,0,False,"[]
+"
+ygLBZvV8,True,0,Control,215.79,resign,black,bcu_555,5.74,4.46,4.72,4.24,42,5054962892757964903,Billy90,maia,1499,84,1,2,33,1,1468,68,2,0,63,4,False,"[]
+"
+YH3oXWn4,True,0,Control,121.539,resign,white,bcu_555,5.77,8.79,9.75,3.04,17,7922022739471417405,BigCookXuv,maia,1598,93,0,0,18,0,1608,53,1,0,86,0,False,"[]
+"
+YIDrsr9c,True,1,Chatty,724.085,mate,white,bcu_555,6.0,5.83,5.85,6.64,119,9179444169656034787,alekcYakovlev,opp,1498,61,7,1,92,5,1455,77,4,4,75,8,True,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""gg"",""user"":""alekcyakovlev""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""bcu_555""},{""text"":""uh oh..."",""user"":""bcu_555""},{""text"":""nice coordination"",""user"":""bcu_555""},{""text"":""things arent looking good"",""user"":""bcu_555""},{""text"":""gg"",""user"":""alekcyakovlev""}]
+"
+yiEXpCuw,True,0,Control,441.661,draw,white,bcu_555,5.57,5.65,5.83,7.92,76,8335633233944080650,deaae,draw,1559,81,2,1,48,2,1580,75,2,1,58,4,False,"[]
+"
+YkIJFg8w,True,0,Control,137.934,mate,white,bcu_555,5.89,3.26,3.52,7.6,29,-7513141980510610508,Shawiesh_fire,opp,1620,66,1,2,94,3,1605,84,0,0,33,4,False,"[]
+"
+Ync52HNh,True,1,Placebo,589.615,mate,white,bcu_555,6.71,5.07,5.13,14.0,97,7100492694458284841,Goldfish097,opp,1500,87,1,1,31,2,1520,95,0,0,13,6,True,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""},{""text"":""my cat's name is alex"",""user"":""bcu_555""},{""text"":""cool story bro"",""user"":""goldfish097""}]
+"
+z1RKzfEa,True,1,Placebo,360.552,resign,black,bcu_555,5.28,3.4,3.52,4.8,82,5996001050595570392,VagaBond_001,maia,1473,86,3,1,30,0,1509,79,5,1,55,2,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""},{""text"":""my cat's name is alex"",""user"":""bcu_555""}]
+"
+Z6tF2Acx,True,1,Chatty,459.268,mate,white,bcu_555,5.42,5.32,5.4,7.2,83,-4850252322919008354,francisco_tn87,opp,1661,67,4,0,77,6,1660,86,2,1,52,8,False,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""bcu_555""},{""text"":""uh oh..."",""user"":""bcu_555""},{""text"":""nice coordination"",""user"":""bcu_555""},{""text"":""things arent looking good"",""user"":""bcu_555""}]
+"
+ZcqFSds9,True,0,Control,235.33,mate,white,bcu_555,6.22,6.05,6.58,7.84,37,-12424888688364187,irmavalin,opp,1510,58,2,1,110,2,1538,80,1,1,57,2,False,"[]
+"
+zstSJr62,True,1,Placebo,706.898,mate,white,bcu_555,6.07,7.17,7.3,9.04,105,-2707487786876615687,bahraouimed,opp,1487,73,4,0,55,5,1515,83,3,0,39,2,True,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""good luck"",""user"":""bahraouimed""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""my cat's name is alex"",""user"":""bcu_555""}]
+"
+zTVBqkUd,True,1,Placebo,506.419,draw,white,bcu_555,5.91,7.3,7.24,5.04,76,-7394550168106889759,BilouTheDog,draw,1499,79,3,0,56,4,1454,83,2,3,56,6,True,"[{""text"":""hello! good luck!"",""user"":""bcu_555""},{""text"":""hi gl"",""user"":""bilouthedog""},{""text"":""bananas are berries"",""user"":""bcu_555""},{""text"":""ok?"",""user"":""bilouthedog""},{""text"":""i like swimming"",""user"":""bcu_555""},{""text"":""i have to go to the grocery store after this"",""user"":""bcu_555""},{""text"":""ok"",""user"":""bilouthedog""},{""text"":""i play wirh my dog"",""user"":""bilouthedog""},{""text"":""my cat's name is alex"",""user"":""bcu_555""}]
+"
+06TA3Dpf,True,1,Placebo,474.523,mate,white,chess4gerry,6.1,6.22,6.39,8.72,75,-8946358585602975694,wastler,opp,1482,66,1,2,58,2,1448,84,2,0,35,2,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""bananas are berries"",""user"":""chess4gerry""},{""text"":""i like swimming"",""user"":""chess4gerry""},{""text"":""i have to go to the grocery store after this"",""user"":""chess4gerry""},{""text"":""my cat's name is alex"",""user"":""chess4gerry""}]
+"
+0KNLKRk8,True,1,Chatty,631.995,resign,black,chess4gerry,5.98,8.08,8.41,4.0,88,2451945815214656056,Cavalheiro_Sete,maia,1484,86,3,3,48,4,1433,78,5,3,70,5,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""chess4gerry""},{""text"":""uh oh..."",""user"":""chess4gerry""},{""text"":""nice coordination"",""user"":""chess4gerry""},{""text"":""things arent looking good"",""user"":""chess4gerry""}]
+"
+12m8vIiz,True,0,Control,607.598,mate,white,chess4gerry,6.46,7.88,7.81,3.12,83,-3794538648890107244,Mamalaura,opp,1492,69,5,5,104,6,1524,73,4,5,81,4,True,"[{""text"":""good game"",""user"":""mamalaura""}]
+"
+1tD7cUqE,True,1,Placebo,570.712,mate,white,chess4gerry,6.55,4.5,4.62,9.6,99,-6060304677947047624,nica_mwlc,opp,1546,84,4,1,43,2,1491,89,1,1,25,4,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""bananas are berries"",""user"":""chess4gerry""},{""text"":""i like swimming"",""user"":""chess4gerry""},{""text"":""i have to go to the grocery store after this"",""user"":""chess4gerry""},{""text"":""my cat's name is alex"",""user"":""chess4gerry""}]
+"
+2bI2PDVJ,True,1,Placebo,572.959,mate,white,chess4gerry,6.15,4.08,4.12,4.0,109,8554874010895197198,Gubares,opp,1567,85,2,1,31,3,1556,94,1,1,17,2,True,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""bananas are berries"",""user"":""chess4gerry""},{""text"":""i like swimming"",""user"":""chess4gerry""},{""text"":""i have to go to the grocery store after this"",""user"":""chess4gerry""},{""text"":""my cat's name is alex"",""user"":""chess4gerry""},{""text"":""im my countri the shops are closed"",""user"":""gubares""}]
+"
+36Mdpnzg,True,0,Control,75.717,mate,black,chess4gerry,6.3,2.89,3.2,5.84,16,7059516650742650421,xl10o,opp,1451,56,2,0,144,1,1492,89,0,0,24,0,False,"[]
+"
+3LJNhNXt,True,1,Chatty,131.949,mate,white,chess4gerry,5.7,3.48,3.79,1.6,27,5539017465911805370,lev_stupnyk_2015,opp,1477,42,2,0,110,1,1441,77,1,0,42,1,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""chess4gerry""},{""text"":""uh oh..."",""user"":""chess4gerry""}]
+"
+3U5wVpSF,True,1,Chatty,108.144,mate,black,chess4gerry,7.12,4.96,6.11,7.28,16,3606904729656791410,axeldavalos888chess,opp,1453,56,2,0,144,1,1493,89,0,0,24,0,True,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""thanks"",""user"":""axeldavalos888chess""}]
+"
+4GnJKJWk,True,1,Chatty,431.838,mate,white,chess4gerry,5.53,4.14,3.91,5.36,85,-6782352229291666441,Medardo32,opp,1451,85,2,5,46,4,1457,87,2,2,32,3,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""chess4gerry""},{""text"":""uh oh..."",""user"":""chess4gerry""},{""text"":""nice coordination"",""user"":""chess4gerry""},{""text"":""things arent looking good"",""user"":""chess4gerry""}]
+"
+4MZqY2X1,True,1,Chatty,835.061,mate,black,chess4gerry,6.09,7.0,6.99,3.92,126,-8056105986008632596,Hershkoa,opp,1505,80,6,3,52,4,1513,83,4,2,42,5,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""chess4gerry""},{""text"":""uh oh..."",""user"":""chess4gerry""},{""text"":""nice coordination"",""user"":""chess4gerry""},{""text"":""things arent looking good"",""user"":""chess4gerry""}]
+"
+4rt0xiom,True,0,Control,970.909,mate,white,chess4gerry,6.24,7.11,7.15,7.52,145,8348513470312522473,Khuturuw,opp,1505,83,3,1,47,9,1527,88,3,2,36,3,False,"[]
+"
+79fg6WhN,True,0,Control,239.032,resign,black,chess4gerry,5.76,4.41,4.68,10.0,46,-1206255679534592409,Ninazx,maia,1561,75,1,0,50,5,1500,66,1,2,92,8,False,"[]
+"
+7q3CxNwZ,True,1,Chatty,152.321,resign,white,chess4gerry,5.96,8.37,8.61,9.84,21,9043398483303533590,JavierChauras,maia,1490,97,0,0,15,0,1529,68,1,1,79,0,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""chess4gerry""}]
+"
+8sMcWSpi,True,1,Placebo,481.122,resign,black,chess4gerry,5.72,5.69,5.7,3.36,81,-2512213974905503788,Razmataz95,maia,1474,88,1,3,55,7,1466,80,3,6,80,3,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""bananas are berries"",""user"":""chess4gerry""},{""text"":""i like swimming"",""user"":""chess4gerry""},{""text"":""i have to go to the grocery store after this"",""user"":""chess4gerry""},{""text"":""my cat's name is alex"",""user"":""chess4gerry""}]
+"
+98R9Txgp,True,0,Control,432.912,mate,black,chess4gerry,6.69,7.94,8.32,4.0,58,-7660454964074636047,AttackOfTheQueen,opp,1493,83,2,2,62,4,1404,89,0,2,32,3,False,"[]
+"
+9CtHoob8,True,1,Chatty,520.453,draw,white,chess4gerry,5.53,4.94,5.08,9.6,96,-6262067070009952959,its_faker,draw,1481,85,1,0,37,4,1576,80,0,0,56,7,True,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""chess4gerry""},{""text"":""uh oh..."",""user"":""chess4gerry""},{""text"":""nice coordination"",""user"":""chess4gerry""},{""text"":""things arent looking good"",""user"":""chess4gerry""},{""text"":""hahahha"",""user"":""its_faker""}]
+"
+A29r2UlY,True,1,Chatty,510.814,mate,white,chess4gerry,5.53,3.14,3.15,6.96,115,-7719814519825863679,Mohameeds1,opp,1491,83,1,5,41,8,1473,88,0,4,28,9,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""chess4gerry""},{""text"":""uh oh..."",""user"":""chess4gerry""},{""text"":""nice coordination"",""user"":""chess4gerry""}]
+"
+AFsnmHOo,True,0,Control,329.492,mate,white,chess4gerry,6.53,8.25,8.31,7.76,43,1912392644612287422,koba71,opp,1510,74,1,2,85,3,1527,90,0,1,41,2,False,"[]
+"
+AgSmtQXV,True,0,Control,414.453,outoftime,black,chess4gerry,6.32,22.22,23.41,7.04,54,8581545853874747419,mitta020,maia,1471,98,0,0,9,1,1457,87,0,2,42,1,False,"[]
+"
+as0sN4lJ,True,1,Placebo,335.513,resign,black,chess4gerry,6.82,7.34,7.73,2.0,50,-2029736063366170176,aebischerjp,maia,1436,79,1,1,46,3,1498,47,1,1,75,2,True,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""you too"",""user"":""aebischerjp""},{""text"":""bananas are berries"",""user"":""chess4gerry""},{""text"":""tomatoes are fruits"",""user"":""aebischerjp""},{""text"":""i like swimming"",""user"":""chess4gerry""},{""text"":""i have to go to the grocery store after this"",""user"":""chess4gerry""},{""text"":""what all you gettin"",""user"":""aebischerjp""},{""text"":""my cat's name is alex"",""user"":""chess4gerry""},{""text"":""ah so you just speakin nonsense"",""user"":""aebischerjp""},{""text"":""no worries"",""user"":""aebischerjp""}]
+"
+BJ4ELAv9,True,0,Control,171.881,resign,white,chess4gerry,5.93,3.83,3.78,3.04,35,427458453099309602,flapatate,maia,1471,76,2,0,56,2,1467,48,3,0,116,0,False,"[]
+"
+BKO6wr7v,True,1,Placebo,555.288,mate,white,chess4gerry,6.18,12.24,13.04,5.76,60,9006920174142477435,oboemike,maia,1479,86,1,1,41,5,1466,78,2,2,66,5,True,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""bananas are berries"",""user"":""chess4gerry""},{""text"":""good luck"",""user"":""oboemike""},{""text"":""if you think so !"",""user"":""oboemike""},{""text"":""i like swimming"",""user"":""chess4gerry""},{""text"":""me too"",""user"":""oboemike""},{""text"":""did. some competition"",""user"":""oboemike""},{""text"":""i have to go to the grocery store after this"",""user"":""chess4gerry""},{""text"":""my cat's name is alex"",""user"":""chess4gerry""}]
+"
+bLbAxFX1,True,0,Control,956.766,stalemate,black,chess4gerry,6.06,6.93,6.89,8.88,147,1613618765455556620,ofpersia,opp,1462,62,10,1,91,8,1491,63,10,5,91,3,True,"[{""text"":""hjajaj"",""user"":""ofpersia""},{""text"":""a journey"",""user"":""ofpersia""},{""text"":""hahahha"",""user"":""ofpersia""}]
+"
+cA1zcmAK,True,1,Placebo,285.962,outoftime,white,chess4gerry,5.59,24.0,25.96,7.6,51,2336147077587929049,Buteo2009,maia,1471,74,2,0,52,2,1478,50,2,2,87,2,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""bananas are berries"",""user"":""chess4gerry""},{""text"":""i like swimming"",""user"":""chess4gerry""},{""text"":""i have to go to the grocery store after this"",""user"":""chess4gerry""},{""text"":""my cat's name is alex"",""user"":""chess4gerry""}]
+"
+CDvNFzSS,True,0,Control,441.29,mate,black,chess4gerry,6.04,4.18,4.31,6.0,84,-2882530613128009701,rezaazad2001,opp,1505,61,3,0,57,5,1500,80,3,0,34,3,False,"[]
+"
+CPJs3HhT,True,0,Control,146.65,mate,white,chess4gerry,5.1,6.29,6.65,2.4,24,8997569897557007552,Damian66,maia,1477,63,2,0,88,1,1469,51,3,1,168,1,False,"[]
+"
+Diel8aPj,True,0,Control,386.903,mate,white,chess4gerry,5.42,9.14,9.34,5.84,51,-1544873001099025053,MarioPetru,opp,1482,46,2,4,115,0,1505,52,1,0,79,0,False,"[]
+"
+DuOTugj1,True,1,Placebo,317.25,mate,white,chess4gerry,6.13,5.84,5.64,6.08,51,-1851920843838734295,Linares27,opp,1446,66,2,2,67,1,1443,88,1,2,28,1,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""bananas are berries"",""user"":""chess4gerry""},{""text"":""i like swimming"",""user"":""chess4gerry""},{""text"":""i have to go to the grocery store after this"",""user"":""chess4gerry""},{""text"":""my cat's name is alex"",""user"":""chess4gerry""}]
+"
+dYhZWLSW,True,1,Placebo,368.656,mate,black,chess4gerry,6.28,7.24,7.75,5.04,53,5236498407395251919,BombayRozay,maia,1491,91,1,0,28,1,1510,79,3,1,64,1,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""bananas are berries"",""user"":""chess4gerry""},{""text"":""i like swimming"",""user"":""chess4gerry""},{""text"":""i have to go to the grocery store after this"",""user"":""chess4gerry""},{""text"":""my cat's name is alex"",""user"":""chess4gerry""}]
+"
+DyOvJ2Xj,True,1,Chatty,968.092,draw,black,chess4gerry,5.99,10.34,10.48,8.8,117,-6363077148951163573,Hatword,draw,1483,73,6,1,61,5,1536,78,6,1,69,9,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""chess4gerry""},{""text"":""nice coordination"",""user"":""chess4gerry""},{""text"":""things arent looking good"",""user"":""chess4gerry""}]
+"
+edrXBSxK,True,0,Control,970.696,mate,black,chess4gerry,6.51,7.95,8.14,7.84,132,8016892088475299685,Dimos0505,opp,1476,85,5,3,36,2,1495,90,1,1,21,5,False,"[]
+"
+EhjtvUJV,True,0,Control,86.06,mate,black,chess4gerry,7.05,3.34,2.73,3.28,16,-8416009691208401387,West_Coast_Johnny,opp,1482,56,2,0,143,1,1484,89,0,0,22,0,False,"[]
+"
+eITBTwFf,True,1,Placebo,349.007,resign,black,chess4gerry,6.12,11.33,12.14,1.52,44,8149331253863146435,ak971112,maia,1447,94,0,0,17,2,1433,77,1,0,62,3,True,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""bananas are berries"",""user"":""chess4gerry""},{""text"":""hello to u too"",""user"":""ak971112""},{""text"":""i agree with u"",""user"":""ak971112""},{""text"":""i like swimming"",""user"":""chess4gerry""},{""text"":""me too"",""user"":""ak971112""},{""text"":""i have to go to the grocery store after this"",""user"":""chess4gerry""},{""text"":""i have to go to sleep after this"",""user"":""ak971112""},{""text"":""where r u from ?"",""user"":""ak971112""},{""text"":""gg"",""user"":""ak971112""}]
+"
+Fa4FCiUs,True,1,Chatty,438.284,mate,white,chess4gerry,5.37,3.73,3.79,2.48,93,-8899350149446948670,Miras-azamatuly,opp,1491,87,2,0,47,4,1518,92,1,0,27,4,True,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""пашол"",""user"":""miras-azamatuly""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""chess4gerry""},{""text"":""uh oh..."",""user"":""chess4gerry""},{""text"":""nice coordination"",""user"":""chess4gerry""},{""text"":""things arent looking good"",""user"":""chess4gerry""}]
+"
+FBphjFVa,True,1,Placebo,517.214,resign,black,chess4gerry,6.0,11.48,12.02,8.0,60,-1453234131531529697,Trogen_138,maia,1455,85,2,1,47,3,1407,77,4,3,80,4,True,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""bananas are berries"",""user"":""chess4gerry""},{""text"":""i like swimming"",""user"":""chess4gerry""},{""text"":""i have to go to the grocery store after this"",""user"":""chess4gerry""},{""text"":""my cat's name is alex"",""user"":""chess4gerry""},{""text"":""thats cute"",""user"":""trogen_138""},{""text"":""i just foster cats"",""user"":""trogen_138""},{""text"":""alright well"",""user"":""trogen_138""},{""text"":""off u go"",""user"":""trogen_138""}]
+"
+FdiWlvB3,True,0,Control,805.433,mate,white,chess4gerry,6.1,4.86,4.92,5.52,143,5949125906565583950,imed_cr41,opp,1590,84,4,1,40,10,1583,88,3,2,30,4,False,"[]
+"
+FYHrslJL,True,1,Chatty,1047.143,mate,black,chess4gerry,5.51,5.51,5.17,2.0,186,8223603116840846090,NaveenReddy9,opp,1442,80,11,3,49,4,1386,82,6,3,39,6,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""chess4gerry""},{""text"":""uh oh..."",""user"":""chess4gerry""},{""text"":""nice coordination"",""user"":""chess4gerry""},{""text"":""things arent looking good"",""user"":""chess4gerry""}]
+"
+gbEQtEvZ,True,1,Chatty,150.427,mate,white,chess4gerry,4.58,5.78,6.28,5.44,28,5324067597544440951,MejiasLuis,maia,1483,91,0,0,18,2,1489,73,3,0,87,2,True,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""hi evening, idem have a pleased game"",""user"":""mejiasluis""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""chess4gerry""},{""text"":""uh oh..."",""user"":""chess4gerry""}]
+"
+gm4ht8xD,True,1,Chatty,674.819,mate,black,chess4gerry,6.11,18.41,19.78,8.24,55,5004611542379365311,karthika1012,maia,1477,95,1,0,28,1,1477,84,2,3,62,0,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""chess4gerry""},{""text"":""uh oh..."",""user"":""chess4gerry""},{""text"":""nice coordination"",""user"":""chess4gerry""},{""text"":""things arent looking good"",""user"":""chess4gerry""}]
+"
+GQPZJiQs,True,0,Control,502.856,resign,black,chess4gerry,6.76,7.62,7.93,6.88,72,-6444607956763898919,JohanCastellanos,maia,1503,65,1,0,60,7,1425,52,2,2,88,3,True,"[{""text"":""misclic"",""user"":""johancastellanos""},{""text"":""you won"",""user"":""johancastellanos""}]
+"
+H2aTMs9B,True,1,Chatty,479.634,draw,black,chess4gerry,5.34,11.17,11.79,2.96,56,7931410465800407632,apataka,draw,1448,74,3,0,60,0,1450,80,2,0,46,1,True,"[{""text"":""hello"",""user"":""apataka""},{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""chess4gerry""},{""text"":""uh oh..."",""user"":""chess4gerry""},{""text"":""nice coordination"",""user"":""chess4gerry""},{""text"":""things arent looking good"",""user"":""chess4gerry""},{""text"":""thank you"",""user"":""apataka""},{""text"":""well played"",""user"":""apataka""}]
+"
+Hntsl3We,True,0,Control,541.993,mate,black,chess4gerry,6.2,8.53,8.92,7.52,71,8654493135677543666,PagRai2023,maia,1439,76,3,1,52,1,1420,65,4,0,80,2,False,"[]
+"
+hpoodKc9,True,0,Control,359.269,mate,white,chess4gerry,5.84,5.98,6.09,5.28,59,1774443313716431710,Mahoni08,opp,1459,80,3,3,70,2,1456,83,1,1,46,3,False,"[]
+"
+hs66g4J5,True,0,Control,899.992,draw,white,chess4gerry,6.09,5.89,5.91,5.2,148,4114237137923269619,fthmercan,draw,1487,81,3,1,49,4,1494,84,1,3,48,6,False,"[]
+"
+igqfA7JH,True,1,Chatty,876.369,mate,black,chess4gerry,5.88,7.2,7.36,5.28,130,4177460835743589664,VicktorJesus1,opp,1428,78,4,1,41,2,1423,80,2,1,31,1,True,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""hello"",""user"":""vicktorjesus1""},{""text"":""thanks"",""user"":""vicktorjesus1""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""chess4gerry""},{""text"":""uh oh..."",""user"":""chess4gerry""},{""text"":"";)"",""user"":""vicktorjesus1""},{""text"":""nice coordination"",""user"":""chess4gerry""},{""text"":""things arent looking good"",""user"":""chess4gerry""},{""text"":""surprise ;)"",""user"":""vicktorjesus1""}]
+"
+ioe49mxr,True,1,Chatty,108.604,resign,white,chess4gerry,6.28,7.59,6.78,6.72,15,1692482554277904546,mr_AMIN_ZXT,maia,1476,98,0,0,5,0,1465,69,1,1,80,0,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""}]
+"
+iOVTR9xt,True,0,Control,699.585,resign,white,chess4gerry,6.81,10.42,10.8,6.4,81,-5952241209813409153,NoTaReAsOn101,maia,1490,66,4,5,87,2,1494,69,5,5,109,1,False,"[]
+"
+IUWvoi0i,True,1,Chatty,275.33,resign,black,chess4gerry,6.44,8.59,9.24,7.52,40,-4546282923070846419,heorca55,maia,1492,96,0,0,33,1,1484,79,1,1,84,4,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""chess4gerry""},{""text"":""uh oh..."",""user"":""chess4gerry""},{""text"":""nice coordination"",""user"":""chess4gerry""}]
+"
+iVIqsZQF,True,1,Placebo,597.238,stalemate,white,chess4gerry,5.96,4.79,4.53,1.44,111,5417311867414293732,nopeds21,opp,1501,78,4,0,58,8,1552,79,3,2,50,4,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""bananas are berries"",""user"":""chess4gerry""},{""text"":""i like swimming"",""user"":""chess4gerry""},{""text"":""i have to go to the grocery store after this"",""user"":""chess4gerry""},{""text"":""my cat's name is alex"",""user"":""chess4gerry""}]
+"
+ixyv4rsW,True,1,Placebo,460.171,mate,white,chess4gerry,6.44,16.8,6.81,2.88,40,-4879187343874389657,Nyazbahir,maia,1436,78,2,0,55,2,1463,68,3,1,103,2,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""bananas are berries"",""user"":""chess4gerry""},{""text"":""i like swimming"",""user"":""chess4gerry""},{""text"":""i have to go to the grocery store after this"",""user"":""chess4gerry""}]
+"
+j6KIgdaJ,True,0,Control,399.289,resign,white,chess4gerry,6.14,10.12,10.64,1.52,49,-4185210012483931802,faratabiniz,maia,1548,92,0,1,19,1,1516,78,2,1,61,0,False,"[]
+"
+JEOttxpe,True,1,Chatty,750.641,mate,black,chess4gerry,6.03,13.32,13.98,7.68,76,5255857420793484015,jmarkoz,opp,1482,81,3,2,57,4,1580,88,2,1,31,1,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""chess4gerry""},{""text"":""uh oh..."",""user"":""chess4gerry""},{""text"":""nice coordination"",""user"":""chess4gerry""},{""text"":""things arent looking good"",""user"":""chess4gerry""}]
+"
+JMBebdn1,True,1,Chatty,303.137,resign,black,chess4gerry,5.13,12.05,12.89,6.24,42,6756277353393469152,nilobrow04,maia,1481,75,3,1,68,4,1482,66,5,3,115,3,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""chess4gerry""},{""text"":""uh oh..."",""user"":""chess4gerry""},{""text"":""nice coordination"",""user"":""chess4gerry""}]
+"
+jmEfRe4i,True,1,Chatty,115.827,mate,white,chess4gerry,7.91,5.2,5.25,9.84,17,1007395638380829240,rubin8232,opp,1441,43,1,0,137,1,1444,83,0,1,28,0,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""chess4gerry""}]
+"
+K7Mw9ivk,True,1,Chatty,512.99,mate,white,chess4gerry,5.5,5.27,5.38,7.6,89,8719199980404670023,mohdabash64,opp,1467,80,4,2,53,4,1415,86,1,4,38,6,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""chess4gerry""},{""text"":""uh oh..."",""user"":""chess4gerry""},{""text"":""nice coordination"",""user"":""chess4gerry""},{""text"":""things arent looking good"",""user"":""chess4gerry""}]
+"
+Kk1xeVmV,True,1,Chatty,514.885,mate,white,chess4gerry,5.87,4.13,4.12,8.32,101,166352306811217888,Sofiane_Lemanaa,opp,1482,79,5,0,42,2,1391,85,3,1,26,1,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""chess4gerry""},{""text"":""uh oh..."",""user"":""chess4gerry""},{""text"":""nice coordination"",""user"":""chess4gerry""},{""text"":""things arent looking good"",""user"":""chess4gerry""}]
+"
+KZnFgMr7,True,0,Control,157.793,resign,white,chess4gerry,5.53,5.5,6.05,5.44,29,-673603368609684137,Gr456,maia,1480,72,1,0,28,1,1506,62,2,0,97,3,False,"[]
+"
+l4jIdfmd,True,1,Placebo,368.28,mate,black,chess4gerry,5.46,4.5,4.64,1.36,72,1401045313034961470,anatoliyefimov,opp,1506,83,3,2,59,4,1496,90,2,0,35,4,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""bananas are berries"",""user"":""chess4gerry""},{""text"":""i like swimming"",""user"":""chess4gerry""},{""text"":""i have to go to the grocery store after this"",""user"":""chess4gerry""},{""text"":""my cat's name is alex"",""user"":""chess4gerry""}]
+"
+LcXkLW3B,True,0,Control,350.135,mate,black,chess4gerry,6.35,6.9,7.09,6.24,52,-4546282923070846419,heorca55,opp,1502,71,4,1,102,2,1473,73,2,0,73,1,False,"[]
+"
+LgnuXgz5,True,0,Control,860.972,resign,white,chess4gerry,6.42,14.41,14.91,6.72,83,-6842017486664060014,Paradigma1013,maia,1442,84,3,3,45,2,1457,81,4,5,66,2,False,"[]
+"
+Lgpfc4wD,True,1,Placebo,364.417,mate,white,chess4gerry,5.65,13.72,13.58,4.96,37,1821823226571615993,MazzSant_MC,opp,1483,38,2,1,153,4,1379,71,2,2,106,5,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""bananas are berries"",""user"":""chess4gerry""},{""text"":""i like swimming"",""user"":""chess4gerry""},{""text"":""i have to go to the grocery store after this"",""user"":""chess4gerry""}]
+"
+LHxWiHfM,True,0,Control,205.478,outoftime,white,chess4gerry,7.41,60.0,72.84,9.84,21,7062434966344768539,Jgtorres1,maia,1453,72,1,1,43,1,1463,54,1,2,125,1,False,"[]
+"
+lm30yFlB,True,1,Chatty,514.807,mate,black,chess4gerry,5.59,8.78,9.15,1.92,71,-566924602955105196,Romanoski,maia,1447,89,1,0,28,4,1472,62,1,0,49,3,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""chess4gerry""},{""text"":""uh oh..."",""user"":""chess4gerry""},{""text"":""nice coordination"",""user"":""chess4gerry""},{""text"":""things arent looking good"",""user"":""chess4gerry""}]
+"
+LnBAW3tG,True,0,Control,228.591,draw,black,chess4gerry,4.78,4.36,4.65,8.0,47,-6723327264679090267,Prerepod,draw,1445,75,2,0,56,2,1448,66,2,2,79,1,False,"[]
+"
+lWUyhHUV,True,1,Chatty,871.321,mate,black,chess4gerry,5.79,6.09,6.24,8.16,142,6055338146145073879,AmmarHindawe,opp,1475,68,2,0,37,4,1461,90,2,1,29,2,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""chess4gerry""},{""text"":""uh oh..."",""user"":""chess4gerry""},{""text"":""nice coordination"",""user"":""chess4gerry""},{""text"":""things arent looking good"",""user"":""chess4gerry""}]
+"
+LXveMwrW,True,1,Chatty,583.604,stalemate,black,chess4gerry,6.16,6.05,6.26,5.6,94,3854215170325470014,kpskvk,opp,1502,78,4,2,59,2,1492,82,5,4,59,8,True,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""thanks"",""user"":""kpskvk""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""chess4gerry""},{""text"":""uh oh..."",""user"":""chess4gerry""},{""text"":""nice coordination"",""user"":""chess4gerry""},{""text"":""things arent looking good"",""user"":""chess4gerry""},{""text"":""wow"",""user"":""kpskvk""}]
+"
+lzqj010z,True,1,Chatty,191.884,resign,white,chess4gerry,6.25,7.82,8.05,2.0,27,-5928689266739442191,FerchoMX,maia,1448,88,0,1,38,1,1503,70,1,1,91,1,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""chess4gerry""},{""text"":""uh oh..."",""user"":""chess4gerry""}]
+"
+mA7QZLuO,True,1,Chatty,449.434,resign,white,chess4gerry,6.84,8.82,9.41,8.08,57,-3867060554682044074,TheJifa,maia,1491,90,0,1,23,4,1449,73,1,1,44,2,True,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""gl"",""user"":""thejifa""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""chess4gerry""},{""text"":""uh oh..."",""user"":""chess4gerry""},{""text"":""nice coordination"",""user"":""chess4gerry""},{""text"":""things arent looking good"",""user"":""chess4gerry""}]
+"
+ME2JWJie,True,0,Control,758.622,mate,black,chess4gerry,5.91,20.28,21.55,7.76,57,3878850523140800810,mhc_chess,maia,1452,93,1,2,39,1,1443,80,2,2,77,3,False,"[]
+"
+mS9qOrYy,True,1,Placebo,577.42,resign,white,chess4gerry,6.76,11.81,11.77,6.72,63,5015813737810937762,M4lm4nz4,maia,1445,83,3,3,52,1,1472,79,2,5,71,4,True,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""i like swimming"",""user"":""chess4gerry""},{""text"":""hola"",""user"":""m4lm4nz4""},{""text"":""i have to go to the grocery store after this"",""user"":""chess4gerry""},{""text"":""my cat's name is alex"",""user"":""chess4gerry""},{""text"":""buen juego y buenas compras"",""user"":""m4lm4nz4""},{""text"":""adios"",""user"":""m4lm4nz4""}]
+"
+NCkA9s9Z,True,0,Control,346.346,mate,white,chess4gerry,5.83,7.1,7.56,4.96,53,5273372063817573996,Gary1987,opp,1486,65,2,0,102,1,1542,81,1,1,67,2,False,"[]
+"
+ni42yOEb,True,1,Chatty,537.156,draw,black,chess4gerry,5.34,10.77,11.35,1.84,67,7567168615049776329,CL0D,draw,1562,69,3,2,76,5,1557,63,4,1,90,5,True,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""chess4gerry""},{""text"":""good luck with that"",""user"":""cl0d""},{""text"":""uh oh..."",""user"":""chess4gerry""},{""text"":""nice coordination"",""user"":""chess4gerry""},{""text"":""things arent looking good"",""user"":""chess4gerry""}]
+"
+OS0DvqU9,True,1,Chatty,306.099,mate,black,chess4gerry,5.62,3.33,3.43,8.88,66,-8057140187184116080,bkesss,opp,1476,75,2,1,68,4,1494,85,1,2,43,1,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""chess4gerry""},{""text"":""uh oh..."",""user"":""chess4gerry""},{""text"":""nice coordination"",""user"":""chess4gerry""},{""text"":""things arent looking good"",""user"":""chess4gerry""}]
+"
+oVSUjpm6,True,1,Chatty,679.694,mate,black,chess4gerry,6.66,8.91,9.23,5.76,86,-4270187308621741801,Jesusga2910,opp,1459,69,2,1,73,4,1501,64,1,0,52,2,True,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""too"",""user"":""jesusga2910""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""chess4gerry""},{""text"":""ok"",""user"":""jesusga2910""},{""text"":""uh oh..."",""user"":""chess4gerry""},{""text"":""nice coordination"",""user"":""chess4gerry""},{""text"":""things arent looking good"",""user"":""chess4gerry""},{""text"":""ye"",""user"":""jesusga2910""}]
+"
+Q4R2GUcY,True,1,Chatty,227.093,resign,black,chess4gerry,6.55,7.45,8.36,8.8,34,-6251700214827549640,aganyijosiah,maia,1422,82,2,1,42,0,1439,69,2,1,77,3,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""chess4gerry""},{""text"":""uh oh..."",""user"":""chess4gerry""}]
+"
+QrlopzgU,True,1,Placebo,279.414,mate,white,chess4gerry,6.37,8.08,8.78,8.24,38,5370798841679495026,dumay,maia,1439,85,1,1,50,2,1421,74,3,1,99,4,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""bananas are berries"",""user"":""chess4gerry""},{""text"":""i like swimming"",""user"":""chess4gerry""},{""text"":""i have to go to the grocery store after this"",""user"":""chess4gerry""}]
+"
+qy0iIwPx,True,1,Chatty,245.551,resign,black,chess4gerry,5.37,5.24,5.65,6.08,45,-6194184691202087672,M_o_H_a_X,maia,1460,73,2,1,52,1,1553,54,2,1,78,1,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""chess4gerry""},{""text"":""uh oh..."",""user"":""chess4gerry""},{""text"":""nice coordination"",""user"":""chess4gerry""}]
+"
+rcOr6MaP,True,1,Chatty,681.491,outoftime,white,chess4gerry,6.08,54.55,66.03,3.84,23,8478208956408037409,azzawi0_0,maia,1466,92,0,0,15,1,1452,85,0,1,30,1,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""chess4gerry""},{""text"":""black offers draw"",""user"":""lichess""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""chess4gerry""},{""text"":""white declines draw"",""user"":""lichess""}]
+"
+rl1wccd7,True,0,Control,899.314,mate,black,chess4gerry,5.63,8.24,8.38,9.6,128,-6356575162870689343,vahlakov,opp,1488,73,5,0,58,6,1468,77,5,2,47,4,False,"[]
+"
+SL9Adx5e,True,1,Chatty,117.192,resign,white,chess4gerry,7.63,11.68,16.1,8.4,13,5656416281467014447,IndiaMK,maia,1428,96,0,0,10,0,1506,59,1,2,176,0,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""}]
+"
+SwhKEmPe,True,1,Placebo,911.284,mate,black,chess4gerry,6.42,4.68,4.56,6.64,158,-6035033060168509632,MarkusMolchanov,opp,1523,86,4,1,48,5,1545,90,2,2,37,5,True,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""bananas are berries"",""user"":""chess4gerry""},{""text"":""no they are not"",""user"":""markusmolchanov""},{""text"":""i like swimming"",""user"":""chess4gerry""},{""text"":""i have to go to the grocery store after this"",""user"":""chess4gerry""},{""text"":""buy some bananas"",""user"":""markusmolchanov""},{""text"":""my cat's name is alex"",""user"":""chess4gerry""},{""text"":""good game"",""user"":""markusmolchanov""}]
+"
+sxKVpFFn,True,1,Placebo,502.643,stalemate,black,chess4gerry,5.72,4.69,4.75,5.36,97,-4470121747317546469,Kinggimix,opp,1487,81,3,3,58,6,1533,79,4,1,60,8,True,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""bananas are berries"",""user"":""chess4gerry""},{""text"":""i have to go to the grocery store after this"",""user"":""chess4gerry""},{""text"":""my cat's name is alex"",""user"":""chess4gerry""},{""text"":""well played"",""user"":""kinggimix""}]
+"
+t7c4LcvS,True,1,Placebo,226.178,resign,black,chess4gerry,5.71,7.05,7.56,3.76,35,-8008964123343912103,ArcticGoon,maia,1475,94,0,0,28,2,1503,74,2,1,82,1,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""bananas are berries"",""user"":""chess4gerry""},{""text"":""i like swimming"",""user"":""chess4gerry""}]
+"
+tAWOdrLE,True,1,Chatty,529.022,resign,white,chess4gerry,6.49,12.16,12.44,7.84,57,-2272989488216645492,Mparuzzo,maia,1425,74,4,2,62,1,1331,64,5,0,85,1,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""chess4gerry""},{""text"":""uh oh..."",""user"":""chess4gerry""},{""text"":""nice coordination"",""user"":""chess4gerry""},{""text"":""things arent looking good"",""user"":""chess4gerry""}]
+"
+TBU250Gz,True,1,Placebo,791.505,mate,white,chess4gerry,6.34,10.7,10.73,6.96,91,3370703089664079563,yousef_JOU,opp,1430,65,2,1,59,4,1485,90,1,3,42,4,True,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""bananas are berries"",""user"":""chess4gerry""},{""text"":""good"",""user"":""yousef_jou""},{""text"":""i like swimming"",""user"":""chess4gerry""},{""text"":""i have to go to the grocery store after this"",""user"":""chess4gerry""},{""text"":""my cat's name is alex"",""user"":""chess4gerry""}]
+"
+TeKgIwZh,True,1,Placebo,538.778,mate,black,chess4gerry,5.6,5.61,5.78,6.24,94,2865737468885416097,GanjaLaPoruba,opp,1445,80,3,0,70,3,1464,84,2,0,50,4,True,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""bananas are berries"",""user"":""chess4gerry""},{""text"":""i like swimming"",""user"":""chess4gerry""},{""text"":""i have to go to the grocery store after this"",""user"":""chess4gerry""},{""text"":""my cat's name is alex"",""user"":""chess4gerry""},{""text"":""speak czech"",""user"":""ganjalaporuba""}]
+"
+tezrYeLc,True,0,Control,55.887,mate,black,chess4gerry,3.91,1.2,0.81,3.04,20,-2709752939442521911,Algfrancaise,opp,1435,23,1,0,164,1,1432,64,2,0,68,0,False,"[]
+"
+TjkJirFL,True,1,Chatty,659.781,resign,white,chess4gerry,5.79,9.75,9.74,8.08,83,-5977406338828710740,mohammad842009,maia,1463,96,0,0,24,0,1509,90,0,1,49,4,True,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""chess4gerry""},{""text"":""ok"",""user"":""mohammad842009""},{""text"":""good luck"",""user"":""mohammad842009""},{""text"":""to take my king"",""user"":""mohammad842009""},{""text"":""uh oh..."",""user"":""chess4gerry""},{""text"":""pro it's just a game i don't care"",""user"":""mohammad842009""},{""text"":""nice coordination"",""user"":""chess4gerry""},{""text"":""things arent looking good"",""user"":""chess4gerry""},{""text"":""for me not for you"",""user"":""mohammad842009""},{""text"":""pro"",""user"":""mohammad842009""},{""text"":""i will resign but if i minus than 20 points i will be angry"",""user"":""mohammad842009""},{""text"":""haha"",""user"":""mohammad842009""},{""text"":""ok"",""user"":""mohammad842009""},{""text"":""?"",""user"":""mohammad842009""},{""text"":""ready?"",""user"":""mohammad842009""},{""text"":""hello?"",""user"":""mohammad842009""}]
+"
+TP7TGUVg,True,0,Control,264.937,resign,black,chess4gerry,7.03,9.44,10.51,9.92,32,1000812919775957484,jorgemongan,maia,1482,93,0,0,22,2,1454,70,3,0,71,0,False,"[]
+"
+TQdYnI8q,True,0,Control,565.846,mate,white,chess4gerry,5.7,5.33,5.26,4.88,99,33104248612543460,MudBlood_Prince,opp,1467,85,4,0,46,5,1515,91,2,0,27,2,False,"[]
+"
+txCvB8q6,True,0,Control,906.195,mate,white,chess4gerry,6.44,6.31,6.34,9.68,139,-8288402568943532220,doncambio,opp,1458,92,1,1,26,4,1515,98,0,0,12,2,False,"[]
+"
+UamRN0Fs,True,1,Chatty,144.952,mate,white,chess4gerry,5.66,3.85,3.92,6.32,29,404704611270024140,Bachzart,opp,1448,55,2,0,92,0,1374,84,0,1,27,1,True,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""chess4gerry""},{""text"":""uh oh..."",""user"":""chess4gerry""},{""text"":""good game"",""user"":""bachzart""}]
+"
+UQCdz6Ug,True,0,Control,1084.244,mate,white,chess4gerry,8.62,8.37,8.5,4.32,125,4371407604393589191,PLoiola814,opp,1500,69,5,1,90,3,1553,74,5,1,76,4,False,"[]
+"
+UXYqe6cB,True,0,Control,454.356,mate,white,chess4gerry,6.19,8.98,9.18,9.12,59,1758594685898995103,logancito,opp,1574,63,4,0,94,6,1534,72,2,2,62,2,False,"[]
+"
+v2ubtcFk,True,1,Placebo,777.183,mate,white,chess4gerry,6.36,18.73,19.0,6.4,61,-680247785286997760,omarali256,opp,1489,74,3,2,75,4,1462,86,1,3,47,4,True,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""bananas are berries"",""user"":""chess4gerry""},{""text"":""i like swimming"",""user"":""chess4gerry""},{""text"":""i have to go to the grocery store after this"",""user"":""chess4gerry""},{""text"":""my cat's name is alex"",""user"":""chess4gerry""},{""text"":""good game"",""user"":""omarali256""}]
+"
+v8ThLTMh,True,1,Placebo,302.606,resign,black,chess4gerry,5.4,7.78,8.05,5.52,45,-977611134022967981,bebeto89,maia,1448,80,1,1,57,2,1449,52,1,2,99,1,True,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""thanks"",""user"":""bebeto89""},{""text"":""bananas are berries"",""user"":""chess4gerry""},{""text"":""i like swimming"",""user"":""chess4gerry""},{""text"":""mistakes"",""user"":""bebeto89""},{""text"":""i have to go to the grocery store after this"",""user"":""chess4gerry""}]
+"
+VeZ45Tj8,True,1,Placebo,304.367,resign,black,chess4gerry,5.39,7.15,7.38,4.88,48,-5103544481555199928,mortezab1234,maia,1469,80,2,1,40,2,1462,75,1,5,82,4,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""bananas are berries"",""user"":""chess4gerry""},{""text"":""i like swimming"",""user"":""chess4gerry""},{""text"":""i have to go to the grocery store after this"",""user"":""chess4gerry""}]
+"
+VpidgC3o,True,0,Control,633.017,stalemate,black,chess4gerry,6.4,5.14,5.3,4.96,109,2294317869933418988,bannour,opp,1484,90,2,1,25,2,1488,87,1,1,28,1,False,"[]
+"
+wEbvou2p,True,1,Placebo,555.209,mate,white,chess4gerry,5.49,4.98,5.05,6.64,103,6331965755075617984,Tyriruri,opp,1453,81,2,0,36,6,1465,91,1,1,23,3,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""bananas are berries"",""user"":""chess4gerry""},{""text"":""i like swimming"",""user"":""chess4gerry""},{""text"":""i have to go to the grocery store after this"",""user"":""chess4gerry""},{""text"":""my cat's name is alex"",""user"":""chess4gerry""}]
+"
+wLT7r2ek,True,1,Chatty,349.117,mate,black,chess4gerry,6.56,10.78,11.76,5.04,40,4388238871408434429,Groefikaz,opp,1471,78,3,0,78,2,1472,94,0,0,28,3,True,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""hey you too"",""user"":""groefikaz""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""chess4gerry""},{""text"":""uh oh..."",""user"":""chess4gerry""},{""text"":""nice coordination"",""user"":""chess4gerry""},{""text"":""gg"",""user"":""groefikaz""}]
+"
+XhuRDppm,True,1,Chatty,737.745,mate,black,chess4gerry,6.21,7.29,7.41,7.84,106,-1139912685670062774,Vivek1710,opp,1501,76,4,0,59,1,1434,81,3,0,42,1,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""chess4gerry""},{""text"":""uh oh..."",""user"":""chess4gerry""},{""text"":""nice coordination"",""user"":""chess4gerry""},{""text"":""things arent looking good"",""user"":""chess4gerry""}]
+"
+xLZlEfrW,True,1,Placebo,390.157,resign,white,chess4gerry,7.08,7.66,7.74,1.52,53,-3259463689441288484,boo13,maia,1445,75,3,1,79,5,1392,51,2,3,106,4,False,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""bananas are berries"",""user"":""chess4gerry""},{""text"":""i like swimming"",""user"":""chess4gerry""},{""text"":""i have to go to the grocery store after this"",""user"":""chess4gerry""},{""text"":""my cat's name is alex"",""user"":""chess4gerry""}]
+"
+YGFPxGRp,True,1,Placebo,117.928,resign,white,chess4gerry,6.24,51.35,63.37,1.44,21,2141526807743639579,Zessil,maia,1490,73,1,0,44,2,1498,84,0,1,32,1,True,"[{""text"":""hello! good luck!"",""user"":""chess4gerry""},{""text"":""yeah you too"",""user"":""zessil""},{""text"":""bananas are berries"",""user"":""chess4gerry""}]
+"
+0DGGk5dH,True,0,Control,373.161,mate,black,sandman353,5.4,5.42,5.67,9.36,68,-795955923890917653,le-formage,opp,1377,68,3,0,69,3,1428,76,2,0,41,3,False,"[]
+"
+0DIhre85,True,1,Placebo,447.858,resign,white,sandman353,5.54,5.92,5.89,4.64,79,5350107379188771959,vinoshan,maia,1371,90,0,3,45,3,1388,82,3,2,71,3,True,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""good luck!"",""user"":""vinoshan""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""},{""text"":""okay"",""user"":""vinoshan""},{""text"":""my cat's name is alex"",""user"":""sandman353""},{""text"":""good game!"",""user"":""vinoshan""},{""text"":""you can go to grocery store"",""user"":""vinoshan""}]
+"
+0QOqL6fH,True,0,Control,455.775,mate,white,sandman353,5.59,4.14,4.27,7.6,91,-3485293154283642737,aeein,opp,1417,84,4,1,69,1,1395,91,3,0,51,2,False,"[]
+"
+0s6TwBD6,True,0,Control,307.372,resign,black,sandman353,6.16,5.64,5.95,5.28,52,-1575003089500235966,Abolist,maia,1492,88,0,2,37,4,1438,78,1,4,62,3,False,"[]
+"
+0Teieffs,True,0,Control,156.053,resign,black,sandman353,4.45,7.02,7.37,5.6,28,4652805099552954094,Gorelov_Michail,maia,1432,81,0,1,31,1,1345,65,2,0,71,2,False,"[]
+"
+0Vr1xyXf,True,1,Chatty,434.451,resign,white,sandman353,5.27,18.66,20.66,2.08,39,-160357281984174479,ehshwild,maia,1486,81,1,0,34,2,1483,54,1,0,65,0,True,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""sandman353""},{""text"":""uh oh..."",""user"":""sandman353""},{""text"":""nice coordination"",""user"":""sandman353""},{""text"":""i was busy to do some thing"",""user"":""ehshwild""}]
+"
+11CgcEoB,True,0,Control,308.99,resign,white,sandman353,5.53,5.11,5.5,8.0,58,1381217215125184026,lkfunkyo,maia,1411,81,2,2,55,3,1423,74,5,1,86,4,False,"[]
+"
+1MGdMBGL,True,1,Chatty,354.863,resign,black,sandman353,5.41,7.82,7.98,3.12,56,8873548378744564082,TurmTraeumer,maia,1392,74,3,2,68,3,1354,75,2,2,67,3,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""sandman353""},{""text"":""uh oh..."",""user"":""sandman353""},{""text"":""nice coordination"",""user"":""sandman353""},{""text"":""things arent looking good"",""user"":""sandman353""}]
+"
+1Op2cyZH,True,0,Control,104.493,mate,black,sandman353,4.92,4.26,5.17,3.92,21,4046560195466405187,ramil-abdulla,maia,1393,87,0,0,26,1,1384,61,2,1,116,0,False,"[]
+"
+1Wcg4wfj,True,1,Placebo,267.381,mate,white,sandman353,4.77,4.21,4.25,5.04,57,-986488062609884013,evansteo,opp,1482,77,2,1,56,2,1483,90,1,0,22,2,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""},{""text"":""my cat's name is alex"",""user"":""sandman353""}]
+"
+23TcuMLS,True,1,Placebo,271.703,resign,white,sandman353,5.24,9.27,10.33,3.36,37,3776628424781434065,Captain_Nemo_Perm,maia,1405,91,0,0,25,3,1430,74,1,0,58,5,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""}]
+"
+2dUCwOMU,True,0,Control,580.133,resign,white,sandman353,5.67,6.37,6.45,9.12,94,-316974540772438273,nofear422,maia,1407,94,0,1,43,3,1410,89,1,2,63,5,False,"[]
+"
+3Basik0s,True,0,Control,900.73,mate,white,sandman353,5.53,8.99,9.29,7.44,123,7741252648389081035,Yevhenco,opp,1487,79,6,2,68,7,1430,83,4,1,52,5,False,"[]
+"
+3CsaGWTQ,True,1,Chatty,243.21,mate,white,sandman353,4.48,6.52,6.67,6.8,42,-3303376174241358764,Santhosh_Kumar_CS,maia,1498,81,1,0,38,2,1485,61,1,1,84,3,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""sandman353""},{""text"":""uh oh..."",""user"":""sandman353""},{""text"":""nice coordination"",""user"":""sandman353""}]
+"
+3jAZe6Bh,True,1,Placebo,527.732,resign,white,sandman353,5.69,5.09,5.26,3.04,95,9158422790061319468,EDUARDO1968,maia,1475,95,0,1,21,1,1476,87,1,1,33,0,True,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""hi"",""user"":""eduardo1968""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""},{""text"":""my cat's name is alex"",""user"":""sandman353""}]
+"
+3qkKP18k,True,1,Chatty,705.085,mate,white,sandman353,4.94,6.95,7.02,5.52,115,-8530617617100156227,cicloaje,opp,1387,77,3,3,58,4,1448,83,1,2,45,6,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""sandman353""},{""text"":""uh oh..."",""user"":""sandman353""},{""text"":""nice coordination"",""user"":""sandman353""},{""text"":""things arent looking good"",""user"":""sandman353""}]
+"
+4Mfv2KgF,True,0,Control,312.136,mate,black,sandman353,5.99,4.69,4.94,5.2,53,-817707953836827157,mohamed1715,maia,1513,82,2,0,43,2,1483,65,1,3,80,3,False,"[]
+"
+4xlXqFW0,True,1,Placebo,59.809,mate,white,sandman353,6.96,3.79,3.03,4.24,10,3899273483181886206,osmanozgursavas34,maia,1480,96,0,0,11,0,1530,54,1,1,204,0,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""}]
+"
+5YyRzx0D,True,0,Control,141.305,resign,black,sandman353,5.0,3.73,4.0,7.84,32,-4640637996411591916,mehmetsaidbilisimgam,maia,1415,85,0,1,40,2,1420,62,2,1,83,0,False,"[]
+"
+6M1dfBLT,True,0,Control,404.598,mate,white,sandman353,5.02,6.45,6.68,7.28,68,8859780308026638098,Strannik004,maia,1459,92,0,0,25,3,1476,87,2,0,49,4,False,"[]
+"
+7Bj869O2,True,1,Chatty,609.274,resign,black,sandman353,6.14,8.95,9.22,3.6,82,3988352245320451442,samwell76,maia,1487,94,0,1,19,3,1435,88,0,2,43,8,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""sandman353""},{""text"":""uh oh..."",""user"":""sandman353""},{""text"":""nice coordination"",""user"":""sandman353""},{""text"":""things arent looking good"",""user"":""sandman353""}]
+"
+7CZ62NNx,True,0,Control,467.259,mate,black,sandman353,5.59,6.67,6.99,6.64,74,1383086032345743532,sergo2304,opp,1509,85,1,1,40,3,1537,96,0,1,19,2,False,"[]
+"
+7HHbxqfC,True,1,Placebo,343.552,mate,white,sandman353,6.08,4.4,4.07,8.64,63,-3412121777060290252,mituldholakia26,opp,1404,49,4,1,125,3,1472,51,2,2,98,3,True,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""},{""text"":""my cat's name is alex"",""user"":""sandman353""},{""text"":""good to know bye u must be getting late for grocery bye"",""user"":""mituldholakia26""}]
+"
+7ZwWguTt,True,0,Control,791.385,mate,black,sandman353,5.65,12.28,12.73,3.2,88,3515878926050152084,Andimash,opp,1407,76,5,0,64,2,1402,83,3,1,43,6,False,"[]
+"
+9EtvLt2n,True,1,Placebo,132.571,mate,black,sandman353,6.17,5.68,6.01,2.24,22,3658610492982775763,SCHACHNICHTER,opp,1415,56,2,0,111,2,1514,87,0,0,23,1,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""bananas are berries"",""user"":""sandman353""}]
+"
+9uDEVMHf,True,1,Placebo,584.525,mate,black,sandman353,5.7,5.17,5.31,7.76,106,-3001408154574419561,RioWolf2023,opp,1504,83,2,1,34,0,1505,92,1,0,18,1,True,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""},{""text"":""my cat's name is alex"",""user"":""sandman353""},{""text"":""good game"",""user"":""riowolf2023""},{""text"":""my dog’s name is joy"",""user"":""riowolf2023""},{""text"":""see you again"",""user"":""riowolf2023""}]
+"
+9wvZyRc7,True,1,Placebo,606.098,mate,black,sandman353,5.37,7.03,7.2,6.16,96,-3985806206814090357,rJack11,opp,1518,51,9,0,138,2,1529,48,5,1,118,8,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""},{""text"":""my cat's name is alex"",""user"":""sandman353""}]
+"
+A4NIhAF8,True,0,Control,221.71,mate,white,sandman353,5.95,5.36,5.23,7.84,37,3117709335394359622,Titburg,opp,1446,69,2,0,83,2,1481,90,0,1,32,1,False,"[]
+"
+AIW1WprT,True,1,Placebo,176.439,mate,black,sandman353,5.37,8.95,8.67,8.8,24,4579446786683437873,rmw9090,opp,1481,27,2,0,230,3,1428,51,2,0,145,2,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""bananas are berries"",""user"":""sandman353""}]
+"
+AtzXGTxN,True,1,Placebo,331.372,resign,black,sandman353,5.59,5.75,5.89,6.32,58,-1744580792655582009,Suendenbabel,maia,1486,82,1,1,43,1,1472,55,1,0,62,5,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""},{""text"":""my cat's name is alex"",""user"":""sandman353""}]
+"
+AUrBifuI,True,1,Placebo,61.748,resign,white,sandman353,5.68,10.13,15.55,5.28,11,8968456036518031576,martijn196104,maia,1476,71,1,0,57,1,1510,29,1,0,198,1,True,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""asleep"",""user"":""martijn196104""}]
+"
+BAFG2zhX,True,1,Placebo,539.523,mate,black,sandman353,6.36,7.38,7.66,6.56,76,-4029608818986358310,Meridamumbai,opp,1389,75,2,4,64,3,1369,87,1,0,39,8,True,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""},{""text"":""crazy"",""user"":""meridamumbai""},{""text"":""why"",""user"":""meridamumbai""},{""text"":""my cat's name is alex"",""user"":""sandman353""},{""text"":""my dogs alex"",""user"":""meridamumbai""}]
+"
+BaK1GnWa,True,1,Chatty,393.206,resign,white,sandman353,5.52,6.78,6.95,2.8,63,-352321182441003471,edar98,maia,1409,83,1,0,54,5,1368,74,3,1,86,3,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""sandman353""},{""text"":""uh oh..."",""user"":""sandman353""},{""text"":""nice coordination"",""user"":""sandman353""},{""text"":""things arent looking good"",""user"":""sandman353""}]
+"
+bnWZJKRi,True,1,Placebo,250.742,draw,white,sandman353,5.13,6.16,6.44,6.56,41,-5183181680214980891,visanloes-1957,draw,1498,71,1,1,78,3,1524,77,1,2,94,3,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""}]
+"
+BWIHphhH,True,1,Chatty,239.098,resign,black,sandman353,5.01,5.89,6.17,1.84,44,-4130000990624858075,Stass1227,maia,1436,61,4,1,85,2,1413,49,5,0,120,1,True,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""thank you!"",""user"":""stass1227""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""sandman353""},{""text"":""uh oh..."",""user"":""sandman353""},{""text"":""nice coordination"",""user"":""sandman353""}]
+"
+C6RVpEXI,True,0,Control,114.444,mate,white,sandman353,6.06,9.21,12.85,6.88,14,4782913635241413856,Spryzen_Rey,maia,1395,98,0,0,6,0,1394,55,2,1,152,0,False,"[]
+"
+CcH5p1c6,True,1,Placebo,575.68,resign,black,sandman353,6.55,13.08,13.7,4.88,58,-9036179315854372947,m_rahimi2,maia,1497,82,2,0,38,3,1409,72,3,1,74,3,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""},{""text"":""my cat's name is alex"",""user"":""sandman353""}]
+"
+CEVNj7Mp,True,1,Chatty,251.947,mate,white,sandman353,5.76,7.71,8.53,8.24,36,6957948806775554395,Monster100000000,maia,1483,94,0,0,38,2,1429,78,1,2,89,3,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""sandman353""},{""text"":""uh oh..."",""user"":""sandman353""},{""text"":""nice coordination"",""user"":""sandman353""}]
+"
+cPZM4YlB,True,1,Placebo,527.289,mate,black,sandman353,6.12,10.25,10.81,8.32,64,-6682581641935852315,Picas01,opp,1411,85,1,0,41,2,1403,96,0,0,15,1,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""},{""text"":""my cat's name is alex"",""user"":""sandman353""}]
+"
+cR83R4rZ,True,1,Placebo,266.159,mate,white,sandman353,6.72,4.15,4.21,8.72,47,-2938818844424765035,whiteshadow064,opp,1406,56,5,0,105,2,1384,73,3,1,66,3,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""}]
+"
+cRkiI8yx,True,0,Control,336.048,outoftime,white,sandman353,5.54,25.0,26.82,9.2,49,2064796555504642377,Rafael25Ra,maia,1383,81,2,1,45,1,1376,70,2,1,88,6,False,"[]
+"
+CWOKynVz,True,0,Control,409.319,outoftime,black,sandman353,5.97,14.29,14.92,3.52,84,-414808751300182536,RMonteiro3009,maia,1512,72,2,3,67,5,1513,87,1,2,43,7,False,"[]
+"
+czmdTSta,True,0,Control,504.43,mate,white,sandman353,5.09,4.17,4.22,9.2,104,-7506215524890990581,Doubleinfinity,maia,1382,92,1,0,16,3,1393,88,1,1,31,7,False,"[]
+"
+d9OKDZ2G,True,1,Placebo,690.428,resign,black,sandman353,5.95,11.88,12.39,9.28,76,4828848370813842295,MarioRodriguez1977,maia,1481,77,3,2,69,9,1429,56,4,1,83,8,True,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""hi"",""user"":""mariorodriguez1977""},{""text"":""good luck"",""user"":""mariorodriguez1977""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""},{""text"":""my cat's name is alex"",""user"":""sandman353""}]
+"
+DAP0mD1Z,True,1,Placebo,339.212,mate,white,sandman353,5.04,7.79,8.27,1.76,51,3368467980773874245,shyamdixit,opp,1523,71,3,1,80,3,1561,84,2,0,41,3,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""},{""text"":""my cat's name is alex"",""user"":""sandman353""}]
+"
+dfFPunW1,True,1,Placebo,724.841,resign,black,sandman353,5.35,9.4,9.76,2.88,98,-7037520661321446780,Matsaddy,maia,1379,81,3,1,56,12,1429,74,6,0,76,5,True,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""okay she keep cryin"",""user"":""matsaddy""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""eyy macarena"",""user"":""matsaddy""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""},{""text"":""nice"",""user"":""matsaddy""},{""text"":""my cat's name is alex"",""user"":""sandman353""}]
+"
+DlNL9JNq,True,1,Placebo,554.333,mate,black,sandman353,5.22,13.6,14.39,3.12,58,7244855717911625353,Polidorichess,opp,1475,69,4,1,79,2,1484,84,2,0,46,3,True,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""},{""text"":""my cat's name is alex"",""user"":""sandman353""},{""text"":""haha, good to know!"",""user"":""polidorichess""}]
+"
+DmM0u75I,True,1,Placebo,508.966,mate,black,sandman353,5.78,12.43,13.3,7.6,55,-6245158897087480504,Kalkkubill,maia,1493,92,0,0,39,3,1436,81,2,1,71,3,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""},{""text"":""my cat's name is alex"",""user"":""sandman353""}]
+"
+dTjDomZY,True,0,Control,782.836,mate,black,sandman353,6.68,7.33,7.53,4.08,110,-5676860844123936387,Dopaob,opp,1493,69,13,2,128,2,1496,73,9,1,110,5,True,"[{""text"":""gg"",""user"":""dopaob""}]
+"
+dWq5vqVo,True,1,Placebo,728.603,resign,black,sandman353,5.13,5.38,5.5,7.12,137,-8589710554458838655,Derek1677,maia,1475,89,0,4,34,11,1473,86,3,4,47,11,True,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""hello. same to you!"",""user"":""derek1677""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""sounds good"",""user"":""derek1677""},{""text"":""i love lamp"",""user"":""derek1677""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""},{""text"":""to get berries?"",""user"":""derek1677""},{""text"":""my cat's name is alex"",""user"":""sandman353""}]
+"
+dYXCSVPB,True,0,Control,813.739,mate,black,sandman353,5.62,4.46,4.53,9.52,160,-2229855766844395700,nanaimobar,opp,1452,84,6,2,37,3,1460,87,5,2,31,7,False,"[]
+"
+E2IdKr0q,True,0,Control,149.668,resign,black,sandman353,5.38,7.95,9.44,1.92,22,1876433167620349269,Djezon,maia,1401,69,1,0,42,1,1500,29,1,0,105,0,False,"[]
+"
+eBld4Y6G,True,1,Chatty,562.421,mate,black,sandman353,5.63,14.0,14.87,5.84,56,1189462324420178900,MH_Potsdam,opp,1496,48,2,1,94,3,1508,83,1,1,56,7,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""sandman353""},{""text"":""uh oh..."",""user"":""sandman353""},{""text"":""nice coordination"",""user"":""sandman353""},{""text"":""things arent looking good"",""user"":""sandman353""}]
+"
+EO9LBJ2A,True,1,Chatty,199.416,resign,black,sandman353,5.78,7.11,7.34,3.84,30,6027776387168535517,ebonyherman,maia,1387,91,0,0,26,1,1384,73,2,0,71,2,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""sandman353""},{""text"":""uh oh..."",""user"":""sandman353""}]
+"
+eTzYrA6h,True,0,Control,771.421,draw,black,sandman353,5.32,9.03,9.33,7.92,107,-8644765136425367992,squari,draw,1501,68,6,0,85,4,1506,68,6,1,84,2,False,"[]
+"
+F3yt3Zuc,True,1,Chatty,411.705,draw,white,sandman353,5.11,9.8,10.55,8.24,54,7213744456216713728,hasan579,draw,1447,63,8,1,135,2,1458,54,5,5,172,4,True,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""you too"",""user"":""hasan579""},{""text"":""male or female"",""user"":""hasan579""},{""text"":""????"",""user"":""hasan579""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""sandman353""},{""text"":""uh oh..."",""user"":""sandman353""},{""text"":""nice coordination"",""user"":""sandman353""},{""text"":""things arent looking good"",""user"":""sandman353""},{""text"":""you fuck me"",""user"":""hasan579""}]
+"
+f4bxiuZi,True,0,Control,196.947,resign,black,sandman353,5.68,4.96,5.38,3.68,36,-1843400540509895070,PeroBil,maia,1452,66,2,0,78,2,1530,57,5,1,116,1,False,"[]
+"
+fWriHB6i,True,1,Chatty,322.674,draw,black,sandman353,5.73,5.32,5.54,6.64,58,-783679887469192692,claretirons,draw,1392,55,8,2,178,1,1405,53,10,0,180,2,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""sandman353""},{""text"":""uh oh..."",""user"":""sandman353""},{""text"":""nice coordination"",""user"":""sandman353""},{""text"":""things arent looking good"",""user"":""sandman353""}]
+"
+fymoNrGc,True,1,Placebo,469.832,resign,white,sandman353,5.34,5.0,5.14,4.24,89,2189199628962385078,zSadrazam,maia,1383,72,2,1,45,6,1319,72,2,2,60,9,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""},{""text"":""my cat's name is alex"",""user"":""sandman353""}]
+"
+GLqqdTS7,True,0,Control,306.423,resign,white,sandman353,6.18,6.64,6.47,7.2,48,6954938475263795543,marsfps,maia,1426,88,0,3,31,1,1415,79,2,2,70,4,False,"[]
+"
+GOBQCESk,True,1,Placebo,841.307,resign,white,sandman353,5.79,8.63,8.66,6.96,115,7716958830399290610,Frankie50,maia,1465,89,1,0,29,5,1350,75,2,1,45,3,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""},{""text"":""my cat's name is alex"",""user"":""sandman353""}]
+"
+GSYabbgd,True,0,Control,478.548,mate,black,sandman353,5.83,9.19,9.71,6.96,62,4991796920316478717,Danperchess,opp,1414,60,3,2,98,6,1395,69,2,1,66,4,False,"[]
+"
+gUq6CHMq,True,0,Control,175.789,resign,black,sandman353,4.47,5.87,6.41,8.64,34,612980185905709547,keiands,maia,1508,93,0,0,20,2,1512,66,1,0,50,1,False,"[{""text"":""white offers draw"",""user"":""lichess""}]
+"
+GvT47FhL,True,1,Chatty,100.926,resign,black,sandman353,5.39,4.79,4.74,2.24,20,-8131197272206950387,Azamat199201,maia,1493,97,0,0,8,0,1516,58,1,1,110,0,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""sandman353""}]
+"
+H6ADTiKQ,True,0,Control,436.32,mate,white,sandman353,4.66,10.94,11.48,8.88,55,-1219700390246427143,Inkvisitor7777,opp,1384,50,1,0,92,2,1420,84,0,4,58,0,False,"[]
+"
+H8SKqaWJ,True,0,Control,90.137,resign,white,sandman353,5.98,3.48,4.15,7.76,19,-5738951097275853127,letitbegin,maia,1403,90,0,0,20,2,1395,65,1,1,92,2,False,"[]
+"
+HHjY0ivT,True,0,Control,737.177,mate,white,sandman353,5.57,12.45,12.4,4.56,81,-3156519826465074187,CondoMcGregor,opp,1388,87,2,1,37,5,1359,94,0,1,18,2,False,"[]
+"
+Hi0SdovO,True,1,Chatty,521.919,mate,white,sandman353,5.26,8.21,8.35,6.96,75,1802270572272919308,pastafrola,opp,1421,83,1,3,47,3,1404,93,1,1,24,1,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""sandman353""},{""text"":""uh oh..."",""user"":""sandman353""},{""text"":""nice coordination"",""user"":""sandman353""},{""text"":""things arent looking good"",""user"":""sandman353""}]
+"
+HtMyekcu,True,0,Control,944.813,outoftime,white,sandman353,5.73,10.71,10.86,4.72,113,-1391035636443047300,rekamor,maia,1474,80,1,4,47,5,1464,87,3,1,32,3,False,"[]
+"
+i9Ubzd1Q,True,0,Control,264.527,mate,white,sandman353,5.55,4.53,4.72,6.88,51,7614021629589444664,AndreTum,opp,1414,69,3,3,113,3,1447,78,1,3,76,5,False,"[]
+"
+IAyeawAl,True,0,Control,461.515,mate,white,sandman353,5.45,16.53,18.09,7.52,42,2384063384052809326,asterixx04,maia,1441,91,0,0,24,4,1408,73,1,1,69,3,False,"[]
+"
+IhxPbMlV,True,0,Control,529.063,mate,white,sandman353,5.36,7.37,7.41,5.6,81,6353086168086734145,Tiago_1992,opp,1398,81,3,1,75,6,1383,90,2,3,57,5,False,"[]
+"
+ikCZsq9u,True,1,Chatty,604.822,mate,white,sandman353,4.83,4.29,4.37,2.8,125,-5392348288126597529,Jose-Dallmann,opp,1491,81,4,2,58,8,1546,86,3,4,44,6,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""sandman353""},{""text"":""uh oh..."",""user"":""sandman353""},{""text"":""nice coordination"",""user"":""sandman353""},{""text"":""things arent looking good"",""user"":""sandman353""}]
+"
+IP4lrTs0,True,1,Placebo,286.481,mate,white,sandman353,5.33,3.81,3.99,2.88,60,3304856024027865700,dishniy,maia,1391,97,0,0,15,1,1336,84,1,2,46,3,True,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""haha"",""user"":""dishniy""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""},{""text"":""buy some chocolate"",""user"":""dishniy""},{""text"":""my cat's name is alex"",""user"":""sandman353""}]
+"
+j8N4lDa4,True,0,Control,426.385,resign,black,sandman353,5.5,11.96,12.69,7.84,49,-7064491791946968871,eisbaersalat,maia,1401,89,0,1,33,4,1284,79,1,4,68,4,True,"[{""text"":""good game, too many stupid mistakes"",""user"":""eisbaersalat""}]
+"
+J9jPuyz6,True,0,Control,745.427,mate,black,sandman353,5.79,23.6,25.52,4.08,50,-6884226190385351859,gringo972,opp,1486,71,3,1,99,2,1527,88,1,2,58,4,False,"[]
+"
+jjhqPGB1,True,1,Placebo,256.142,draw,white,sandman353,5.97,6.47,6.52,6.4,40,7432242921130675284,ABOLFAZL86SOLTANI,draw,1508,74,1,0,52,0,1379,66,0,1,89,2,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""}]
+"
+jrzkmZtk,True,0,Control,361.118,resign,white,sandman353,5.87,6.42,6.61,5.36,58,5262320131341669016,Paramonius,maia,1417,81,1,1,42,2,1424,74,2,2,62,4,False,"[]
+"
+k43gq8g9,True,1,Chatty,842.342,outoftime,black,sandman353,5.82,13.95,14.15,3.28,86,5120783406244965805,Prohibiteddumbell,maia,1387,79,3,5,61,8,1500,80,3,6,60,7,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""sandman353""},{""text"":""uh oh..."",""user"":""sandman353""},{""text"":""nice coordination"",""user"":""sandman353""},{""text"":""things arent looking good"",""user"":""sandman353""},{""text"":""white offers draw"",""user"":""lichess""},{""text"":""black declines draw"",""user"":""lichess""},{""text"":""black offers draw"",""user"":""lichess""},{""text"":""white declines draw"",""user"":""lichess""}]
+"
+KLhx1iSm,True,0,Control,326.629,resign,black,sandman353,5.2,9.05,9.28,7.84,48,5257998126873678069,LarryderKater,maia,1373,71,1,0,60,4,1407,60,2,2,83,3,True,"[{""text"":""mißklick"",""user"":""larryderkater""}]
+"
+kN4M79LE,True,1,Chatty,547.551,mate,black,sandman353,5.01,13.64,14.43,4.16,58,-6560409911414141797,Harry047,opp,1423,71,1,3,69,4,1424,85,1,2,36,2,True,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""sandman353""},{""text"":""uh oh..."",""user"":""sandman353""},{""text"":""nice coordination"",""user"":""sandman353""},{""text"":""things arent looking good"",""user"":""sandman353""},{""text"":""well played"",""user"":""harry047""},{""text"":""good game"",""user"":""harry047""}]
+"
+KQU1stDL,True,1,Placebo,527.819,resign,white,sandman353,4.93,3.84,3.92,2.32,115,4761441976236863739,Dessmonds,maia,1512,83,3,1,40,7,1506,77,5,1,59,6,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""},{""text"":""my cat's name is alex"",""user"":""sandman353""}]
+"
+ky1G7QtT,True,0,Control,571.637,draw,white,sandman353,5.16,2.85,2.9,2.08,137,-6941065316369311203,MTPATRIOT1,draw,1488,82,3,3,65,4,1424,84,3,1,62,3,False,"[]
+"
+l8tzae7O,True,0,Control,391.108,mate,white,sandman353,4.62,9.87,9.99,3.12,52,2946534549747511660,AliiFarahbakhsh,maia,1513,85,1,1,59,1,1490,74,3,0,97,5,False,"[]
+"
+leCvlfsM,True,1,Placebo,358.767,resign,black,sandman353,5.51,7.87,8.32,5.12,53,2352307711915968597,Equilibrioen6cuerdas,maia,1382,88,1,0,47,4,1317,76,2,3,83,4,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""},{""text"":""my cat's name is alex"",""user"":""sandman353""}]
+"
+m7YvRNfl,True,1,Chatty,229.339,draw,white,sandman353,6.56,5.73,5.33,6.72,36,-5268845888706898880,Sergey0115,draw,1395,70,2,1,66,2,1362,63,1,2,87,2,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""sandman353""},{""text"":""uh oh..."",""user"":""sandman353""},{""text"":""nice coordination"",""user"":""sandman353""}]
+"
+MMCha4O3,True,0,Control,79.562,resign,white,sandman353,4.01,11.06,11.23,4.64,11,3149603952588300513,percarju,maia,1491,96,0,0,20,0,1472,47,1,0,162,1,False,"[]
+"
+mSmX6Rll,True,1,Chatty,841.111,draw,black,sandman353,5.34,6.94,6.92,6.64,134,1740171090936633096,Namgal13,draw,1388,70,8,4,100,9,1395,59,4,6,97,12,True,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""sandman353""},{""text"":""uh oh..."",""user"":""sandman353""},{""text"":""nice coordination"",""user"":""sandman353""},{""text"":""things arent looking good"",""user"":""sandman353""},{""text"":""χαχαχαχαχα"",""user"":""namgal13""}]
+"
+MUGvNFNZ,True,0,Control,438.905,mate,white,sandman353,5.04,9.0,9.12,6.8,62,1963242784672297374,MedoEhab2020,maia,1364,95,0,0,24,1,1394,86,1,1,51,5,False,"[]
+"
+nnfC62OX,True,1,Chatty,438.005,mate,black,sandman353,5.86,9.74,10.1,7.76,56,-5926938891556312056,odessa0103,opp,1411,82,1,2,51,0,1400,96,0,0,18,1,True,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""sandman353""},{""text"":""uh oh..."",""user"":""sandman353""},{""text"":""nice coordination"",""user"":""sandman353""},{""text"":""things arent looking good"",""user"":""sandman353""},{""text"":""you play very poorly and write too much"",""user"":""odessa0103""}]
+"
+nXuISEW5,True,1,Placebo,525.496,mate,white,sandman353,4.81,5.99,6.14,3.76,97,2868640859455819001,Ronnie_Pickering,opp,1518,82,2,1,41,3,1500,88,1,3,24,1,True,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""thanks you too"",""user"":""ronnie_pickering""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""},{""text"":""my cat's name is alex"",""user"":""sandman353""},{""text"":""good game"",""user"":""ronnie_pickering""}]
+"
+o2TbTA2b,True,0,Control,708.517,mate,black,sandman353,5.83,5.83,5.58,7.76,116,-6208807061450761298,fabianjorge,opp,1383,90,1,1,34,6,1386,95,0,0,20,5,False,"[]
+"
+OPxPWcjx,True,1,Placebo,786.432,stalemate,white,sandman353,5.67,7.28,7.4,8.24,122,544139537462250425,mario1970,opp,1501,86,2,1,47,6,1520,85,3,2,49,3,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""},{""text"":""my cat's name is alex"",""user"":""sandman353""}]
+"
+oscJPwKk,True,1,Placebo,739.411,mate,black,sandman353,5.74,5.82,5.88,5.84,124,-4721059523050887177,PATOJNR,opp,1486,82,2,4,52,8,1532,79,2,0,37,6,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""},{""text"":""my cat's name is alex"",""user"":""sandman353""}]
+"
+PLLVeqzi,True,1,Chatty,797.751,mate,white,sandman353,5.46,11.34,11.71,9.12,94,4830123549918709314,gamaev,maia,1501,83,2,3,41,5,1514,75,3,4,63,7,True,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""sandman353""},{""text"":""uh oh..."",""user"":""sandman353""},{""text"":""nice coordination"",""user"":""sandman353""},{""text"":""я не понимая"",""user"":""gamaev""},{""text"":""а 4 хода))"",""user"":""gamaev""},{""text"":""things arent looking good"",""user"":""sandman353""},{""text"":""красиво"",""user"":""gamaev""}]
+"
+Qh6hlPWs,True,0,Control,174.28,mate,black,sandman353,5.83,3.36,3.59,8.56,37,-2963176234113838767,rdef,maia,1397,79,0,4,52,2,1410,64,4,2,104,0,False,"[]
+"
+QiNL4AmJ,True,1,Chatty,412.454,mate,white,sandman353,5.28,2.02,2.03,7.92,105,-4031791998861793276,Panda331,opp,1408,80,4,1,47,2,1370,87,2,2,28,3,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""sandman353""},{""text"":""uh oh..."",""user"":""sandman353""},{""text"":""nice coordination"",""user"":""sandman353""},{""text"":""things arent looking good"",""user"":""sandman353""}]
+"
+qOJaY9Eg,True,1,Chatty,288.927,mate,black,sandman353,5.11,8.03,8.45,8.08,43,7047883345095224177,rose1910,maia,1512,57,4,1,113,3,1525,49,5,1,154,2,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""sandman353""},{""text"":""uh oh..."",""user"":""sandman353""},{""text"":""nice coordination"",""user"":""sandman353""}]
+"
+QPnvWgzs,True,1,Placebo,430.269,resign,white,sandman353,5.92,9.29,9.93,6.64,57,977864212289521632,rickyherrera,maia,1480,79,1,2,52,5,1451,71,5,2,89,2,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""},{""text"":""my cat's name is alex"",""user"":""sandman353""}]
+"
+QV2WaYlh,True,1,Placebo,714.087,mate,white,sandman353,5.29,6.61,6.61,9.2,117,8311531646664430433,SametAlcu,opp,1499,72,5,0,58,2,1503,75,4,1,41,0,True,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""hello good luck too"",""user"":""sametalcu""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""},{""text"":""my cat's name is alex"",""user"":""sandman353""},{""text"":""ty for game"",""user"":""sametalcu""}]
+"
+QWnafZ65,True,1,Placebo,723.235,draw,black,sandman353,4.92,6.29,6.43,4.64,126,8630389234684202902,terminato,draw,1486,89,4,1,56,5,1532,88,4,3,54,4,True,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""to you too"",""user"":""terminato""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""},{""text"":""good luck"",""user"":""terminato""},{""text"":""my cat's name is alex"",""user"":""sandman353""}]
+"
+RJ5oQdTJ,True,0,Control,577.329,mate,white,sandman353,5.41,10.39,10.89,2.4,72,1970669245785416443,vahid_sehat1372,maia,1400,82,4,0,72,2,1405,80,5,0,88,7,False,"[]
+"
+rKV7ILwX,True,0,Control,477.305,mate,white,sandman353,5.78,3.11,2.65,9.2,105,4489216974813072371,CGR076,opp,1481,86,1,2,41,8,1456,93,0,1,21,7,False,"[]
+"
+RLdF8G40,True,1,Chatty,409.131,resign,white,sandman353,5.98,7.2,7.53,2.4,59,-2760321690901080568,KANTOTerrorist,maia,1405,87,1,2,43,2,1436,72,3,1,79,3,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""sandman353""},{""text"":""uh oh..."",""user"":""sandman353""},{""text"":""nice coordination"",""user"":""sandman353""},{""text"":""things arent looking good"",""user"":""sandman353""}]
+"
+rP0hd6of,True,1,Chatty,739.393,mate,black,sandman353,5.38,7.67,7.9,2.0,110,6045768934545687401,panchulos,opp,1425,84,2,1,36,5,1448,91,1,1,22,6,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""sandman353""},{""text"":""uh oh..."",""user"":""sandman353""},{""text"":""nice coordination"",""user"":""sandman353""},{""text"":""things arent looking good"",""user"":""sandman353""}]
+"
+s5Gn3OAR,True,1,Placebo,361.021,mate,white,sandman353,6.04,3.9,3.85,8.4,71,-8686425754689872392,DE1969,opp,1459,75,2,2,64,3,1465,87,1,2,35,1,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""},{""text"":""my cat's name is alex"",""user"":""sandman353""}]
+"
+SbpfCe3W,True,0,Control,357.107,resign,black,sandman353,5.38,3.87,3.98,9.2,77,3450448929098789542,DMITRIY_MDS,maia,1447,94,0,0,15,4,1390,89,0,1,40,7,False,"[]
+"
+SpPGOhOv,True,1,Chatty,224.284,resign,white,sandman353,5.8,7.29,8.06,9.28,35,-1653980652140206214,Mouadfft5,maia,1469,91,0,1,24,2,1434,65,2,0,78,2,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""sandman353""},{""text"":""uh oh..."",""user"":""sandman353""},{""text"":""nice coordination"",""user"":""sandman353""}]
+"
+sxCVqzZK,True,0,Control,424.637,draw,white,sandman353,6.5,3.56,3.72,4.48,83,-7891844458751038673,Wirklich123,draw,1399,80,3,0,49,5,1329,83,3,2,45,3,False,"[]
+"
+tPww91Su,True,0,Control,130.732,resign,white,sandman353,4.14,4.9,5.51,8.24,27,3312112893512091423,snorlax042,maia,1447,53,1,0,69,1,1442,39,1,0,123,3,False,"[]
+"
+U5qBGX2O,True,0,Control,221.766,mate,black,sandman353,5.7,3.28,3.42,3.12,47,4114045843002017469,Saint1945,maia,1394,90,1,0,31,2,1345,78,4,1,81,4,False,"[]
+"
+u8PWUGSN,True,1,Placebo,112.659,resign,white,sandman353,4.56,6.03,6.45,4.32,21,7015978093474230787,NikolaModesto,maia,1421,91,0,0,23,1,1413,69,0,4,118,1,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""bananas are berries"",""user"":""sandman353""}]
+"
+uAXkNUUu,True,1,Chatty,394.909,mate,black,sandman353,6.33,4.56,4.78,7.44,70,3790814860468332986,PROGM893,opp,1411,86,1,1,46,5,1341,95,0,0,20,4,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""sandman353""},{""text"":""uh oh..."",""user"":""sandman353""},{""text"":""nice coordination"",""user"":""sandman353""},{""text"":""things arent looking good"",""user"":""sandman353""}]
+"
+UMk1NXhy,True,0,Control,318.191,resign,black,sandman353,5.65,3.8,3.94,5.44,66,7631206136489911566,nizamianar,maia,1506,90,1,0,28,2,1551,79,3,1,49,2,False,"[]
+"
+UMlfzkcb,True,1,Placebo,804.533,mate,white,sandman353,6.37,13.31,13.8,4.96,81,-9000989904048394038,d-cooper,opp,1498,68,1,1,50,3,1531,90,0,2,32,5,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""},{""text"":""my cat's name is alex"",""user"":""sandman353""}]
+"
+UnLAiPwn,True,1,Chatty,548.183,mate,white,sandman353,5.76,4.87,5.02,5.04,99,2444059564527133710,Zaki306,opp,1400,79,2,1,39,7,1355,89,1,0,20,8,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""sandman353""},{""text"":""uh oh..."",""user"":""sandman353""},{""text"":""nice coordination"",""user"":""sandman353""},{""text"":""things arent looking good"",""user"":""sandman353""}]
+"
+v25yUnSd,True,0,Control,96.605,resign,white,sandman353,6.09,2.34,2.56,2.8,23,2158875258266962694,HalfAMind,maia,1414,89,0,0,20,2,1393,62,1,0,83,3,False,"[]
+"
+vUUfZvKT,True,1,Placebo,524.56,mate,white,sandman353,5.46,6.97,7.0,9.44,83,5552544399275532337,tahaabdo779,opp,1518,70,5,1,78,2,1522,84,2,1,54,4,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""},{""text"":""my cat's name is alex"",""user"":""sandman353""}]
+"
+VV2puUyg,True,0,Control,190.242,mate,black,sandman353,6.05,3.76,4.02,2.8,37,580752251184348411,Ahreas,maia,1441,81,2,0,51,3,1412,68,2,2,98,4,False,"[]
+"
+w5YqIAv7,True,0,Control,715.376,mate,white,sandman353,5.0,13.75,14.4,6.08,76,2420877375727039972,denis211179,maia,1409,95,1,0,33,0,1405,85,2,0,53,3,False,"[]
+"
+wcINzhAX,True,0,Control,548.702,draw,black,sandman353,5.47,9.02,9.44,8.08,75,8035761203186413482,Glutyfree,draw,1507,63,4,0,72,1,1548,66,4,0,72,4,False,"[]
+"
+wL5Ri5AP,True,1,Placebo,329.769,mate,black,sandman353,4.99,8.27,8.88,2.8,48,552898460604405257,arnoldotobon,opp,1492,67,4,1,97,2,1495,77,2,0,56,1,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""}]
+"
+WPvK877i,True,1,Placebo,185.155,resign,black,sandman353,6.09,4.0,4.35,8.64,36,-4785898914454012297,Karhalskyi11,maia,1517,87,1,0,26,1,1510,67,1,2,78,3,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""}]
+"
+X42SaqxU,True,0,Control,83.319,mate,black,sandman353,7.33,2.48,2.5,5.44,16,-3848135843886646179,Aldekin,opp,1492,56,2,0,143,1,1490,89,0,0,22,0,False,"[]
+"
+xa9vENoU,True,0,Control,532.81,mate,black,sandman353,5.65,4.89,5.0,5.04,98,-3158624220476484555,arturdfn,opp,1420,86,2,0,38,7,1423,92,0,1,21,4,False,"[]
+"
+xDfuH4Ic,True,1,Chatty,625.651,draw,white,sandman353,5.3,5.16,5.04,2.08,116,7180397192753818351,Vovan85,draw,1512,83,4,0,59,1,1577,80,4,0,68,3,True,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""спасибо"",""user"":""vovan85""},{""text"":""good luck"",""user"":""vovan85""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""sandman353""},{""text"":""uh oh..."",""user"":""sandman353""},{""text"":""nice coordination"",""user"":""sandman353""},{""text"":""things arent looking good"",""user"":""sandman353""}]
+"
+XDL9kEt9,True,1,Placebo,442.976,resign,black,sandman353,5.58,9.14,9.59,1.76,60,-2993349885761354369,pilouwoj,maia,1453,93,0,2,52,4,1472,85,2,2,80,3,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""},{""text"":""my cat's name is alex"",""user"":""sandman353""}]
+"
+XeRIja01,True,1,Chatty,402.527,resign,black,sandman353,6.14,8.15,8.54,8.72,56,-3897964932577264659,PrabhatB,maia,1487,92,1,1,36,1,1458,83,1,3,69,5,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""sandman353""},{""text"":""uh oh..."",""user"":""sandman353""},{""text"":""nice coordination"",""user"":""sandman353""},{""text"":""things arent looking good"",""user"":""sandman353""}]
+"
+XLyC3gcB,True,0,Control,135.463,resign,white,sandman353,4.93,11.72,13.71,2.24,17,-2846777553544021156,radwan1979,maia,1492,96,0,0,13,0,1559,60,2,0,99,0,False,"[]
+"
+xwsgwNyI,True,0,Control,219.345,mate,black,sandman353,5.49,7.97,8.84,3.04,32,-6931749714163563144,KraXas,opp,1391,53,3,2,141,2,1455,66,2,1,79,1,False,"[]
+"
+yCSBpFZW,True,1,Placebo,245.198,resign,white,sandman353,5.53,6.48,6.84,1.92,41,8170039839140440039,vonesseg,maia,1419,94,0,0,22,2,1410,76,2,0,69,1,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""}]
+"
+yfOjnt5o,True,0,Control,378.123,mate,black,sandman353,5.65,4.95,5.11,2.08,70,910017577301066847,budbeu,opp,1512,77,6,1,86,1,1577,86,4,0,58,1,False,"[]
+"
+YfRXVdaH,True,1,Placebo,262.255,draw,white,sandman353,5.05,3.66,3.55,5.36,56,4423059588379007480,fujiwara4,draw,1420,77,2,1,54,3,1465,79,3,0,56,4,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""},{""text"":""my cat's name is alex"",""user"":""sandman353""}]
+"
+YgskqjNF,True,1,Placebo,535.186,mate,white,sandman353,5.68,8.55,9.03,8.24,74,-4016215567052487765,STOMPBOX,maia,1377,95,1,2,41,2,1380,86,1,4,69,5,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""},{""text"":""my cat's name is alex"",""user"":""sandman353""}]
+"
+yqtHv5vJ,True,1,Placebo,61.425,resign,white,sandman353,5.04,3.51,3.82,3.44,15,411771323565199774,crisviolador,maia,1504,98,0,0,5,0,1469,66,1,1,92,0,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""}]
+"
+yrH5jNZv,True,1,Placebo,666.121,draw,black,sandman353,5.13,8.56,8.88,7.2,93,5443782541902077432,Mohamed223344,draw,1393,72,5,4,84,2,1418,71,5,3,83,8,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""},{""text"":""my cat's name is alex"",""user"":""sandman353""}]
+"
+yszFNUBV,True,0,Control,612.899,mate,black,sandman353,5.09,8.66,8.98,4.88,88,-5926938891556312056,odessa0103,opp,1400,86,3,0,50,3,1353,92,1,0,29,3,False,"[]
+"
+YtMWTYou,True,1,Chatty,424.96,draw,black,sandman353,5.42,7.47,7.88,6.4,65,1925688725616231947,Leviathan1057,draw,1482,82,1,1,35,2,1510,72,1,0,52,3,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""sandman353""},{""text"":""uh oh..."",""user"":""sandman353""},{""text"":""nice coordination"",""user"":""sandman353""},{""text"":""things arent looking good"",""user"":""sandman353""}]
+"
+yUHXhaa6,True,1,Chatty,303.703,resign,black,sandman353,5.62,8.74,9.31,5.68,42,1354228691346288033,paolino777,maia,1409,97,0,1,21,0,1381,81,2,2,69,1,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""sandman353""},{""text"":""uh oh..."",""user"":""sandman353""},{""text"":""nice coordination"",""user"":""sandman353""}]
+"
+yz9lUJ1k,True,1,Chatty,510.878,resign,white,sandman353,5.64,7.51,7.71,8.08,77,-3084783602065693971,lepizou,maia,1487,88,0,3,35,6,1481,77,3,1,58,4,True,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""ood luck"",""user"":""lepizou""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""sandman353""},{""text"":""uh oh..."",""user"":""sandman353""},{""text"":""nice coordination"",""user"":""sandman353""},{""text"":""things arent looking good"",""user"":""sandman353""}]
+"
+Z67AY7mb,True,0,Control,221.546,resign,white,sandman353,5.58,10.73,11.44,7.44,31,-8931344099530082181,JoHummel,maia,1401,83,1,1,56,2,1401,67,2,1,108,2,False,"[]
+"
+z6lCYzEr,True,0,Control,803.939,mate,black,sandman353,5.84,5.72,5.84,9.04,136,-5627145402680676618,Shoxjaxon2017,opp,1394,87,1,2,36,4,1434,92,0,3,26,4,False,"[]
+"
+zCQT3A4K,True,0,Control,365.567,resign,black,sandman353,5.91,17.81,19.03,3.84,30,8986925028435985671,Vladimir-77,maia,1469,92,0,1,24,1,1481,73,2,1,88,2,False,"[]
+"
+znYsJGWF,True,1,Chatty,569.336,mate,white,sandman353,5.23,12.69,13.27,2.8,63,2090444094191068066,Egor-z,opp,1519,77,4,1,74,6,1425,85,2,3,43,3,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""sandman353""},{""text"":""uh oh..."",""user"":""sandman353""},{""text"":""nice coordination"",""user"":""sandman353""},{""text"":""things arent looking good"",""user"":""sandman353""}]
+"
+ZtiYTyn4,True,1,Placebo,837.314,mate,black,sandman353,5.83,5.87,6.03,9.36,130,1836248806126461360,Ike_Chukwu,opp,1499,84,3,3,47,5,1449,89,1,4,35,3,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""},{""text"":""i have to go to the grocery store after this"",""user"":""sandman353""},{""text"":""my cat's name is alex"",""user"":""sandman353""}]
+"
+ZXsHPkzU,True,1,Placebo,171.234,mate,black,sandman353,5.47,6.42,6.94,5.28,27,-7591458400082326590,CRI2018,maia,1415,72,1,0,54,3,1425,60,5,0,122,2,False,"[{""text"":""hello! good luck!"",""user"":""sandman353""},{""text"":""bananas are berries"",""user"":""sandman353""},{""text"":""i like swimming"",""user"":""sandman353""}]
+"
+08AWPSGJ,True,1,Placebo,380.017,mate,black,ucb_123,5.38,7.65,8.05,2.48,57,2782528693587965673,Ihsanataa,maia,1480,70,3,1,80,1,1433,46,3,1,112,3,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""bananas are berries"",""user"":""ucb_123""},{""text"":""i like swimming"",""user"":""ucb_123""},{""text"":""i have to go to the grocery store after this"",""user"":""ucb_123""},{""text"":""my cat's name is alex"",""user"":""ucb_123""}]
+"
+0N1EZV5t,True,0,Control,537.332,mate,black,ucb_123,5.89,4.78,4.86,5.04,98,9204479916390097901,onlymrz,opp,1485,88,1,1,39,1,1487,98,0,0,19,1,False,"[]
+"
+1NfifSZQ,True,1,Placebo,372.759,resign,white,ucb_123,5.86,10.33,10.94,3.52,45,-6430786782702963102,Henis,maia,1518,93,0,0,22,3,1541,84,0,3,50,2,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""bananas are berries"",""user"":""ucb_123""},{""text"":""i like swimming"",""user"":""ucb_123""},{""text"":""i have to go to the grocery store after this"",""user"":""ucb_123""}]
+"
+1QrKSCa3,True,1,Placebo,364.784,draw,black,ucb_123,5.93,6.33,6.67,2.16,58,825715361522100925,Mauricio1891,draw,1492,74,2,1,62,1,1410,72,1,2,62,1,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""bananas are berries"",""user"":""ucb_123""},{""text"":""i like swimming"",""user"":""ucb_123""},{""text"":""i have to go to the grocery store after this"",""user"":""ucb_123""},{""text"":""my cat's name is alex"",""user"":""ucb_123""}]
+"
+1SbK5kJn,True,1,Placebo,531.778,mate,black,ucb_123,5.97,5.38,5.58,9.84,93,-8312328002457311509,korowia,maia,1506,86,2,0,41,7,1403,83,4,1,62,6,True,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""same 4 you"",""user"":""korowia""},{""text"":""bananas are berries"",""user"":""ucb_123""},{""text"":""i like swimming"",""user"":""ucb_123""},{""text"":""i have to go to the grocery store after this"",""user"":""ucb_123""},{""text"":""my cat's name is alex"",""user"":""ucb_123""}]
+"
+1vyuKIhV,True,1,Chatty,275.468,resign,white,ucb_123,6.46,6.99,7.29,8.16,41,9089572630813756243,ASTFZAZ,maia,1481,88,1,1,37,1,1374,79,1,1,85,4,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""ucb_123""},{""text"":""uh oh..."",""user"":""ucb_123""},{""text"":""nice coordination"",""user"":""ucb_123""}]
+"
+642N72FJ,True,1,Chatty,507.398,resign,black,ucb_123,6.19,10.8,11.42,1.68,60,-3188228467929046541,Marcel_la_truite,maia,1519,65,3,0,98,6,1486,44,4,1,135,4,True,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""ucb_123""},{""text"":""uh oh..."",""user"":""ucb_123""},{""text"":""nice coordination"",""user"":""ucb_123""},{""text"":""you think your magnus"",""user"":""marcel_la_truite""},{""text"":""things arent looking good"",""user"":""ucb_123""}]
+"
+6pUcR9x9,True,0,Control,258.139,mate,black,ucb_123,6.24,7.59,8.38,8.72,37,1429869162655420978,pepo2023m,maia,1468,87,1,1,40,0,1429,73,3,1,91,1,False,"[]
+"
+6z5SWR1s,True,1,Chatty,559.821,resign,white,ucb_123,5.17,7.68,7.95,3.36,85,-6902151171895094728,Conrado53,maia,1524,77,4,0,56,4,1519,71,6,1,80,1,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""ucb_123""},{""text"":""uh oh..."",""user"":""ucb_123""},{""text"":""nice coordination"",""user"":""ucb_123""},{""text"":""things arent looking good"",""user"":""ucb_123""}]
+"
+7Cb5CeJm,True,1,Chatty,186.685,mate,white,ucb_123,4.97,10.18,11.59,4.08,24,-4177360696289081401,dersimli62sino,maia,1509,96,0,0,9,0,1532,69,2,1,91,0,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""ucb_123""}]
+"
+8DwXXBe2,True,0,Control,134.369,resign,black,ucb_123,4.67,4.62,5.2,9.04,28,8340952179952949740,iodnoorov,maia,1476,70,1,0,55,3,1473,34,2,0,107,1,False,"[]
+"
+8hZaVjFi,True,1,Chatty,475.479,mate,black,ucb_123,5.47,15.55,16.95,3.84,44,6723926027457253496,elsayed652004,opp,1489,43,1,2,101,1,1480,70,1,0,56,1,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""ucb_123""},{""text"":""uh oh..."",""user"":""ucb_123""},{""text"":""nice coordination"",""user"":""ucb_123""}]
+"
+9E6lLkFi,True,1,Placebo,224.317,mate,black,ucb_123,5.48,8.94,4.33,7.2,30,5424363485220926400,vdsdasdada1019,opp,1504,68,3,1,89,0,1433,91,1,0,26,0,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""bananas are berries"",""user"":""ucb_123""},{""text"":""i like swimming"",""user"":""ucb_123""}]
+"
+9Uh380Yq,True,1,Chatty,844.323,mate,black,ucb_123,5.76,5.6,5.76,4.8,144,-4917540457616968165,Tonare,opp,1501,81,3,1,41,6,1511,87,2,1,30,2,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""ucb_123""},{""text"":""uh oh..."",""user"":""ucb_123""},{""text"":""nice coordination"",""user"":""ucb_123""},{""text"":""things arent looking good"",""user"":""ucb_123""}]
+"
+abv2GDlk,True,1,Placebo,396.035,resign,white,ucb_123,5.9,9.79,10.42,8.0,50,4562200490042167049,Carlosdom,maia,1489,81,1,0,39,1,1461,54,1,0,59,1,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""bananas are berries"",""user"":""ucb_123""},{""text"":""i like swimming"",""user"":""ucb_123""},{""text"":""i have to go to the grocery store after this"",""user"":""ucb_123""},{""text"":""my cat's name is alex"",""user"":""ucb_123""}]
+"
+bixLqJB1,True,0,Control,294.128,resign,white,ucb_123,6.15,5.78,5.94,5.12,46,-7900190392331080629,yk1oo,maia,1517,92,0,0,27,4,1453,79,1,1,68,5,False,"[]
+"
+bn2MSfao,True,1,Chatty,813.16,mate,black,ucb_123,5.47,8.41,8.6,6.0,116,-6442616055496304568,javierponce,opp,1485,78,6,0,56,3,1487,86,3,3,39,4,True,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""guoodkuck"",""user"":""javierponce""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""ucb_123""},{""text"":""uh oh..."",""user"":""ucb_123""},{""text"":""nice coordination"",""user"":""ucb_123""},{""text"":""things arent looking good"",""user"":""ucb_123""},{""text"":""about now"",""user"":""javierponce""},{""text"":""good game"",""user"":""javierponce""},{""text"":""thank you"",""user"":""javierponce""}]
+"
+bTEVybu6,True,1,Chatty,877.238,mate,white,ucb_123,6.22,14.23,14.47,6.32,86,4805892579852699558,BOLI_2BOLI,maia,1474,86,1,2,55,5,1446,81,3,4,77,8,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""ucb_123""},{""text"":""uh oh..."",""user"":""ucb_123""},{""text"":""nice coordination"",""user"":""ucb_123""},{""text"":""things arent looking good"",""user"":""ucb_123""}]
+"
+c7T7Xy6t,True,1,Placebo,438.017,mate,white,ucb_123,5.55,7.93,8.18,7.44,65,1320667480433388462,alpako,opp,1491,76,1,0,42,3,1487,97,0,0,11,3,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""bananas are berries"",""user"":""ucb_123""},{""text"":""i like swimming"",""user"":""ucb_123""},{""text"":""i have to go to the grocery store after this"",""user"":""ucb_123""},{""text"":""my cat's name is alex"",""user"":""ucb_123""}]
+"
+cdYADV6j,True,0,Control,665.315,mate,white,ucb_123,5.94,4.71,4.79,2.08,123,4169602947250850106,Obeys,opp,1495,87,2,0,33,2,1502,93,1,0,19,1,False,"[]
+"
+CYCrqGQj,True,1,Placebo,277.839,resign,black,ucb_123,6.02,5.18,5.43,1.92,52,-2510960034845489160,IerdnaBec,maia,1495,76,3,2,58,3,1496,67,6,2,100,3,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""bananas are berries"",""user"":""ucb_123""},{""text"":""i like swimming"",""user"":""ucb_123""},{""text"":""i have to go to the grocery store after this"",""user"":""ucb_123""},{""text"":""my cat's name is alex"",""user"":""ucb_123""}]
+"
+CZhx3goM,True,1,Placebo,396.013,mate,black,ucb_123,5.22,7.28,7.65,3.28,62,4232564404243871904,sergeygurey,opp,1524,61,3,2,107,4,1521,68,5,0,77,1,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""bananas are berries"",""user"":""ucb_123""},{""text"":""i like swimming"",""user"":""ucb_123""},{""text"":""i have to go to the grocery store after this"",""user"":""ucb_123""},{""text"":""my cat's name is alex"",""user"":""ucb_123""}]
+"
+d88Z4IZX,True,1,Placebo,412.41,mate,black,ucb_123,5.3,4.07,4.18,5.2,86,-2188639152305317468,Omar9899,opp,1475,76,2,2,50,4,1453,88,2,1,28,2,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""bananas are berries"",""user"":""ucb_123""},{""text"":""i like swimming"",""user"":""ucb_123""},{""text"":""i have to go to the grocery store after this"",""user"":""ucb_123""},{""text"":""my cat's name is alex"",""user"":""ucb_123""}]
+"
+DcEi4uP9,True,0,Control,356.914,mate,black,ucb_123,5.68,9.93,10.63,6.16,45,3333653906124790539,Temnyura,maia,1489,43,3,2,105,1,1511,38,5,0,144,3,False,"[]
+"
+DfIgwwoX,True,0,Control,438.767,mate,white,ucb_123,5.08,7.6,7.95,6.72,69,-1218876740047119470,Bigandbig,opp,1482,90,0,2,38,5,1492,96,0,0,13,1,False,"[]
+"
+DnmuDKT8,True,1,Placebo,286.322,mate,black,ucb_123,5.93,5.58,5.68,9.28,49,4416187313963863440,Suman7,maia,1468,95,0,0,22,2,1468,81,1,1,60,3,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""bananas are berries"",""user"":""ucb_123""},{""text"":""i like swimming"",""user"":""ucb_123""},{""text"":""i have to go to the grocery store after this"",""user"":""ucb_123""}]
+"
+eDCEKowd,True,1,Chatty,342.608,resign,white,ucb_123,6.09,7.32,7.82,6.4,48,3245495567869503477,Lol_Iam_bad_at_chess,maia,1490,91,0,0,37,4,1524,79,1,0,61,5,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""ucb_123""},{""text"":""uh oh..."",""user"":""ucb_123""},{""text"":""nice coordination"",""user"":""ucb_123""}]
+"
+EEM5ikqa,True,1,Placebo,399.142,mate,white,ucb_123,5.72,4.44,4.25,7.44,75,632305664102950430,mareespi16,opp,1480,70,5,2,69,2,1537,74,3,0,45,4,True,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""hi , too"",""user"":""mareespi16""},{""text"":""bananas are berries"",""user"":""ucb_123""},{""text"":""i like swimming"",""user"":""ucb_123""},{""text"":""i have to go to the grocery store after this"",""user"":""ucb_123""},{""text"":""my cat's name is alex"",""user"":""ucb_123""}]
+"
+Ej41zjEm,True,1,Chatty,452.689,mate,black,ucb_123,5.41,10.74,10.92,5.84,55,5619258586898264038,raymo90,maia,1494,81,1,2,52,3,1421,70,3,0,85,4,True,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""ucb_123""},{""text"":""uh oh..."",""user"":""ucb_123""},{""text"":""a few more than 4"",""user"":""raymo90""},{""text"":""nice coordination"",""user"":""ucb_123""},{""text"":""things arent looking good"",""user"":""ucb_123""}]
+"
+f6TBzw9F,True,0,Control,745.12,draw,white,ucb_123,5.72,8.24,7.87,3.68,104,3748196276617952956,SemyonB,draw,1482,79,3,4,58,8,1492,75,4,2,69,6,False,"[]
+"
+FBqM3RqD,True,1,Placebo,1079.744,stalemate,white,ucb_123,5.63,6.97,7.02,2.64,170,2493014563095991738,abdelrahamn1222222,opp,1531,82,4,4,45,3,1467,82,4,2,46,3,True,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""bananas are berries"",""user"":""ucb_123""},{""text"":""i like swimming"",""user"":""ucb_123""},{""text"":""i have to go to the grocery store after this"",""user"":""ucb_123""},{""text"":""u girl or a boy?"",""user"":""abdelrahamn1222222""},{""text"":""my cat's name is alex"",""user"":""ucb_123""}]
+"
+fnC8ctqT,True,1,Chatty,994.705,outoftime,white,ucb_123,5.63,9.23,9.33,2.08,131,-6819816280733375507,ALICATUR1983,maia,1483,73,3,6,84,10,1461,60,3,6,86,6,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""ucb_123""},{""text"":""uh oh..."",""user"":""ucb_123""},{""text"":""nice coordination"",""user"":""ucb_123""},{""text"":""things arent looking good"",""user"":""ucb_123""}]
+"
+FQjEwxKf,True,1,Placebo,452.842,resign,white,ucb_123,5.86,11.68,12.51,6.0,51,-1671910722105011,Maxim4195,maia,1474,59,2,2,74,3,1485,57,3,2,95,2,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""bananas are berries"",""user"":""ucb_123""},{""text"":""i like swimming"",""user"":""ucb_123""},{""text"":""i have to go to the grocery store after this"",""user"":""ucb_123""},{""text"":""my cat's name is alex"",""user"":""ucb_123""}]
+"
+FwfmrhGE,True,1,Placebo,673.896,mate,white,ucb_123,5.86,9.54,9.03,6.88,87,-227486774317113602,rileywolf8,opp,1498,87,0,4,53,6,1500,93,0,0,33,7,True,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""thank you! you too :)"",""user"":""rileywolf8""},{""text"":""bananas are berries"",""user"":""ucb_123""},{""text"":""i like swimming"",""user"":""ucb_123""},{""text"":""awesome"",""user"":""rileywolf8""},{""text"":""i have to go to the grocery store after this"",""user"":""ucb_123""},{""text"":""that's alr no worries"",""user"":""rileywolf8""},{""text"":""what will you get?"",""user"":""rileywolf8""},{""text"":""my cat's name is alex"",""user"":""ucb_123""},{""text"":""gg"",""user"":""rileywolf8""},{""text"":"":)"",""user"":""rileywolf8""}]
+"
+gQwewXW7,True,1,Chatty,601.957,mate,black,ucb_123,5.97,4.18,4.3,8.64,114,8502804373785386697,Chello23,opp,1496,83,3,0,45,2,1503,94,1,0,26,6,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""ucb_123""},{""text"":""uh oh..."",""user"":""ucb_123""},{""text"":""nice coordination"",""user"":""ucb_123""},{""text"":""things arent looking good"",""user"":""ucb_123""}]
+"
+gVZJRy4p,True,1,Placebo,355.62,resign,black,ucb_123,6.37,9.88,10.17,8.32,44,-1742614106557461887,GebirmanPebircision,maia,1469,77,1,1,46,2,1368,60,2,1,91,2,True,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""thanks   for you, too   but there ist no luck"",""user"":""gebirmanpebircision""},{""text"":""bananas are berries"",""user"":""ucb_123""},{""text"":""i like swimming"",""user"":""ucb_123""},{""text"":""i have to go to the grocery store after this"",""user"":""ucb_123""}]
+"
+H9fnb7jC,True,0,Control,321.362,mate,black,ucb_123,5.8,3.87,4.12,4.96,64,1328041030237352107,Uadik,opp,1485,73,1,2,58,3,1503,87,1,2,34,6,False,"[]
+"
+haCrZh7B,True,1,Placebo,342.759,draw,black,ucb_123,5.32,5.69,6.02,1.76,61,8565396204033004581,Falcon2022,draw,1470,51,4,2,153,4,1592,45,2,2,181,5,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""bananas are berries"",""user"":""ucb_123""},{""text"":""i like swimming"",""user"":""ucb_123""},{""text"":""i have to go to the grocery store after this"",""user"":""ucb_123""},{""text"":""my cat's name is alex"",""user"":""ucb_123""}]
+"
+ibb9Fb4N,True,0,Control,308.417,mate,white,ucb_123,5.1,6.51,6.57,4.56,52,-5020013148148518844,McCullough,maia,1468,79,2,1,49,3,1530,58,2,2,86,2,False,"[]
+"
+IccieUlC,True,1,Chatty,583.387,resign,white,ucb_123,6.08,8.18,8.35,2.0,80,-8715583315999077028,Sergi_Pogodini,maia,1518,83,3,1,42,3,1514,77,4,1,72,3,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""ucb_123""},{""text"":""uh oh..."",""user"":""ucb_123""},{""text"":""nice coordination"",""user"":""ucb_123""},{""text"":""things arent looking good"",""user"":""ucb_123""}]
+"
+IYvBnP6N,True,1,Chatty,587.521,mate,black,ucb_123,5.86,7.2,7.38,8.96,88,-6504496862912317369,Alex_Labutin,opp,1487,86,2,0,33,4,1572,95,0,1,10,0,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""ucb_123""},{""text"":""uh oh..."",""user"":""ucb_123""},{""text"":""nice coordination"",""user"":""ucb_123""},{""text"":""things arent looking good"",""user"":""ucb_123""}]
+"
+iZatwkvj,True,1,Chatty,756.143,mate,black,ucb_123,6.59,6.41,6.61,3.6,114,-2626002230459491412,Siddhant100000,opp,1506,82,3,1,42,2,1503,92,2,1,25,1,True,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""hey best of luck"",""user"":""siddhant100000""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""ucb_123""},{""text"":""really let's see"",""user"":""siddhant100000""},{""text"":""uh oh..."",""user"":""ucb_123""},{""text"":""nice coordination"",""user"":""ucb_123""},{""text"":""free piece?"",""user"":""siddhant100000""},{""text"":""things arent looking good"",""user"":""ucb_123""},{""text"":""good game well played."",""user"":""siddhant100000""},{""text"":""gg"",""user"":""siddhant100000""}]
+"
+JQqLALdE,True,0,Control,350.902,draw,white,ucb_123,6.19,6.92,7.16,8.16,52,-9063449937164924925,Flubber123,draw,1524,81,1,0,54,6,1451,72,0,3,74,5,True,"[{""text"":""good game"",""user"":""flubber123""}]
+"
+jWKFAaI5,True,1,Chatty,401.904,resign,white,ucb_123,6.7,6.14,6.36,9.76,61,8447309079498578338,LEFTERI,maia,1479,88,1,1,46,3,1469,80,2,3,80,5,True,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""hello"",""user"":""lefteri""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""ucb_123""},{""text"":""uh oh..."",""user"":""ucb_123""},{""text"":""bravo"",""user"":""lefteri""},{""text"":""nice coordination"",""user"":""ucb_123""},{""text"":""things arent looking good"",""user"":""ucb_123""}]
+"
+K0sPNEWr,True,0,Control,503.077,mate,black,ucb_123,6.27,10.79,11.34,2.8,58,-2391275600708268291,xferx,opp,1475,66,3,5,121,3,1465,76,5,0,86,4,False,"[]
+"
+Kr5rkueA,True,1,Placebo,640.079,resign,white,ucb_123,5.7,9.19,9.25,6.0,86,3108634810852068411,laklem,maia,1482,66,7,2,98,6,1493,52,6,4,120,6,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""bananas are berries"",""user"":""ucb_123""},{""text"":""i like swimming"",""user"":""ucb_123""},{""text"":""i have to go to the grocery store after this"",""user"":""ucb_123""},{""text"":""my cat's name is alex"",""user"":""ucb_123""}]
+"
+KxiGKJqE,True,0,Control,475.814,mate,black,ucb_123,5.37,8.03,8.45,2.0,70,-9050504375188099589,Flying-Saucer,opp,1530,80,4,1,62,3,1548,84,2,0,35,4,False,"[]
+"
+LbcUUUza,True,0,Control,794.684,mate,white,ucb_123,5.48,5.78,5.83,6.16,137,-6902151171895094728,Conrado53,opp,1493,79,3,3,41,6,1497,89,1,3,27,6,False,"[]
+"
+lc0yhCz2,True,1,Placebo,612.676,mate,white,ucb_123,6.17,8.59,8.77,4.64,81,-8845922431955716164,Polorodriguez,opp,1487,58,4,2,77,3,1490,78,4,0,53,3,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""bananas are berries"",""user"":""ucb_123""},{""text"":""i like swimming"",""user"":""ucb_123""},{""text"":""i have to go to the grocery store after this"",""user"":""ucb_123""},{""text"":""my cat's name is alex"",""user"":""ucb_123""}]
+"
+LgIoqASp,True,0,Control,808.504,mate,white,ucb_123,5.97,5.68,5.68,9.12,135,-1524548590938087626,IdhamNuansa,opp,1479,72,9,5,73,2,1487,75,8,2,60,4,False,"[]
+"
+LOOaorMA,True,1,Chatty,262.268,resign,black,ucb_123,4.65,6.23,6.63,3.2,48,5763059696232690213,Sakur2206,maia,1458,88,0,2,29,2,1466,76,1,2,54,5,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""ucb_123""},{""text"":""uh oh..."",""user"":""ucb_123""},{""text"":""nice coordination"",""user"":""ucb_123""}]
+"
+LVliUxtu,True,1,Chatty,670.48,mate,black,ucb_123,5.95,12.94,9.71,7.92,70,5068057421944984207,rjt8861,opp,1482,67,5,0,110,4,1541,71,2,2,79,5,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""ucb_123""},{""text"":""uh oh..."",""user"":""ucb_123""},{""text"":""nice coordination"",""user"":""ucb_123""},{""text"":""things arent looking good"",""user"":""ucb_123""}]
+"
+M7bkR0to,True,1,Chatty,69.402,mate,black,ucb_123,4.53,2.79,2.77,4.16,16,-7551057036427526506,i1918,opp,1485,56,2,0,143,1,1516,89,0,0,22,0,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""}]
+"
+mhwOh617,True,0,Control,398.593,resign,black,ucb_123,5.46,16.77,18.02,3.12,54,3892158307387468876,sergei_li1983,maia,1488,86,1,1,44,5,1419,73,2,1,82,6,False,"[]
+"
+Mqn8exHi,True,1,Chatty,499.971,resign,white,ucb_123,6.06,5.25,5.5,5.92,87,-464660730546223692,Ray_kwon,maia,1510,75,4,2,72,4,1605,52,4,3,97,3,True,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""thanks, same to you!"",""user"":""ray_kwon""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""ucb_123""},{""text"":""uh oh..."",""user"":""ucb_123""},{""text"":""nice coordination"",""user"":""ucb_123""},{""text"":""things arent looking good"",""user"":""ucb_123""},{""text"":""gg"",""user"":""ray_kwon""}]
+"
+MRXkt6QS,True,1,Chatty,187.393,mate,black,ucb_123,5.41,4.57,4.9,7.76,36,1189853904896128496,Arman009,opp,1463,37,5,0,182,1,1440,60,3,1,125,3,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""ucb_123""},{""text"":""uh oh..."",""user"":""ucb_123""},{""text"":""nice coordination"",""user"":""ucb_123""}]
+"
+NQV3eFED,True,1,Chatty,436.932,resign,white,ucb_123,6.32,11.61,12.22,3.52,49,8418931742054541461,saeedhaji,maia,1479,66,4,0,103,3,1475,59,4,2,141,3,True,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""ucb_123""},{""text"":""uh oh..."",""user"":""ucb_123""},{""text"":""nice coordination"",""user"":""ucb_123""},{""text"":""godd luck"",""user"":""saeedhaji""},{""text"":""things arent looking good"",""user"":""ucb_123""},{""text"":""my hnd good luck"",""user"":""saeedhaji""}]
+"
+NYDYq8A2,True,0,Control,88.2,mate,black,ucb_123,7.57,2.84,3.13,4.64,16,-8922454476796378315,mikololjh,opp,1474,56,2,0,143,1,1490,89,0,0,22,0,False,"[]
+"
+o99k8EG1,True,0,Control,239.607,mate,black,ucb_123,6.27,3.17,3.4,7.92,49,3772672863882835969,cristobal010,maia,1473,82,1,0,32,1,1474,71,3,0,72,2,False,"[]
+"
+of5GktkB,True,1,Chatty,224.662,resign,white,ucb_123,4.72,6.78,6.83,6.0,40,4669814945405291686,Jim-knopf,maia,1477,98,0,0,12,0,1490,83,1,0,55,2,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""ucb_123""},{""text"":""uh oh..."",""user"":""ucb_123""},{""text"":""nice coordination"",""user"":""ucb_123""}]
+"
+oF8hOzpK,True,0,Control,228.496,resign,black,ucb_123,5.46,4.94,5.18,10.72,42,-3084647114334332732,Darknet089,maia,1476,81,1,0,41,2,1441,52,1,0,65,0,False,"[]
+"
+opsHqCG4,True,1,Chatty,207.095,resign,white,ucb_123,6.14,4.12,4.34,5.28,39,-5988005322102811506,PedroVespa,maia,1483,84,1,1,42,3,1429,63,2,1,76,3,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""ucb_123""},{""text"":""uh oh..."",""user"":""ucb_123""},{""text"":""nice coordination"",""user"":""ucb_123""}]
+"
+ovwZsZ3m,True,1,Chatty,247.021,mate,white,ucb_123,5.76,4.89,5.12,2.48,45,3486679061312075886,marikasakk,opp,1483,38,4,0,177,1,1446,42,5,0,137,1,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""ucb_123""},{""text"":""uh oh..."",""user"":""ucb_123""},{""text"":""nice coordination"",""user"":""ucb_123""}]
+"
+p3677rzv,True,0,Control,754.249,outoftime,black,ucb_123,6.45,12.25,12.68,6.32,98,-3397903777922957811,stinky0705,maia,1499,55,3,1,87,10,1499,58,2,3,68,5,False,"[]
+"
+p3uiWcid,True,1,Placebo,252.287,mate,white,ucb_123,7.26,5.26,5.61,7.44,39,-2051443698268787374,Abb1963,opp,1525,64,2,0,95,2,1504,87,1,0,48,3,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""bananas are berries"",""user"":""ucb_123""},{""text"":""i like swimming"",""user"":""ucb_123""},{""text"":""i have to go to the grocery store after this"",""user"":""ucb_123""}]
+"
+P6pfeWaE,True,1,Placebo,838.413,mate,white,ucb_123,6.1,10.59,10.71,6.96,99,-88134004615898521,Vishal604,opp,1523,59,7,4,104,4,1511,56,5,1,86,5,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""bananas are berries"",""user"":""ucb_123""},{""text"":""i like swimming"",""user"":""ucb_123""},{""text"":""i have to go to the grocery store after this"",""user"":""ucb_123""},{""text"":""my cat's name is alex"",""user"":""ucb_123""}]
+"
+P7LzuxvB,True,1,Placebo,61.571,mate,black,ucb_123,3.75,3.29,2.44,2.72,16,503065292711700385,Slifer_777,opp,1488,56,2,0,144,1,1538,89,0,0,24,0,True,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""good luck !"",""user"":""slifer_777""}]
+"
+pFqPgMUI,True,0,Control,660.548,mate,white,ucb_123,5.54,7.82,8.09,2.0,96,-7395579031760982397,beatmyson,maia,1526,90,2,0,40,5,1523,82,2,1,58,6,False,"[]
+"
+PgozzuWO,True,1,Placebo,333.328,mate,black,ucb_123,6.86,8.34,8.95,7.92,43,3097625098662550779,jonnerz,maia,1471,86,1,0,32,4,1477,63,2,0,78,3,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""bananas are berries"",""user"":""ucb_123""},{""text"":""i like swimming"",""user"":""ucb_123""},{""text"":""i have to go to the grocery store after this"",""user"":""ucb_123""}]
+"
+PkiNfa11,True,0,Control,215.399,resign,white,ucb_123,5.93,4.03,4.4,3.04,43,-8588354897496506630,kaptyug,maia,1480,65,1,0,62,4,1576,49,2,0,99,1,False,"[]
+"
+puN5l3RU,True,1,Placebo,311.53,mate,black,ucb_123,5.46,7.45,8.19,7.12,44,2820262315010385945,chamant,opp,1530,43,2,0,108,1,1621,80,2,1,64,1,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""bananas are berries"",""user"":""ucb_123""},{""text"":""i like swimming"",""user"":""ucb_123""},{""text"":""i have to go to the grocery store after this"",""user"":""ucb_123""}]
+"
+QPNruKwS,True,1,Placebo,591.023,resign,black,ucb_123,6.34,10.74,11.29,8.88,72,-7721581526769815313,matanon,maia,1490,64,2,1,80,5,1500,54,2,2,97,6,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""bananas are berries"",""user"":""ucb_123""},{""text"":""i like swimming"",""user"":""ucb_123""},{""text"":""i have to go to the grocery store after this"",""user"":""ucb_123""},{""text"":""my cat's name is alex"",""user"":""ucb_123""}]
+"
+qqK6W3qv,True,0,Control,621.964,mate,black,ucb_123,5.34,3.27,3.33,1.68,140,4789300203294349655,yousef_talebi,opp,1494,84,2,5,45,8,1559,86,3,1,32,5,False,"[]
+"
+rd21p7I2,True,1,Chatty,583.604,mate,white,ucb_123,5.23,10.51,10.9,9.2,73,-6606440892174725915,soheil_ad,opp,1480,49,6,1,131,5,1472,71,5,5,104,4,True,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""ucb_123""},{""text"":""uh oh..."",""user"":""ucb_123""},{""text"":""4 moves????(:"",""user"":""soheil_ad""},{""text"":""nice coordination"",""user"":""ucb_123""},{""text"":""things arent looking good"",""user"":""ucb_123""},{""text"":""gggggg"",""user"":""soheil_ad""},{""text"":""presher"",""user"":""soheil_ad""},{""text"":""just look"",""user"":""soheil_ad""},{""text"":""just look     ."",""user"":""soheil_ad""}]
+"
+Rr2kNf0q,True,1,Placebo,217.938,mate,black,ucb_123,5.32,7.84,7.61,5.68,32,-2942428309585485256,DA125490,opp,1490,73,2,0,69,0,1450,96,0,0,28,0,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""bananas are berries"",""user"":""ucb_123""},{""text"":""i like swimming"",""user"":""ucb_123""}]
+"
+rVEsfmgb,True,1,Chatty,286.51,mate,black,ucb_123,6.9,7.84,8.62,4.4,38,-6022847949642763196,fericarlsen,opp,1490,77,1,4,80,3,1511,89,1,0,26,1,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""ucb_123""},{""text"":""uh oh..."",""user"":""ucb_123""},{""text"":""nice coordination"",""user"":""ucb_123""}]
+"
+s49VvmLR,True,1,Chatty,708.706,mate,white,ucb_123,5.97,5.92,5.94,6.72,115,-3882921593612858030,LC_AceChess,opp,1495,70,7,2,91,1,1513,58,5,1,79,3,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""ucb_123""},{""text"":""uh oh..."",""user"":""ucb_123""},{""text"":""nice coordination"",""user"":""ucb_123""},{""text"":""things arent looking good"",""user"":""ucb_123""}]
+"
+SgpiY1eW,True,1,Placebo,499.736,mate,black,ucb_123,5.94,3.63,3.72,4.88,102,5836315730616987344,Nikita_Gladkiy,opp,1500,86,2,2,49,2,1558,93,0,0,30,4,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""bananas are berries"",""user"":""ucb_123""},{""text"":""i like swimming"",""user"":""ucb_123""},{""text"":""i have to go to the grocery store after this"",""user"":""ucb_123""},{""text"":""my cat's name is alex"",""user"":""ucb_123""}]
+"
+SqgnVlTp,True,1,Chatty,493.141,mate,black,ucb_123,6.18,12.12,13.02,9.84,53,-4662921357723061525,AmirAli54,maia,1502,95,0,0,25,2,1508,82,1,3,61,2,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""ucb_123""},{""text"":""uh oh..."",""user"":""ucb_123""},{""text"":""nice coordination"",""user"":""ucb_123""},{""text"":""things arent looking good"",""user"":""ucb_123""}]
+"
+sYavPjwC,True,0,Control,583.704,mate,white,ucb_123,5.68,8.42,8.25,3.68,80,8483634157322034616,sebastian_05,maia,1485,79,2,4,59,5,1429,74,5,2,81,3,False,"[]
+"
+szCJNM4L,True,1,Chatty,276.763,resign,black,ucb_123,6.36,6.11,6.7,5.36,44,218274237903688713,nottambulo25,maia,1525,83,1,1,35,2,1475,82,1,1,36,1,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""ucb_123""},{""text"":""uh oh..."",""user"":""ucb_123""},{""text"":""nice coordination"",""user"":""ucb_123""}]
+"
+t7G1bkiJ,True,1,Chatty,803.03,outoftime,black,ucb_123,5.78,11.11,11.37,3.52,108,-680247785286997760,omarali256,opp,1481,77,3,3,60,5,1466,80,4,3,49,2,True,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""ucb_123""},{""text"":""good luck"",""user"":""omarali256""},{""text"":""uh oh..."",""user"":""ucb_123""},{""text"":""nice coordination"",""user"":""ucb_123""},{""text"":""things arent looking good"",""user"":""ucb_123""},{""text"":""you play very well"",""user"":""omarali256""}]
+"
+TGr3tEs9,True,1,Placebo,205.348,mate,white,ucb_123,5.33,8.76,9.78,2.16,28,3673640496205093084,Mic007,maia,1469,87,0,0,29,2,1475,73,1,3,96,3,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""bananas are berries"",""user"":""ucb_123""},{""text"":""i like swimming"",""user"":""ucb_123""}]
+"
+thQT2lo3,True,1,Chatty,262.935,resign,white,ucb_123,4.87,6.85,6.68,4.32,45,8865366991403984894,Daktari17,maia,1474,77,1,0,49,5,1494,66,2,2,90,2,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""ucb_123""},{""text"":""uh oh..."",""user"":""ucb_123""},{""text"":""nice coordination"",""user"":""ucb_123""}]
+"
+TMnKdeOy,True,1,Placebo,880.32,mate,white,ucb_123,5.72,6.82,6.98,7.92,139,3759929126802764179,Jiggyjigjoe,opp,1507,86,1,1,35,5,1500,90,1,1,23,5,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""bananas are berries"",""user"":""ucb_123""},{""text"":""i like swimming"",""user"":""ucb_123""},{""text"":""i have to go to the grocery store after this"",""user"":""ucb_123""},{""text"":""my cat's name is alex"",""user"":""ucb_123""}]
+"
+Tt64YBbo,True,1,Chatty,802.858,mate,white,ucb_123,5.72,4.43,4.5,8.24,153,8936541054833464320,aquamanjudd,opp,1473,68,6,2,66,1,1467,72,4,1,56,6,True,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""ucb_123""},{""text"":""uh oh..."",""user"":""ucb_123""},{""text"":""nice coordination"",""user"":""ucb_123""},{""text"":""things arent looking good"",""user"":""ucb_123""},{""text"":""gg"",""user"":""aquamanjudd""}]
+"
+tZ86hgJc,True,0,Control,567.482,draw,white,ucb_123,5.7,3.81,3.87,9.6,119,-8183702822954015733,MATMAT02,draw,1480,89,3,1,34,3,1477,86,1,1,35,3,False,"[]
+"
+UNN6222H,True,0,Control,251.398,resign,white,ucb_123,5.82,6.4,6.71,7.28,41,-6595251765281570727,Santiago4-69,maia,1484,70,1,0,53,2,1468,62,2,0,80,2,False,"[]
+"
+V4uBp1bP,True,0,Control,618.244,mate,white,ucb_123,6.11,12.65,13.05,4.32,65,-7034454792267524235,Daniil0202,opp,1513,73,5,1,79,1,1510,82,3,1,51,0,False,"[]
+"
+VeL2GkNh,True,0,Control,529.843,draw,black,ucb_123,5.91,4.43,4.55,6.8,99,3017399140612481302,samed225,draw,1489,70,7,1,91,7,1436,63,4,1,83,8,False,"[]
+"
+vJvKk3AU,True,1,Placebo,629.648,resign,black,ucb_123,6.19,17.8,17.94,6.64,52,-3415895603430168288,Elephant_rose,maia,1483,90,0,2,29,3,1465,69,1,1,64,2,True,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""bananas are berries"",""user"":""ucb_123""},{""text"":""thx"",""user"":""elephant_rose""},{""text"":""i like swimming"",""user"":""ucb_123""},{""text"":""i have to go to the grocery store after this"",""user"":""ucb_123""},{""text"":""my cat's name is alex"",""user"":""ucb_123""}]
+"
+vz6tvvpB,True,1,Chatty,954.547,mate,black,ucb_123,5.36,6.54,6.62,4.56,158,-620363736521478827,NNA72,opp,1475,70,10,3,101,7,1429,74,13,1,89,3,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""ucb_123""},{""text"":""uh oh..."",""user"":""ucb_123""},{""text"":""nice coordination"",""user"":""ucb_123""},{""text"":""things arent looking good"",""user"":""ucb_123""}]
+"
+X3m2xnie,True,1,Chatty,773.639,draw,white,ucb_123,5.86,16.11,16.05,9.76,70,-8936315718988327121,gregeon79,draw,1479,79,3,0,66,2,1522,82,2,0,66,3,True,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""you too"",""user"":""gregeon79""},{""text"":""thks"",""user"":""gregeon79""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""ucb_123""},{""text"":""uh oh..."",""user"":""ucb_123""},{""text"":""haha"",""user"":""gregeon79""},{""text"":"":)"",""user"":""gregeon79""},{""text"":""nice coordination"",""user"":""ucb_123""},{""text"":""things arent looking good"",""user"":""ucb_123""},{""text"":""gg"",""user"":""gregeon79""}]
+"
+xsiocoeY,True,1,Placebo,591.267,mate,black,ucb_123,5.85,7.71,7.92,5.2,86,-8690541910310083149,dondesta,opp,1498,86,2,1,37,2,1608,94,0,1,15,2,True,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""hi, you too"",""user"":""dondesta""},{""text"":""bananas are berries"",""user"":""ucb_123""},{""text"":""i like swimming"",""user"":""ucb_123""},{""text"":""i have to go to the grocery store after this"",""user"":""ucb_123""},{""text"":""my cat's name is alex"",""user"":""ucb_123""},{""text"":""aubergines are also berries"",""user"":""dondesta""}]
+"
+xu8f0EoJ,True,0,Control,391.653,mate,white,ucb_123,5.71,6.14,6.25,3.76,65,4215750552841923399,AdD5,opp,1474,71,2,1,69,6,1466,80,2,1,41,2,False,"[]
+"
+xUlL3x7v,True,1,Placebo,932.181,mate,black,ucb_123,5.9,8.71,8.84,2.72,126,-6361569398777075090,Roovii,opp,1516,80,8,0,78,6,1500,87,8,1,63,6,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""bananas are berries"",""user"":""ucb_123""},{""text"":""i like swimming"",""user"":""ucb_123""},{""text"":""i have to go to the grocery store after this"",""user"":""ucb_123""},{""text"":""my cat's name is alex"",""user"":""ucb_123""}]
+"
+ycQff7P4,True,1,Chatty,309.89,resign,white,ucb_123,5.46,6.58,7.0,3.6,47,-8075392593250396512,xxxozo,maia,1465,85,0,2,37,3,1455,79,1,1,53,4,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""i'm going to take your queen in 4 moves :)"",""user"":""ucb_123""},{""text"":""uh oh..."",""user"":""ucb_123""},{""text"":""nice coordination"",""user"":""ucb_123""}]
+"
+ZedLvpaS,True,0,Control,758.036,mate,black,ucb_123,5.15,6.23,6.43,4.96,130,4046560195466405187,ramil-abdulla,opp,1482,57,5,4,77,7,1450,74,5,3,63,5,False,"[]
+"
+ZhiyuZLW,True,1,Placebo,545.531,mate,black,ucb_123,5.47,8.15,8.5,8.4,78,8980059167422306686,nigtdream55,opp,1517,83,2,0,40,4,1440,93,1,1,16,2,True,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""thanks"",""user"":""nigtdream55""},{""text"":""good luck to you too"",""user"":""nigtdream55""},{""text"":""bananas are berries"",""user"":""ucb_123""},{""text"":""i like swimming"",""user"":""ucb_123""},{""text"":""i have to go to the grocery store after this"",""user"":""ucb_123""},{""text"":""i hope your day goes well."",""user"":""nigtdream55""},{""text"":""my cat's name is alex"",""user"":""ucb_123""},{""text"":""hdjdjddsm"",""user"":""nigtdream55""},{""text"":""nice name"",""user"":""nigtdream55""},{""text"":""i don't have a cat"",""user"":""nigtdream55""},{""text"":""white offers draw"",""user"":""lichess""},{""text"":""black declines draw"",""user"":""lichess""}]
+"
+ZiyowIR2,True,1,Placebo,288.516,resign,black,ucb_123,6.0,6.1,6.58,3.36,47,7386203096539093245,Raffaian,maia,1499,76,1,0,64,1,1535,60,3,1,111,0,False,"[{""text"":""hello! good luck!"",""user"":""ucb_123""},{""text"":""bananas are berries"",""user"":""ucb_123""},{""text"":""i like swimming"",""user"":""ucb_123""},{""text"":""i have to go to the grocery store after this"",""user"":""ucb_123""}]
+"
+zjv6eMXJ,True,0,Control,253.162,mate,black,ucb_123,5.76,9.24,9.95,5.28,32,8169809300486158296,jlbarrerag,opp,1530,45,2,0,102,1,1507,76,1,2,40,0,False,"[]
+"
+zkCpEhEY,True,0,Control,101.91,resign,black,ucb_123,5.15,4.29,4.68,8.24,22,1494832021116572839,VeezyMane,maia,1487,89,0,0,23,1,1493,70,1,0,74,2,False,"[]
+"

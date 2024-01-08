@@ -1,0 +1,169 @@
+# Methodology
+
+## Overview
+
+## Power Analysis 
+
+We performed a pilot test of 10 games with our chess bot that played at a consistent 1500 (average) level against real opponents on lichess.com.  We found that the opponents played at an average of 49% accuracy and had a 13.8% standard deviation in their accuracy rating.  We used these values in our power analysis in order to determine the likelihood that we would accurately detect a significant effect, if the effect actually existed.
+
+We used a conservative estimate of 5-15% effect size for our power analysis. In related work, it was found that trash talking had an an indirect effect on competitive performance through creation of a perceived rivalry between the players (Yip et al., 2018). Further, this research showed that there was an effect of b=.32, with a 95% confidence interval of 0.02, 0.87. In other words, this research found that trash talking resulted in the opponent performing better.
+
+```{r, warning=FALSE, message=FALSE}
+# load packages
+
+library(data.table)
+library(dplyr)
+library(ggplot2)
+```
+
+
+```{r Function-for-simulation, include = FALSE}
+# Create simulation function using linear regression
+
+simulate_regression <- function(recruits, mean_bad_moves, effect_size, sd_bad_moves){
+    d <- data.table(
+      n = 1:recruits)
+    
+    half_recruits <- floor(recruits/2)
+    
+    ## no treatment data 
+    d_1 <- data.table(
+      id    = 1:half_recruits, 
+      treat = 0)
+    
+    ## assign num bad moves to treatment group
+    d_1[ , Bad_moves := rnorm(.N, mean=mean_bad_moves, sd=sd_bad_moves)]
+    
+    ## treatment data 
+    d_2 <- data.table(
+      id    = (half_recruits+1):recruits, 
+      treat = 1)
+    
+    ## assign num bad moves to treatment group
+    d_2[ , Bad_moves := rnorm(.N, mean=mean_bad_moves*(1+effect_size), sd=sd_bad_moves)]
+    
+    ## Stack data frames 
+    d <- rbind(d_1, d_2)
+    
+    model_1    <- lm(Bad_moves ~ treat, data = d)
+    anova_m1 <- anova(model_1)
+    
+    return(anova_m1$`Pr(>F)`)
+    }
+
+```
+
+
+```{r Simulate, include = FALSE, message=FALSE}
+# Sample sizes to simulate
+steps <- seq(0, 400, by=25)
+
+# Effect sizes to simulate
+effects <- c(.05, .075, .10, .15)
+
+# Create master data frame to aggregate the data into
+g_total <- data.frame()
+
+for (eff in effects){ #loop through effect sizes
+  power_list <- data.frame()
+  
+  # Print for status
+  # print(paste(toString(eff*100),"%", sep = ""))
+  
+  for (step in steps){ #loop through sample sizes 
+    
+    # simulate_regression <- function(recruits, mean_bad_moves, effect_size, sd_bad_moves)
+    p_vals <- replicate(250, simulate_regression(step, 69, eff, 13.7))
+    
+    power <- length(p_vals[p_vals < 0.05])/length(p_vals)
+    power_list <- rbind(power_list, power)
+  }
+  g <- bind_cols(power_list, steps)
+  colnames(g) <- c("y", "x")
+ 
+  # Create column with effect size for this loop 
+  x<-rep(c(paste(toString(eff*100),"%", sep = "")),times=length(steps))
+  g["Effect_size"] = x
+  
+  # append data to master data frame
+  g_total <- rbind(g_total, g)
+}
+```
+
+```{r plot 1, include = TRUE, echo=FALSE, fig.width=7,fig.height=6,fig.cap="\\label{fig:figs}Power Analysis for Different Treatment Effects"}
+# plot the results
+
+g_total$Effect_size <- factor(g_total$Effect_size, levels = c("5%", "7.5%", "10%", "15%"))
+
+plot <- ggplot(data = g_total, aes(x=x, y=y, color = Effect_size)) + 
+  geom_line() + 
+  geom_point() +
+  scale_y_continuous(name="Power", limits=c(0, 1), labels=c("0","20%","40%", "60%","80%","100%"), breaks=seq(0,1,.20)) +
+  scale_x_continuous(name="Samples", limits=c(0, 400), labels=c("0","50","100", "150","200","250","300","350", "400"), breaks=seq(0,400,50)) +
+  ylab("Power") + 
+  geom_hline(yintercept = 0.8, color = "red", linetype="dashed") +
+  ggtitle("Sample Size vs. Power, Mean Accuracy = 69%, SD Accuracy = 13.8%") +
+  scale_color_manual(name="Effect Size", values =c("slategrey", "cyan", "royalblue", "purple"))
+plot
+```
+
+```{r}
+# read in experiment 1 data
+exp_data <- fread('../data/exp_data.csv')
+```
+
+```{r}
+# read in experiment 2 data
+exp_data_gpt <- fread('../data/exp_data_gpt.csv')
+exp_data_gpt <- exp_data_gpt[maia_name %in% c('chess4gerry', 'ucb_123', 'sandman353', 'bcu_555')]
+```
+
+As seen below, for both Experiment 1 and Experiment 2, we were able to achieve our targeted sample size to have at least 80% power.
+
+```{r}
+# determine maximum value across both experiments to have same range on y-axis
+max_count <- max(c(
+  exp_data[, .N, by = chat_type]$N,
+  exp_data_gpt[, .N, by = chat_type]$N
+))
+
+# set up layout for 2 plots side by side
+par(mfrow = c(1, 2))
+
+# experiment 1 plot
+hist_data <- exp_data[, .N, by = chat_type]
+barplot(height = hist_data$N, names.arg = hist_data$chat_type, col = "gray",
+        main = "Experiment 1", xlab = "Treatment Condition", ylab = "Sample Size",
+        ylim = c(0, max_count))  # set y-axis scale using max_count from above
+text(x = barplot(height = hist_data$N, col = "gray", plot = FALSE),
+     y = hist_data$N, labels = hist_data$N, pos = 1, col = "black")
+
+# experiment 2 plot
+hist_data <- exp_data_gpt[, .N, by = chat_type]
+barplot(height = hist_data$N, names.arg = hist_data$chat_type, col = "gray",
+        main = "Experiment 2", xlab = "Treatment Condition", ylab = "Sample Size",
+        ylim = c(0, max_count))  # set y-axis scale using max_count from above
+text(x = barplot(height = hist_data$N, col = "gray", plot = FALSE),
+     y = hist_data$N, labels = hist_data$N, pos = 1, col = "black")
+
+```
+
+
+
+## Experiment Design
+
+### Control and Treatment Variants
+
+### Lichess Randomization
+Lichess uses a popular rating method called Glicko-2, which uses confidence intervals when calculating ratings for players (https://lichess.org/faq#ratings). When players first start on Lichess, the rating starts at 1500 +/- 1000. As players play more rated games, their rating changes and the confidence interval decreases. Lichess uses a combination of a player’s ratings and confidence intervals to pair with similar players when using the “Quick Pairing” pairing option, which is the method we used for our games.
+
+Each of the bots that we used were identical, and trained to play at a 1500 Glicko-2 rating level. We relied on Lichess’s randomization strategy to pair us with similarly ranked players. This allowed us to control for different player skill levels while conducting our experiment.
+
+### Identifying Compliers and Non-compliers
+We define a complier as someone who engages with the chat room when we issue a dose of treatment, allowing us to confirm that our opponent received the treatment. We theorized that there may be reasons why an opponent may not engage:
+Opponent does not speak English (our language used in treatment).
+Opponent does not see the chat due to screen resolution or device used.
+Opponent does not want to engage in chat.
+
+Using the Lichess API, we are able to pull the full chat room history for a game, containing both the chat from our bot and the chat from our opponent. After we completed all of our games, we were able to use this information to identify which opponents complied (i.e., engaged in the chat room). We treated this as a binary variable, and did not further evaluate the responses from opponents who complied.
+

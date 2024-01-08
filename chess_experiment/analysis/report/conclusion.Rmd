@@ -1,0 +1,6 @@
+# Conclusion
+
+In conclusion, our experiments aimed to address the prevalent issue of bullying in online chess games, particularly through the means of trash-talking with the intention of impairing opponents' performance. Contrary to the expected outcomes, our study did not reveal any significant effects across various outcomes in both the preliminary experiment involving standardized comments and the main experiment utilizing the Open AI API for dynamic player engagement.
+
+By randomly assigning opponents to control, placebo, or treatment groups, we sought to understand the impact of non-harassing standardized comments on gameplay accuracy. Additionally, the implementation of ChatGPT 4.0 allowed us to explore more dynamic interactions in the follow-up experiment. Despite these efforts, our analyses did not identify any notable effects on player performance or behavior.
+

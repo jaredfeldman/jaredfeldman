@@ -1,0 +1,9 @@
+{
+    "log_games":false,
+    "run_flag":false,
+    "length_minutes": 240,
+    "li_chess_token":"enter lichess token here",
+    "rated_games":false,
+    "engine_path": "enter engine path here",
+    "weights_path": "enter weight path here"
+}

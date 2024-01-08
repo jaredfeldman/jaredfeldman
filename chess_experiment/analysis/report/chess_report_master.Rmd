@@ -1,0 +1,66 @@
+---
+title: "Chess Banter: Does engaging with an opponent in online chess impact their performance?"
+author: "Reed Evans, Jared Feldman, Jerry Gonzalez, Randy Louie"
+date: \today
+output: 
+  pdf_document: 
+    number_sections: true
+    latex_engine: xelatex # or lualatex
+header-includes:
+  - \usepackage{booktabs}
+  - \usepackage{longtable}
+  - \usepackage{wrapfig}
+#output: github_document
+---
+
+```{r global options, include = FALSE}
+knitr::opts_chunk$set(include = FALSE, message = FALSE, warning = FALSE )
+
+knitr::knit_engines$set(problem_description = function(options) {
+  code <- paste(options$code, collapse = "\n")
+})
+```
+
+```{r load packages, warning=FALSE, message=FALSE}
+library(data.table)
+#library(gt)
+
+library(sandwich)
+library(lmtest)
+
+library(ggplot2)
+library(patchwork)
+
+library(foreign)
+
+library(knitr)
+library(tidyverse)
+library(kableExtra)
+library(stargazer)
+library(writexl)
+inline_reference <- "r inline_reference"
+```
+
+\tableofcontents
+\newpage
+
+```{r, child='./abstract.Rmd'}
+```
+
+
+```{r, child='./introduction.Rmd'}
+```
+
+
+```{r, child='./experiment_design.Rmd'}
+```
+
+
+```{r, child='./analysis.Rmd'}
+```
+
+```{r, child='./conclusion.Rmd'}
+```
+\newpage
+```{r, child='./appendix.Rmd'}
+```
