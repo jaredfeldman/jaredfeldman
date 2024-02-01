@@ -8,7 +8,7 @@ changes for our planet. Dedicated to leveraging data for meaningful transformati
 
 - 📫 How to reach me jared.alex.feldman@gmail.com
 
-- 📄 Know about my experiences [My resume](https://github.com/jaredfeldman/jaredfeldman/blob/main/resume_jaredfeldman.pdf)
+- 📄 Know about my experiences [My resume](https://github.com/jaredfeldman/jaredfeldman/blob/main/resume-jaredfeldman.pdf)
 
 - 👨‍💻 All of my projects are available at [https://github.com/jaredfeldman/jaredfeldman](https://github.com/jaredfeldman/jaredfeldman)
 
