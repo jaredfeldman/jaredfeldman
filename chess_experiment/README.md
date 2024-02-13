@@ -1,5 +1,5 @@
 # Chess Banter: Does engaging with an opponent in online chess impact their performance? - Technology Used
-R (tidyverse, caret, MatchIt, zoo, plotfunctions, writexl, ggthemes, stargazer, lmtest, nflverse), Python, Selenium, OpenAI API, lichess.org API, RStudio, .Rmd, Git, GitHub
+R (tidyverse, caret, MatchIt, zoo, plotfunctions, writexl, ggthemes, stargazer, lmtest), Python, Selenium, OpenAI API, lichess.org API, RStudio, .Rmd, Git, GitHub
 
 # Chess Banter: Does engaging with an opponent in online chess impact their performance? - Overview
 
